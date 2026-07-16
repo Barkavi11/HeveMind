@@ -1,0 +1,76 @@
+{
+    "project": "HeveMind",
+    "stage": "Sensor reliability, data quality, iterative imputation and anomaly detection",
+    "development_rows": 1253,
+    "test_rows": 314,
+    "sensor_count": 450,
+    "selected_model": "Median Imputation",
+    "selected_threshold": 0.385,
+    "test_metrics": {
+        "threshold": 0.385,
+        "recall_fail": 0.8095238095238095,
+        "precision_fail": 0.14285714285714285,
+        "f1_fail": 0.24285714285714285,
+        "balanced_accuracy": 0.7307004713148058,
+        "true_negative": 191,
+        "false_positive": 102,
+        "false_negative": 4,
+        "true_positive": 17,
+        "operational_cost": 142.0,
+        "roc_auc": 0.7778319518933854,
+        "pr_auc": 0.2337463469207314,
+        "brier_score": 0.1497185639055988
+    },
+    "mean_development_data_quality": 0.9445707444058963,
+    "mean_test_data_quality": 0.9445532416209039,
+    "mean_pass_anomaly_score": 0.24597075321890405,
+    "mean_fail_anomaly_score": 0.2976497359468623,
+    "model_comparison": [
+        {
+            "model": "Median Imputation",
+            "roc_auc": 0.7448151580681701,
+            "pr_auc": 0.1942997515581054,
+            "brier_score": 0.15511020399805894,
+            "threshold": 0.385,
+            "recall_fail": 0.7710843373493976,
+            "precision_fail": 0.12573673870333987,
+            "f1_fail": 0.21621621621621623,
+            "balanced_accuracy": 0.6953712285037587,
+            "true_negative": 725.0,
+            "false_positive": 445.0,
+            "false_negative": 19.0,
+            "true_positive": 64.0,
+            "operational_cost": 635.0
+        },
+        {
+            "model": "Iterative Imputation",
+            "roc_auc": 0.7474153022345793,
+            "pr_auc": 0.187204900886698,
+            "brier_score": 0.15492053722978433,
+            "threshold": 0.38,
+            "recall_fail": 0.7710843373493976,
+            "precision_fail": 0.11786372007366483,
+            "f1_fail": 0.20447284345047922,
+            "balanced_accuracy": 0.6808413139738441,
+            "true_negative": 691.0,
+            "false_positive": 479.0,
+            "false_negative": 19.0,
+            "true_positive": 64.0,
+            "operational_cost": 669.0
+        }
+    ],
+    "sensor_reliability_definition": {
+        "description": "Statistical proxy only; not physical equipment reliability",
+        "weights": {
+            "completeness": 0.5,
+            "outlier_burden": 0.25,
+            "stability": 0.25
+        }
+    },
+    "record_quality_definition": {
+        "weights": {
+            "completeness": 0.6,
+            "mean_sensor_reliability": 0.4
+        }
+    }
+}

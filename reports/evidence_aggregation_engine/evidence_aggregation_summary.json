@@ -1,0 +1,213 @@
+{
+    "project": "HeveMind",
+    "stage": "Transparent evidence aggregation and engineer-facing reporting",
+    "test_records": 314,
+    "operational_thresholds": {
+        "lower_threshold": 0.035,
+        "upper_threshold": 0.07999999999999999
+    },
+    "primary_predictive_layer": "Beta-calibrated Balanced Random Forest",
+    "primary_decision_source": "Uncertainty-adjusted four-level operational policy",
+    "new_failure_probability_created": false,
+    "primary_decisions_changed": false,
+    "evidence_sources": [
+        "Calibrated failure probability",
+        "Prediction confidence",
+        "Combined uncertainty",
+        "Data familiarity derived from OOD percentile",
+        "Historical nearest-neighbour outcomes",
+        "SHAP sensor attribution"
+    ],
+    "evidence_conflict_records": 95,
+    "evidence_agreement_summary": [
+        {
+            "evidence_agreement": "Mixed or Intermediate Evidence",
+            "records": 68,
+            "record_rate": 0.21656050955414013,
+            "actual_failures": 2,
+            "observed_failure_rate": 0.029411764705882353,
+            "mean_failure_probability": 0.052084678362559145,
+            "mean_prediction_confidence": 0.37337289296678466,
+            "mean_combined_uncertainty": 0.6266271070332153,
+            "mean_historical_failure_rate": 0.033793892771007916,
+            "mean_data_familiarity": 0.6863527533918595
+        },
+        {
+            "evidence_agreement": "Review Driven by Reliability Concern",
+            "records": 45,
+            "record_rate": 0.14331210191082802,
+            "actual_failures": 4,
+            "observed_failure_rate": 0.08888888888888889,
+            "mean_failure_probability": 0.05381297092897498,
+            "mean_prediction_confidence": 0.3076693916281736,
+            "mean_combined_uncertainty": 0.6923306083718264,
+            "mean_historical_failure_rate": 0.03285434954581305,
+            "mean_data_familiarity": 0.23155094440010643
+        },
+        {
+            "evidence_agreement": "High Risk with Reliability Caution",
+            "records": 43,
+            "record_rate": 0.13694267515923567,
+            "actual_failures": 7,
+            "observed_failure_rate": 0.16279069767441862,
+            "mean_failure_probability": 0.13378218013612897,
+            "mean_prediction_confidence": 0.22410767912022203,
+            "mean_combined_uncertainty": 0.7758923208797779,
+            "mean_historical_failure_rate": 0.05952797985809978,
+            "mean_data_familiarity": 0.2928413667662726
+        },
+        {
+            "evidence_agreement": "Convergent Low-Risk Evidence",
+            "records": 33,
+            "record_rate": 0.10509554140127389,
+            "actual_failures": 1,
+            "observed_failure_rate": 0.030303030303030304,
+            "mean_failure_probability": 0.023089029294956563,
+            "mean_prediction_confidence": 0.4476183158158993,
+            "mean_combined_uncertainty": 0.5523816841841007,
+            "mean_historical_failure_rate": 0.0,
+            "mean_data_familiarity": 0.6994123195240514
+        },
+        {
+            "evidence_agreement": "Low-Risk Decision with Reliability Caution",
+            "records": 32,
+            "record_rate": 0.10191082802547771,
+            "actual_failures": 0,
+            "observed_failure_rate": 0.0,
+            "mean_failure_probability": 0.02497142334747232,
+            "mean_prediction_confidence": 0.36300872983791826,
+            "mean_combined_uncertainty": 0.6369912701620817,
+            "mean_historical_failure_rate": 0.028465017725137688,
+            "mean_data_familiarity": 0.19478252194732643
+        },
+        {
+            "evidence_agreement": "Low-Risk Decision with Limited Support",
+            "records": 22,
+            "record_rate": 0.07006369426751592,
+            "actual_failures": 0,
+            "observed_failure_rate": 0.0,
+            "mean_failure_probability": 0.02256631314973196,
+            "mean_prediction_confidence": 0.44135531719539645,
+            "mean_combined_uncertainty": 0.5586446828046036,
+            "mean_historical_failure_rate": 0.08549743805669585,
+            "mean_data_familiarity": 0.666436915040267
+        },
+        {
+            "evidence_agreement": "Model-Led Risk Evidence",
+            "records": 22,
+            "record_rate": 0.07006369426751592,
+            "actual_failures": 1,
+            "observed_failure_rate": 0.045454545454545456,
+            "mean_failure_probability": 0.1053364532445593,
+            "mean_prediction_confidence": 0.3236191100362761,
+            "mean_combined_uncertainty": 0.6763808899637239,
+            "mean_historical_failure_rate": 0.0342404330294066,
+            "mean_data_familiarity": 0.714249437713125
+        },
+        {
+            "evidence_agreement": "Review with Supporting Historical Risk",
+            "records": 21,
+            "record_rate": 0.06687898089171974,
+            "actual_failures": 3,
+            "observed_failure_rate": 0.14285714285714285,
+            "mean_failure_probability": 0.05275161986721991,
+            "mean_prediction_confidence": 0.3588543236718271,
+            "mean_combined_uncertainty": 0.6411456763281727,
+            "mean_historical_failure_rate": 0.20736974944215078,
+            "mean_data_familiarity": 0.5133964200205222
+        },
+        {
+            "evidence_agreement": "Low-Risk Decision with Historical Conflict",
+            "records": 13,
+            "record_rate": 0.041401273885350316,
+            "actual_failures": 0,
+            "observed_failure_rate": 0.0,
+            "mean_failure_probability": 0.02136266556239687,
+            "mean_prediction_confidence": 0.41600107846248435,
+            "mean_combined_uncertainty": 0.5839989215375158,
+            "mean_historical_failure_rate": 0.23003679700100876,
+            "mean_data_familiarity": 0.4550923936398797
+        },
+        {
+            "evidence_agreement": "Convergent Risk Evidence",
+            "records": 8,
+            "record_rate": 0.025477707006369428,
+            "actual_failures": 1,
+            "observed_failure_rate": 0.125,
+            "mean_failure_probability": 0.14082825222565926,
+            "mean_prediction_confidence": 0.3048710172258954,
+            "mean_combined_uncertainty": 0.6951289827741046,
+            "mean_historical_failure_rate": 0.32011094836563947,
+            "mean_data_familiarity": 0.42827214684756587
+        },
+        {
+            "evidence_agreement": "Insufficient Evidence",
+            "records": 7,
+            "record_rate": 0.022292993630573247,
+            "actual_failures": 2,
+            "observed_failure_rate": 0.2857142857142857,
+            "mean_failure_probability": 0.13464958539429145,
+            "mean_prediction_confidence": 0.18202859115961387,
+            "mean_combined_uncertainty": 0.8179714088403861,
+            "mean_historical_failure_rate": 0.0716267682905545,
+            "mean_data_familiarity": 0.018811994071371605
+        }
+    ],
+    "decision_summary": [
+        {
+            "operational_decision": "Engineering Review",
+            "records": 134,
+            "actual_failures": 9,
+            "observed_failure_rate": 0.06716417910447761,
+            "mean_failure_probability": 0.052769595803503835,
+            "mean_prediction_confidence": 0.34903298613520556,
+            "mean_historical_failure_rate": 0.0606805610169798,
+            "evidence_conflict_records": 0,
+            "very_familiar_or_familiar_rate": 0.6119402985074627
+        },
+        {
+            "operational_decision": "High Risk",
+            "records": 73,
+            "actual_failures": 9,
+            "observed_failure_rate": 0.1232876712328767,
+            "mean_failure_probability": 0.12598166760327567,
+            "mean_prediction_confidence": 0.26294820220239434,
+            "mean_historical_failure_rate": 0.08046411297904592,
+            "evidence_conflict_records": 43,
+            "very_familiar_or_familiar_rate": 0.4931506849315068
+        },
+        {
+            "operational_decision": "Insufficient Evidence",
+            "records": 7,
+            "actual_failures": 2,
+            "observed_failure_rate": 0.2857142857142857,
+            "mean_failure_probability": 0.13464958539429145,
+            "mean_prediction_confidence": 0.18202859115961387,
+            "mean_historical_failure_rate": 0.0716267682905545,
+            "evidence_conflict_records": 7,
+            "very_familiar_or_familiar_rate": 0.0
+        },
+        {
+            "operational_decision": "Low Risk",
+            "records": 100,
+            "actual_failures": 1,
+            "observed_failure_rate": 0.01,
+            "mean_failure_probability": 0.023351970554579434,
+            "mean_prediction_confidence": 0.41505514775049074,
+            "mean_historical_failure_rate": 0.05782302565464828,
+            "evidence_conflict_records": 45,
+            "very_familiar_or_familiar_rate": 0.63
+        }
+    ],
+    "methodological_controls": {
+        "test_target_used_to_generate_decision": false,
+        "test_target_used_to_generate_evidence_category": false,
+        "test_target_used_only_for_offline_evaluation": true,
+        "manual_predictive_weights_used": false,
+        "meta_model_used": false,
+        "historical_similarity_presented_as_probability": false,
+        "shap_presented_as_causality": false,
+        "physical_sensor_meanings_invented": false
+    },
+    "important_warning": "This module aggregates traceable statistical evidence without generating a new failure probability or changing the retained operational decision. Historical similarity and SHAP attribution do not establish physical causality."
+}

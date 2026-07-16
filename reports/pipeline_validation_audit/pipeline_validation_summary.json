@@ -1,0 +1,72 @@
+{
+    "project": "HeveMind",
+    "stage": "End-to-end pipeline validation audit",
+    "total_checks": 106,
+    "passed_checks": 103,
+    "critical_failures": 3,
+    "warning_failures": 0,
+    "pipeline_ready_for_dashboard_integration": false,
+    "critical_failure_details": [
+        {
+            "category": "output",
+            "item": "13_local_shap:duplicate_ids",
+            "status": "FAIL",
+            "severity": "critical",
+            "details": "Duplicate wafer IDs: 2826."
+        },
+        {
+            "category": "output",
+            "item": "16_sensor_priority:duplicate_ids",
+            "status": "FAIL",
+            "severity": "critical",
+            "details": "Duplicate wafer IDs: 2826."
+        },
+        {
+            "category": "deployment",
+            "item": "pipeline_ready_for_dashboard_integration",
+            "status": "FAIL",
+            "severity": "critical",
+            "details": "2 critical validation failure(s) must be resolved."
+        }
+    ],
+    "warning_details": [],
+    "core_scripts": [
+        "01_convert_secom.py",
+        "02_data_audit.py",
+        "03_train_baseline_models.py",
+        "04_advanced_model_benchmark.py",
+        "05_operational_model_selection.py",
+        "06_missingness_aware_benchmark.py",
+        "07_quality_imputation_anomaly.py",
+        "08_operational_error_analysis.py",
+        "09_feature_level_error_diagnostics.py",
+        "10_probability_calibration_and_decision_policy.py",
+        "11_cross_fitted_calibration_policy.py",
+        "12_uncertainty_engine.py",
+        "13_explainability_engine.py",
+        "14_historical_similarity_engine.py",
+        "15_evidence_aggregation_engine.py",
+        "16_sensor_investigation_priority.py"
+    ],
+    "required_outputs": {
+        "11_cross_fitted_calibration_summary": "/Users/barkavi/Desktop/HeveMind/reports/cross_fitted_calibration_policy/cross_fitted_calibration_summary.json",
+        "12_development_uncertainty": "/Users/barkavi/Desktop/HeveMind/reports/uncertainty_engine/tables/development_uncertainty_scores.csv",
+        "12_test_uncertainty": "/Users/barkavi/Desktop/HeveMind/reports/uncertainty_engine/tables/test_uncertainty_scores.csv",
+        "13_global_shap": "/Users/barkavi/Desktop/HeveMind/reports/explainability_engine/tables/global_shap_importance.csv",
+        "13_local_shap": "/Users/barkavi/Desktop/HeveMind/reports/explainability_engine/tables/local_shap_explanations.csv",
+        "13_wafer_summary": "/Users/barkavi/Desktop/HeveMind/reports/explainability_engine/tables/wafer_explanation_summary.csv",
+        "14_similarity_summary": "/Users/barkavi/Desktop/HeveMind/reports/historical_similarity_engine/tables/historical_similarity_summary.csv",
+        "15_engineering_report": "/Users/barkavi/Desktop/HeveMind/reports/evidence_aggregation_engine/tables/engineering_evidence_report.csv",
+        "16_sensor_priority": "/Users/barkavi/Desktop/HeveMind/reports/sensor_investigation_priority/tables/sensor_investigation_priority.csv",
+        "16_wafer_summary": "/Users/barkavi/Desktop/HeveMind/reports/sensor_investigation_priority/tables/wafer_investigation_summary.csv"
+    },
+    "methodological_status": {
+        "primary_model": "Beta-calibrated Balanced Random Forest",
+        "fusion_meta_model": "Rejected and excluded from deployment path",
+        "uncertainty_engine": "Supporting reliability layer",
+        "explainability_engine": "SHAP attribution only; not physical causality",
+        "historical_similarity": "Supporting case-based evidence only",
+        "evidence_aggregation": "Retains primary decisions and creates no new probability",
+        "sensor_priority": "Investigation ranking; not root-cause confirmation"
+    }
+}

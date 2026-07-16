@@ -1,0 +1,44 @@
+INFO:     Started server process [48678]
+INFO:     Waiting for application startup.
+2026-07-13 16:56:04,683 | INFO | Initialising HeveMind validated report store
+2026-07-13 16:56:04,684 | INFO | Loading validated HeveMind report tables
+2026-07-13 16:56:04,714 | INFO | Loaded 314 validated wafer reports
+2026-07-13 16:56:04,719 | INFO | HeveMind API loaded 314 validated wafer reports
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('127.0.0.1', 8000): [errno 48] address already in use
+INFO:     Waiting for application shutdown.
+2026-07-13 16:56:04,719 | INFO | HeveMind API shutdown complete
+INFO:     Application shutdown complete.
+INFO:     Started server process [48986]
+INFO:     Waiting for application startup.
+2026-07-13 16:58:11,493 | INFO | Initialising HeveMind validated report store
+2026-07-13 16:58:11,494 | INFO | Loading validated HeveMind report tables
+2026-07-13 16:58:11,524 | INFO | Loaded 314 validated wafer reports
+2026-07-13 16:58:11,527 | INFO | HeveMind API loaded 314 validated wafer reports
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('127.0.0.1', 8000): [errno 48] address already in use
+INFO:     Waiting for application shutdown.
+2026-07-13 16:58:11,527 | INFO | HeveMind API shutdown complete
+INFO:     Application shutdown complete.
+INFO:     Started server process [50214]
+INFO:     Waiting for application startup.
+2026-07-13 17:49:20,141 | INFO | Initialising HeveMind validated report store
+2026-07-13 17:49:20,142 | INFO | Loading validated HeveMind report tables
+2026-07-13 17:49:20,169 | INFO | Loaded 314 validated wafer reports
+2026-07-13 17:49:20,172 | INFO | HeveMind API loaded 314 validated wafer reports
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('127.0.0.1', 8000): [errno 48] address already in use
+INFO:     Waiting for application shutdown.
+2026-07-13 17:49:20,172 | INFO | HeveMind API shutdown complete
+INFO:     Application shutdown complete.
+INFO:     Started server process [50480]
+INFO:     Waiting for application startup.
+2026-07-13 17:49:31,027 | INFO | Initialising HeveMind validated report store
+2026-07-13 17:49:31,028 | INFO | Loading validated HeveMind report tables
+2026-07-13 17:49:31,054 | INFO | Loaded 314 validated wafer reports
+2026-07-13 17:49:31,057 | INFO | HeveMind API loaded 314 validated wafer reports
+INFO:     Application startup complete.
+ERROR:    [Errno 48] error while attempting to bind on address ('127.0.0.1', 8000): [errno 48] address already in use
+INFO:     Waiting for application shutdown.
+2026-07-13 17:49:31,058 | INFO | HeveMind API shutdown complete
+INFO:     Application shutdown complete.

@@ -1,0 +1,3 @@
+band_variable,band,records,actual_failures,failure_rate,unsafe_low_risk_failures,high_risk_failures,review_or_abstention_failures,mean_confidence,mean_uncertainty,mean_interval_width
+confidence_band,Low,226,21,0.09292035398230089,1,9,11,0.3085410346751385,0.6914589653248614,0.036587522484763414
+confidence_band,Moderate,88,0,0.0,0,0,0,0.44335318158497034,0.5566468184150296,0.01298671757642078

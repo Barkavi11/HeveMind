@@ -1,0 +1,14 @@
+{
+    "pid": 60233,
+    "started_utc": "2026-07-14T13:07:10.073008+00:00",
+    "last_run_started_utc": "2026-07-14T13:07:10.073701+00:00",
+    "last_run_completed_utc": "2026-07-14T13:07:11.569791+00:00",
+    "last_run_id": "bf535e922da48c6b",
+    "last_health_score": 87.89,
+    "last_recommendation": "Immediate Retraining",
+    "last_error": null,
+    "successful_runs": 2,
+    "failed_runs": 1,
+    "next_run_utc": "2026-07-15T13:07:11.570223+00:00",
+    "status": "Waiting"
+}

@@ -1,0 +1,135 @@
+{
+    "project": "HeveMind",
+    "stage": "Probability calibration and three-level engineering decision policy",
+    "development_rows": 1253,
+    "test_rows": 314,
+    "sensor_count": 450,
+    "selected_calibration_method": "Isotonic",
+    "calibration_comparison": [
+        {
+            "calibration_method": "Isotonic",
+            "roc_auc": 0.7694418700442797,
+            "pr_auc": 0.1945312075174734,
+            "brier_score": 0.05662985584481989,
+            "log_loss": 0.208574649067607,
+            "expected_calibration_error": 1.0704614458302212e-17,
+            "mean_predicted_probability": 0.06624102154828412,
+            "observed_failure_rate": 0.06624102154828412
+        },
+        {
+            "calibration_method": "Sigmoid",
+            "roc_auc": 0.7465554525795489,
+            "pr_auc": 0.19376702725010791,
+            "brier_score": 0.05990952992547319,
+            "log_loss": 0.2297872838255987,
+            "expected_calibration_error": 0.017351304774094356,
+            "mean_predicted_probability": 0.06624343246811501,
+            "observed_failure_rate": 0.06624102154828412
+        },
+        {
+            "calibration_method": "Uncalibrated",
+            "roc_auc": 0.7465503037792194,
+            "pr_auc": 0.19376702725010791,
+            "brier_score": 0.1550643738732258,
+            "log_loss": 0.49579968296785215,
+            "expected_calibration_error": 0.3101923193858549,
+            "mean_predicted_probability": 0.376433340934139,
+            "observed_failure_rate": 0.06624102154828412
+        }
+    ],
+    "selected_policy": {
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.40999999999999986,
+        "total_records": 1253.0,
+        "total_failures": 83.0,
+        "low_risk_records": 180.0,
+        "review_records": 1072.0,
+        "high_risk_records": 1.0,
+        "low_risk_rate": 0.14365522745411013,
+        "review_rate": 0.8555466879489226,
+        "high_risk_rate": 0.0007980845969672786,
+        "automation_coverage": 0.14445331205107742,
+        "low_risk_failures": 0.0,
+        "low_risk_passes": 180.0,
+        "review_failures": 82.0,
+        "review_passes": 990.0,
+        "high_risk_failures": 1.0,
+        "high_risk_passes": 0.0,
+        "low_risk_npv": 1.0,
+        "high_risk_precision": 1.0,
+        "high_risk_failure_capture": 0.012048192771084338,
+        "review_failure_capture": 0.9879518072289156,
+        "review_plus_high_failure_capture": 1.0,
+        "low_risk_failure_leakage": 0.0,
+        "operational_cost": 1031.0,
+        "selection_reason": "Fallback policy prioritising minimum failure leakage followed by operational cost"
+    },
+    "held_out_test_probability_metrics": {
+        "roc_auc": 0.7847391516333496,
+        "pr_auc": 0.19484455161279587,
+        "brier_score": 0.05731713938780515,
+        "log_loss": 0.2072932820275083,
+        "expected_calibration_error": 0.011163629569753739,
+        "mean_predicted_probability": 0.0593174674061039,
+        "observed_failure_rate": 0.06687898089171974
+    },
+    "held_out_test_policy_metrics": {
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.40999999999999986,
+        "total_records": 314,
+        "total_failures": 21,
+        "low_risk_records": 60,
+        "review_records": 254,
+        "high_risk_records": 0,
+        "low_risk_rate": 0.1910828025477707,
+        "review_rate": 0.8089171974522293,
+        "high_risk_rate": 0.0,
+        "automation_coverage": 0.1910828025477707,
+        "low_risk_failures": 0,
+        "low_risk_passes": 60,
+        "review_failures": 21,
+        "review_passes": 233,
+        "high_risk_failures": 0,
+        "high_risk_passes": 0,
+        "low_risk_npv": 1.0,
+        "high_risk_precision": 0.0,
+        "high_risk_failure_capture": 0.0,
+        "review_failure_capture": 1.0,
+        "review_plus_high_failure_capture": 1.0,
+        "low_risk_failure_leakage": 0.0,
+        "operational_cost": 243.5
+    },
+    "held_out_test_decision_summary": [
+        {
+            "decision": "Low Risk",
+            "records": 60,
+            "record_rate": 0.1910828025477707,
+            "actual_failures": 0,
+            "actual_passes": 60,
+            "observed_failure_rate": 0.0,
+            "mean_calibrated_probability": 0.0
+        },
+        {
+            "decision": "Engineering Review",
+            "records": 254,
+            "record_rate": 0.8089171974522293,
+            "actual_failures": 21,
+            "actual_passes": 233,
+            "observed_failure_rate": 0.08267716535433071,
+            "mean_calibrated_probability": 0.0733294675807741
+        }
+    ],
+    "decision_definitions": {
+        "Low Risk": "Calibrated probability below the lower threshold. Continue processing with standard monitoring.",
+        "Engineering Review": "Probability lies between the lower and upper thresholds. Human engineering assessment is required.",
+        "High Risk": "Calibrated probability is at or above the upper threshold. Hold the record for inspection."
+    },
+    "cost_assumptions": {
+        "low_risk_failure_cost": 20.0,
+        "review_pass_cost": 1.0,
+        "review_failure_cost": 0.5,
+        "high_risk_pass_cost": 3.0,
+        "high_risk_failure_cost": 0.0,
+        "warning": "These are analytical decision costs, not verified Infineon or semiconductor-fab financial values."
+    }
+}

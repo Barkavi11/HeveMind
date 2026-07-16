@@ -1,0 +1,28 @@
+{
+    "schema_version": 1,
+    "users": [
+        {
+            "email": "barkavi@hevemind.local",
+            "display_name": "Barkavi",
+            "role": "admin",
+            "active": true,
+            "password_hash": "pbkdf2_sha256$390000$Yv-w2rzkqewyzocP0j9OYA==$z9wmMAFVJeKXRqDs1k-9u84L8VTuxyivsKBIZIu6Yx8=",
+            "failed_attempts": 0,
+            "locked_until_epoch": 0,
+            "created_utc": "2026-07-13T04:43:17.204596+00:00",
+            "last_login_utc": "2026-07-13T08:36:04.351988+00:00"
+        },
+        {
+            "email": "johny@hevemind.local",
+            "display_name": "Johny",
+            "role": "admin",
+            "active": true,
+            "password_hash": "pbkdf2_sha256$390000$XVE4HwMffguLxSvodMrjHQ==$wZiihS2QP0AEiskyirY-bC3lvq47X4NVhtBr9_geXSQ=",
+            "failed_attempts": 0,
+            "locked_until_epoch": 0,
+            "created_utc": "2026-07-13T08:44:25.481354+00:00",
+            "last_login_utc": null,
+            "updated_utc": "2026-07-13T08:44:25.481384+00:00"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "schema_version": 1,
+    "environment_name": "Validated Research Environment",
+    "site_name": "Malaysia Engineering Demonstration",
+    "maintenance_mode": false,
+    "maintenance_message": "HeveMind is temporarily unavailable while approved maintenance activities are completed.",
+    "allow_report_downloads": true,
+    "allow_governance_exports": true,
+    "allow_raw_json_downloads": true,
+    "session_timeout_minutes": 30,
+    "maximum_failed_attempts": 5,
+    "lockout_minutes": 15,
+    "audit_retention_days": 365,
+    "api_base_url": "http://127.0.0.1:8000",
+    "last_updated_utc": null,
+    "last_updated_by": null
+}

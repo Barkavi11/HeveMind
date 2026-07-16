@@ -1,0 +1,9 @@
+metric,value,reference_value,severity,severity_rank
+Current constant-feature rate,0.013333333333333334,,Normal,0
+Current duplicate-row rate,0.0,,Normal,0
+Current total missing rate,0.02004953998584572,0.0198829475924448,Normal,0
+Duplicate ID rate,0.0,,Normal,0
+Invalid confidence rate,,,Normal,0
+Invalid probability rate,,,Normal,0
+Invalid uncertainty rate,,,Normal,0
+Unmatched-feature rate,0.0,,Normal,0

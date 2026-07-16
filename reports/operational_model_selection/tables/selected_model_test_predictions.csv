@@ -1,0 +1,315 @@
+wafer_id,timestamp,target,status,fail_probability,predicted_target,predicted_status,decision_threshold,model_name,prediction_correct,error_type
+WF-000247,2008-08-18 04:35:00,0,Pass,0.4296111111111111,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001316,2008-10-05 09:47:00,0,Pass,0.357138888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000445,2008-08-24 07:12:00,0,Pass,0.380138888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000297,2008-08-19 08:07:00,0,Pass,0.38813888888888876,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001296,2008-10-04 18:25:00,0,Pass,0.3543333333333333,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001240,2008-10-02 09:42:00,0,Pass,0.36938888888888893,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001433,2008-10-08 21:19:00,0,Pass,0.2781388888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000974,2008-09-21 03:47:00,0,Pass,0.3099166666666667,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000284,2008-08-19 04:58:00,0,Pass,0.3662777777777777,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000554,2008-08-30 00:57:00,0,Pass,0.29674999999999996,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000727,2008-09-04 11:50:00,0,Pass,0.27124999999999994,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001123,2008-09-27 11:04:00,0,Pass,0.3075277777777777,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001275,2008-10-03 19:23:00,0,Pass,0.35016666666666657,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000338,2008-08-20 20:19:00,0,Pass,0.29438888888888887,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000513,2008-08-29 05:54:00,0,Pass,0.31422222222222224,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000793,2008-09-11 15:08:00,0,Pass,0.3456944444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000644,2008-09-01 23:59:00,0,Pass,0.41124999999999995,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001033,2008-09-23 12:29:00,0,Pass,0.3459444444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001397,2008-10-07 11:15:00,0,Pass,0.33419444444444446,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000960,2008-09-20 16:43:00,0,Pass,0.31266666666666665,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001526,2008-10-15 07:36:00,0,Pass,0.27727777777777773,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001443,2008-10-09 15:04:00,0,Pass,0.2716666666666666,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000265,2008-08-18 14:01:00,0,Pass,0.3846944444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001542,2008-10-15 22:45:00,0,Pass,0.27466666666666667,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001530,2008-10-15 10:00:00,0,Pass,0.2615277777777777,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000799,2008-09-12 05:11:00,0,Pass,0.3974444444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001209,2008-10-01 00:20:00,0,Pass,0.4099444444444443,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001475,2008-10-13 03:53:00,0,Pass,0.30111111111111105,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001494,2008-10-13 22:48:00,0,Pass,0.28438888888888886,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001143,2008-09-28 01:22:00,0,Pass,0.2827222222222222,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000531,2008-08-29 12:22:00,0,Pass,0.3259444444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000117,2008-08-05 07:48:00,0,Pass,0.42549999999999993,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000528,2008-08-29 08:41:00,0,Pass,0.3506111111111112,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001037,2008-09-23 15:23:00,0,Pass,0.3632222222222221,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000835,2008-09-14 15:02:00,0,Pass,0.3805555555555555,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000866,2008-09-16 18:23:00,0,Pass,0.27588888888888885,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000233,2008-08-17 13:34:00,0,Pass,0.4793611111111113,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000155,2008-08-07 11:40:00,1,Fail,0.399,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000141,2008-08-06 19:24:00,0,Pass,0.47627777777777774,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001361,2008-10-06 12:39:00,0,Pass,0.30930555555555544,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000904,2008-09-19 07:18:00,0,Pass,0.2839444444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001480,2008-10-13 14:30:00,0,Pass,0.3189166666666667,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001284,2008-10-03 22:53:00,0,Pass,0.38927777777777767,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001499,2008-10-14 03:35:00,0,Pass,0.3391388888888888,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001157,2008-09-28 18:34:00,0,Pass,0.35758333333333325,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001564,2008-10-16 20:49:00,0,Pass,0.30866666666666676,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000955,2008-09-20 14:53:00,0,Pass,0.2931111111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001091,2008-09-25 22:05:00,0,Pass,0.3595277777777776,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001479,2008-10-13 14:29:00,0,Pass,0.23650000000000002,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000391,2008-08-22 00:44:00,0,Pass,0.36022222222222217,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000441,2008-08-23 15:10:00,0,Pass,0.3251944444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000259,2008-08-18 11:04:00,0,Pass,0.38844444444444454,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000256,2008-08-18 08:18:00,0,Pass,0.3973055555555556,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000370,2008-08-21 16:36:00,0,Pass,0.35922222222222217,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000787,2008-09-11 12:47:00,0,Pass,0.36688888888888876,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001107,2008-09-26 15:36:00,0,Pass,0.35805555555555557,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000063,2008-07-31 20:18:00,1,Fail,0.41052777777777777,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001449,2008-10-10 12:30:00,0,Pass,0.2988611111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000188,2008-08-10 19:07:00,0,Pass,0.5238055555555555,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001028,2008-09-23 08:11:00,0,Pass,0.3844444444444443,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001243,2008-10-02 14:10:00,1,Fail,0.48224999999999985,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000694,2008-09-02 16:10:00,0,Pass,0.2508333333333334,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000142,2008-08-06 20:00:00,0,Pass,0.4363055555555556,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001237,2008-10-02 08:52:00,0,Pass,0.39180555555555546,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000080,2008-08-03 17:58:00,0,Pass,0.4685,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000196,2008-08-12 04:23:00,0,Pass,0.4251944444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001412,2008-10-08 04:47:00,0,Pass,0.27722222222222226,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000731,2008-09-04 16:30:00,0,Pass,0.16974999999999998,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001398,2008-10-07 11:16:00,0,Pass,0.4558611111111113,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000069,2008-08-01 12:29:00,0,Pass,0.49927777777777765,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000270,2008-08-18 15:30:00,0,Pass,0.4458055555555555,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000307,2008-08-19 11:46:00,0,Pass,0.45583333333333315,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001362,2008-10-06 12:42:00,0,Pass,0.3939444444444443,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000577,2008-08-30 09:45:00,1,Fail,0.38494444444444437,0,Pass,0.385,Balanced Random Forest,False,Missed Failure
+WF-000947,2008-09-20 12:26:00,0,Pass,0.2218888888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000716,2008-09-03 14:29:00,0,Pass,0.3435555555555555,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001454,2008-10-10 21:07:00,0,Pass,0.28619444444444436,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000605,2008-08-31 10:36:00,0,Pass,0.31516666666666665,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000519,2008-08-29 06:45:00,1,Fail,0.4370833333333332,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001100,2008-09-26 05:32:00,0,Pass,0.31002777777777774,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001541,2008-10-15 21:44:00,0,Pass,0.3125833333333334,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000246,2008-08-18 04:12:00,0,Pass,0.4758611111111109,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000059,2008-07-30 21:16:00,1,Fail,0.47900000000000004,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000751,2008-09-07 23:33:00,0,Pass,0.36894444444444424,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001487,2008-10-13 19:40:00,0,Pass,0.2573611111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001500,2008-10-14 13:13:00,0,Pass,0.30927777777777776,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000032,2008-07-27 22:28:00,0,Pass,0.4304722222222221,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000113,2008-08-05 06:11:00,0,Pass,0.4410277777777777,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000327,2008-08-20 08:40:00,1,Fail,0.49894444444444436,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000367,2008-08-21 15:48:00,0,Pass,0.3434166666666666,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001523,2008-10-15 05:13:00,0,Pass,0.33105555555555555,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000690,2008-09-02 14:09:00,0,Pass,0.4972222222222222,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000450,2008-08-25 09:29:00,0,Pass,0.42377777777777764,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001395,2008-10-07 10:10:00,0,Pass,0.35927777777777786,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001367,2008-10-06 15:01:00,0,Pass,0.33475,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000166,2008-08-09 02:37:00,0,Pass,0.5090833333333331,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000726,2008-09-04 08:53:00,0,Pass,0.29733333333333334,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001434,2008-10-08 21:45:00,0,Pass,0.25930555555555557,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000343,2008-08-20 22:45:00,0,Pass,0.41880555555555554,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000878,2008-09-18 01:43:00,0,Pass,0.34758333333333324,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000707,2008-09-03 00:18:00,0,Pass,0.3881944444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000346,2008-08-21 02:11:00,0,Pass,0.49508333333333326,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000042,2008-07-28 23:57:00,0,Pass,0.4046944444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000818,2008-09-12 22:45:00,0,Pass,0.29641666666666666,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001053,2008-09-24 06:13:00,0,Pass,0.38799999999999996,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000931,2008-09-19 23:26:00,0,Pass,0.2514166666666666,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000477,2008-08-28 10:28:00,0,Pass,0.3815833333333333,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001440,2008-10-09 06:06:00,0,Pass,0.24911111111111103,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000863,2008-09-16 09:37:00,0,Pass,0.30383333333333334,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001006,2008-09-22 06:05:00,0,Pass,0.3144722222222222,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000012,2008-07-19 22:52:00,1,Fail,0.5236388888888889,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000010,2008-07-19 21:35:00,0,Pass,0.47902777777777783,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000314,2008-08-19 18:30:00,0,Pass,0.3796944444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001353,2008-10-06 07:35:00,0,Pass,0.3258888888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001176,2008-09-29 11:53:00,0,Pass,0.3135277777777778,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001130,2008-09-27 13:19:00,0,Pass,0.31844444444444436,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000525,2008-08-29 07:33:00,0,Pass,0.3881944444444443,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001206,2008-09-30 21:42:00,0,Pass,0.36358333333333337,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000177,2008-08-09 23:17:00,0,Pass,0.4785555555555556,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001483,2008-10-13 15:42:00,0,Pass,0.32199999999999995,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001093,2008-09-25 23:48:00,0,Pass,0.4325555555555555,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000564,2008-08-30 04:55:00,0,Pass,0.4714444444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000968,2008-09-20 19:21:00,0,Pass,0.3043888888888888,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001272,2008-10-03 11:40:00,0,Pass,0.43150000000000005,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001473,2008-10-12 18:47:00,0,Pass,0.29791666666666666,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000465,2008-08-28 04:20:00,0,Pass,0.4256944444444445,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000622,2008-09-01 00:53:00,0,Pass,0.2823611111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001167,2008-09-29 02:06:00,0,Pass,0.3494166666666667,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000630,2008-09-01 09:19:00,0,Pass,0.3072777777777777,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001442,2008-10-09 14:15:00,0,Pass,0.2550555555555556,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000109,2008-08-05 04:32:00,0,Pass,0.4611388888888888,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000550,2008-08-29 22:49:00,0,Pass,0.35044444444444434,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000027,2008-07-27 11:10:00,0,Pass,0.4842222222222223,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000616,2008-08-31 22:32:00,0,Pass,0.22819444444444453,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000873,2008-09-17 07:14:00,0,Pass,0.2897777777777778,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001345,2008-10-06 04:26:00,0,Pass,0.3941944444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000018,2008-07-22 08:41:00,0,Pass,0.41255555555555556,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000766,2008-09-08 20:00:00,0,Pass,0.35102777777777766,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001232,2008-10-02 04:24:00,0,Pass,0.3646944444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000105,2008-08-05 02:45:00,0,Pass,0.43088888888888877,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000269,2008-08-18 15:26:00,0,Pass,0.42525,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001059,2008-09-24 11:47:00,0,Pass,0.3117222222222223,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000049,2008-07-29 15:49:00,1,Fail,0.38786111111111105,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001386,2008-10-07 03:39:00,0,Pass,0.34674999999999995,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001315,2008-10-05 09:04:00,0,Pass,0.32219444444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001032,2008-09-23 11:43:00,0,Pass,0.32511111111111113,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000191,2008-08-11 03:06:00,0,Pass,0.5779999999999998,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001457,2008-10-11 06:56:00,0,Pass,0.39811111111111114,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000990,2008-09-21 15:15:00,0,Pass,0.3028888888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000937,2008-09-20 04:28:00,0,Pass,0.24913888888888897,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001492,2008-10-13 21:47:00,0,Pass,0.20586111111111108,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000709,2008-09-03 00:58:00,0,Pass,0.30149999999999993,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001544,2008-10-15 23:00:00,0,Pass,0.3076666666666666,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000052,2008-07-29 21:07:00,0,Pass,0.4752777777777775,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001355,2008-10-06 08:24:00,0,Pass,0.26663888888888887,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000908,2008-09-19 09:47:00,0,Pass,0.22050000000000003,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000715,2008-09-03 14:24:00,0,Pass,0.26527777777777783,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000629,2008-09-01 09:06:00,0,Pass,0.30224999999999996,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001467,2008-10-12 00:57:00,0,Pass,0.25791666666666674,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000501,2008-08-28 23:42:00,0,Pass,0.37177777777777776,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000461,2008-08-28 03:29:00,0,Pass,0.4351388888888887,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000289,2008-08-19 05:41:00,0,Pass,0.42358333333333326,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000321,2008-08-20 02:13:00,0,Pass,0.4786944444444445,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001219,2008-10-01 15:16:00,0,Pass,0.39141666666666647,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001283,2008-10-03 22:08:00,0,Pass,0.40336111111111106,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000588,2008-08-30 15:16:00,0,Pass,0.36961111111111106,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000176,2008-08-09 22:37:00,0,Pass,0.4485277777777777,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001354,2008-10-06 07:38:00,0,Pass,0.3162222222222222,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000298,2008-08-19 08:33:00,0,Pass,0.4663611111111109,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000234,2008-08-17 14:21:00,0,Pass,0.5129722222222222,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001138,2008-09-27 18:14:00,0,Pass,0.4127499999999999,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000571,2008-08-30 08:10:00,0,Pass,0.33005555555555544,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001096,2008-09-26 02:26:00,0,Pass,0.3697222222222221,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000812,2008-09-12 18:01:00,0,Pass,0.2341111111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001098,2008-09-26 03:29:00,0,Pass,0.31591666666666657,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000534,2008-08-29 13:14:00,0,Pass,0.3486388888888888,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000436,2008-08-23 05:58:00,0,Pass,0.4374444444444443,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000821,2008-09-13 00:25:00,0,Pass,0.2950277777777777,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000612,2008-08-31 20:24:00,0,Pass,0.34808333333333324,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000777,2008-09-10 21:56:00,0,Pass,0.33649999999999997,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000220,2008-08-16 13:51:00,0,Pass,0.4697777777777777,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000097,2008-08-04 20:58:00,1,Fail,0.493361111111111,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001214,2008-10-01 07:28:00,0,Pass,0.3677500000000001,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001213,2008-10-01 07:19:00,0,Pass,0.3183055555555554,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000024,2008-07-25 15:23:00,1,Fail,0.5438055555555555,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000337,2008-08-20 19:20:00,1,Fail,0.5131666666666667,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001306,2008-10-05 01:35:00,0,Pass,0.4302777777777778,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000915,2008-09-19 16:58:00,1,Fail,0.40624999999999994,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001383,2008-10-06 23:03:00,0,Pass,0.36730555555555555,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001335,2008-10-05 22:13:00,0,Pass,0.4506666666666667,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000516,2008-08-29 06:35:00,0,Pass,0.4438055555555554,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000326,2008-08-20 07:12:00,0,Pass,0.5197499999999998,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000045,2008-07-29 06:19:00,0,Pass,0.5926944444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000459,2008-08-28 03:03:00,0,Pass,0.4052777777777777,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000847,2008-09-15 02:04:00,0,Pass,0.43763888888888874,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001104,2008-09-26 14:20:00,0,Pass,0.33886111111111106,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001529,2008-10-15 09:11:00,0,Pass,0.2233611111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001124,2008-09-27 11:45:00,0,Pass,0.2996388888888888,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001099,2008-09-26 04:14:00,0,Pass,0.2361111111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001035,2008-09-23 12:46:00,0,Pass,0.3813333333333332,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000398,2008-08-22 02:25:00,0,Pass,0.42769444444444443,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000706,2008-09-02 20:59:00,0,Pass,0.3352777777777778,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000435,2008-08-23 05:57:00,0,Pass,0.46372222222222204,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001260,2008-10-02 23:32:00,0,Pass,0.3590555555555555,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000393,2008-08-22 01:04:00,1,Fail,0.38727777777777767,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000216,2008-08-16 07:33:00,0,Pass,0.5240833333333331,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000667,2008-09-02 07:22:00,0,Pass,0.33319444444444446,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001205,2008-09-30 21:39:00,0,Pass,0.4768611111111111,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000122,2008-08-05 15:45:00,0,Pass,0.5430833333333333,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000954,2008-09-20 14:50:00,0,Pass,0.3635,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000154,2008-08-07 11:10:00,0,Pass,0.4673611111111112,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001447,2008-10-10 10:46:00,0,Pass,0.3042222222222221,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000767,2008-09-08 21:36:00,0,Pass,0.3576944444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000456,2008-08-27 17:14:00,0,Pass,0.2847222222222222,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001250,2008-10-02 17:00:00,0,Pass,0.3803333333333332,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001117,2008-09-27 00:16:00,0,Pass,0.37455555555555553,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000384,2008-08-21 22:25:00,0,Pass,0.44486111111111104,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001034,2008-09-23 12:31:00,0,Pass,0.4280277777777777,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000171,2008-08-09 17:34:00,0,Pass,0.5760833333333334,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001368,2008-10-06 15:52:00,0,Pass,0.35555555555555557,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000888,2008-09-18 18:12:00,0,Pass,0.28580555555555553,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001074,2008-09-25 07:58:00,0,Pass,0.2984166666666667,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001566,2008-10-17 06:01:00,0,Pass,0.2803888888888888,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000217,2008-08-16 08:39:00,0,Pass,0.5101666666666667,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001185,2008-09-29 21:26:00,0,Pass,0.32069444444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000002,2008-07-19 12:32:00,0,Pass,0.3870555555555553,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001151,2008-09-28 08:41:00,0,Pass,0.26672222222222214,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000583,2008-08-30 11:57:00,0,Pass,0.38613888888888875,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001192,2008-09-30 04:42:00,0,Pass,0.4516111111111111,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001399,2008-10-07 11:36:00,0,Pass,0.3638888888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000877,2008-09-18 01:40:00,0,Pass,0.32727777777777767,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000957,2008-09-20 15:19:00,0,Pass,0.31222222222222223,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001376,2008-10-06 19:42:00,0,Pass,0.36130555555555544,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000713,2008-09-03 06:26:00,0,Pass,0.26286111111111105,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000232,2008-08-17 12:16:00,1,Fail,0.3705833333333332,0,Pass,0.385,Balanced Random Forest,False,Missed Failure
+WF-000570,2008-08-30 07:54:00,0,Pass,0.361111111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001220,2008-10-01 16:43:00,0,Pass,0.38933333333333325,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000869,2008-09-16 21:21:00,0,Pass,0.3417499999999999,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000770,2008-09-09 00:25:00,0,Pass,0.41791666666666655,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001255,2008-10-02 21:32:00,1,Fail,0.4510277777777778,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-000659,2008-09-02 03:35:00,0,Pass,0.3337499999999999,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001190,2008-09-30 02:44:00,1,Fail,0.2984444444444444,0,Pass,0.385,Balanced Random Forest,False,Missed Failure
+WF-000867,2008-09-16 19:34:00,0,Pass,0.457611111111111,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001050,2008-09-24 03:40:00,0,Pass,0.3534444444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000940,2008-09-20 05:34:00,0,Pass,0.3104444444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000536,2008-08-29 13:49:00,0,Pass,0.39641666666666664,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000546,2008-08-29 21:46:00,0,Pass,0.3425277777777778,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000628,2008-09-01 08:18:00,0,Pass,0.3534444444444443,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000019,2008-07-22 11:47:00,0,Pass,0.4352777777777778,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000239,2008-08-17 23:04:00,1,Fail,0.6258333333333335,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001352,2008-10-06 07:17:00,0,Pass,0.28505555555555556,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001246,2008-10-02 15:44:00,0,Pass,0.3652777777777777,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001553,2008-10-16 04:02:00,0,Pass,0.40269444444444435,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001432,2008-10-08 20:27:00,0,Pass,0.3413055555555554,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000699,2008-09-02 17:18:00,0,Pass,0.3666111111111112,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000026,2008-07-27 09:37:00,0,Pass,0.44686111111111104,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001378,2008-10-06 20:36:00,0,Pass,0.33927777777777784,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000631,2008-09-01 09:54:00,0,Pass,0.4056944444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001238,2008-10-02 08:57:00,0,Pass,0.3671944444444443,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000443,2008-08-24 02:32:00,0,Pass,0.40983333333333327,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000838,2008-09-14 17:40:00,0,Pass,0.32083333333333336,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000451,2008-08-27 00:46:00,0,Pass,0.37919444444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000755,2008-09-08 03:32:00,0,Pass,0.3781666666666667,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000131,2008-08-06 03:22:00,0,Pass,0.4576944444444446,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000400,2008-08-22 03:18:00,0,Pass,0.3675,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000150,2008-08-07 08:21:00,0,Pass,0.4611944444444444,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000819,2008-09-12 23:28:00,0,Pass,0.27733333333333327,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000497,2008-08-28 21:03:00,0,Pass,0.36661111111111105,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000749,2008-09-07 20:12:00,0,Pass,0.28152777777777765,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000894,2008-09-18 23:44:00,0,Pass,0.3745555555555555,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000913,2008-09-19 15:31:00,0,Pass,0.35072222222222216,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001163,2008-09-28 21:08:00,0,Pass,0.35908333333333337,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000841,2008-09-14 19:13:00,0,Pass,0.3373888888888888,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000708,2008-09-03 00:45:00,0,Pass,0.35988888888888887,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001135,2008-09-27 15:30:00,0,Pass,0.33769444444444446,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001478,2008-10-13 14:06:00,0,Pass,0.24536111111111117,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000051,2008-07-29 18:08:00,1,Fail,0.4538055555555553,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001346,2008-10-06 05:21:00,0,Pass,0.27872222222222226,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000460,2008-08-28 03:04:00,0,Pass,0.374972222222222,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001317,2008-10-05 10:00:00,0,Pass,0.3152777777777778,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001422,2008-10-08 12:11:00,0,Pass,0.2149166666666667,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000572,2008-08-30 08:29:00,0,Pass,0.4020277777777777,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000817,2008-09-12 22:25:00,0,Pass,0.2511388888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000796,2008-09-11 22:07:00,1,Fail,0.33505555555555555,0,Pass,0.385,Balanced Random Forest,False,Missed Failure
+WF-000345,2008-08-20 23:43:00,1,Fail,0.4154444444444444,1,Fail,0.385,Balanced Random Forest,True,Correct
+WF-001095,2008-09-26 01:21:00,0,Pass,0.42963888888888896,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001391,2008-10-07 09:11:00,0,Pass,0.33219444444444446,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000848,2008-09-15 10:03:00,0,Pass,0.3804444444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000462,2008-08-28 03:38:00,0,Pass,0.38319444444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001139,2008-09-27 19:16:00,0,Pass,0.3574444444444445,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001005,2008-09-22 03:51:00,0,Pass,0.2574166666666666,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000675,2008-09-02 10:25:00,0,Pass,0.29147222222222213,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001337,2008-10-06 01:25:00,0,Pass,0.36786111111111114,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000332,2008-08-20 17:09:00,0,Pass,0.3919999999999999,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001425,2008-10-08 14:48:00,0,Pass,0.29275,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001273,2008-10-03 12:31:00,0,Pass,0.532138888888889,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000521,2008-08-29 07:18:00,0,Pass,0.40949999999999986,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001269,2008-10-03 06:15:00,0,Pass,0.36291666666666655,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000851,2008-09-15 16:10:00,0,Pass,0.22466666666666668,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000229,2008-08-17 03:46:00,0,Pass,0.5792777777777779,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000948,2008-09-20 12:27:00,0,Pass,0.3046944444444443,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000679,2008-09-02 11:47:00,0,Pass,0.35416666666666663,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000933,2008-09-20 00:18:00,0,Pass,0.25369444444444444,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000243,2008-08-18 00:20:00,0,Pass,0.5007222222222222,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000653,2008-09-02 02:02:00,0,Pass,0.42216666666666663,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000235,2008-08-17 15:25:00,0,Pass,0.45913888888888865,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001227,2008-10-02 00:22:00,0,Pass,0.42686111111111114,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-000754,2008-09-08 01:24:00,0,Pass,0.32830555555555546,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000714,2008-09-03 09:38:00,0,Pass,0.338111111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000175,2008-08-09 22:15:00,0,Pass,0.5026666666666667,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001310,2008-10-05 05:31:00,0,Pass,0.41244444444444445,1,Fail,0.385,Balanced Random Forest,False,False Alarm
+WF-001334,2008-10-05 20:30:00,0,Pass,0.3563611111111111,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-000973,2008-09-21 03:04:00,0,Pass,0.3456388888888889,0,Pass,0.385,Balanced Random Forest,True,Correct
+WF-001038,2008-09-23 15:33:00,0,Pass,0.33572222222222226,0,Pass,0.385,Balanced Random Forest,True,Correct

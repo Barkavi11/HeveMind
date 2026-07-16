@@ -1,0 +1,107 @@
+{
+    "project": "HeveMind",
+    "stage": "Historical similarity and case-based evidence engine",
+    "development_reference_records": 1253,
+    "test_records_analysed": 314,
+    "raw_sensor_count": 450,
+    "pca_components": 2,
+    "explained_variance_retained": 0.9887167056207271,
+    "top_k_neighbours": 10,
+    "distance_scale": 0.1404004888794368,
+    "overall_similarity_summary": {
+        "mean_similarity": 0.3809464165548067,
+        "mean_weighted_historical_failure_rate": 0.06461390244345339,
+        "records_with_at_least_one_failed_neighbour": 157
+    },
+    "actual_failure_similarity_summary": {
+        "actual_failures": 21,
+        "mean_failed_neighbour_count": 0.7142857142857143,
+        "mean_weighted_historical_failure_rate": 0.08737532778654628,
+        "failures_with_at_least_one_failed_neighbour": 12
+    },
+    "failure_retrieval_performance": [
+        {
+            "minimum_failed_neighbours": 1,
+            "actual_failure_records": 21,
+            "actual_pass_records": 293,
+            "failure_retrieval_rate": 0.5714285714285714,
+            "pass_alert_rate": 0.4948805460750853
+        },
+        {
+            "minimum_failed_neighbours": 2,
+            "actual_failure_records": 21,
+            "actual_pass_records": 293,
+            "failure_retrieval_rate": 0.09523809523809523,
+            "pass_alert_rate": 0.14334470989761092
+        },
+        {
+            "minimum_failed_neighbours": 3,
+            "actual_failure_records": 21,
+            "actual_pass_records": 293,
+            "failure_retrieval_rate": 0.047619047619047616,
+            "pass_alert_rate": 0.034129692832764506
+        },
+        {
+            "minimum_failed_neighbours": 5,
+            "actual_failure_records": 21,
+            "actual_pass_records": 293,
+            "failure_retrieval_rate": 0.0,
+            "pass_alert_rate": 0.0
+        }
+    ],
+    "decision_group_summary": [
+        {
+            "group_variable": "decision",
+            "group_value": "Engineering Review",
+            "records": 134,
+            "actual_failures": 9,
+            "mean_model_probability": 0.05276959580350384,
+            "mean_historical_failure_rate": 0.060680561016979814,
+            "mean_similarity": 0.39359329302317786,
+            "mean_failed_neighbour_count": 0.6268656716417911,
+            "strong_or_moderate_evidence_rate": 0.022388059701492536
+        },
+        {
+            "group_variable": "decision",
+            "group_value": "High Risk",
+            "records": 73,
+            "actual_failures": 9,
+            "mean_model_probability": 0.12598166760327564,
+            "mean_historical_failure_rate": 0.08046411297904593,
+            "mean_similarity": 0.3153456565708909,
+            "mean_failed_neighbour_count": 0.7945205479452054,
+            "strong_or_moderate_evidence_rate": 0.0547945205479452
+        },
+        {
+            "group_variable": "decision",
+            "group_value": "Insufficient Evidence",
+            "records": 7,
+            "actual_failures": 2,
+            "mean_model_probability": 0.13464958539429145,
+            "mean_historical_failure_rate": 0.07162676829055452,
+            "mean_similarity": 0.20066090976445322,
+            "mean_failed_neighbour_count": 1.0,
+            "strong_or_moderate_evidence_rate": 0.0
+        },
+        {
+            "group_variable": "decision",
+            "group_value": "Low Risk",
+            "records": 100,
+            "actual_failures": 1,
+            "mean_model_probability": 0.023351970554579434,
+            "mean_historical_failure_rate": 0.05782302565464831,
+            "mean_similarity": 0.4245081423507729,
+            "mean_failed_neighbour_count": 0.63,
+            "strong_or_moderate_evidence_rate": 0.03
+        }
+    ],
+    "local_plot_count": 25,
+    "methodological_controls": {
+        "reference_data": "Development records only",
+        "query_data": "Held-out test records",
+        "target_used_in_distance_calculation": false,
+        "test_outcome_used_in_retrieval": false,
+        "similarity_representation": "Median imputation, robust scaling and PCA"
+    },
+    "important_warning": "Retrieved historical cases provide statistical precedent only. Similarity does not prove causality, equipment origin or a physical process mechanism."
+}

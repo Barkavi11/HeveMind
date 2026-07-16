@@ -1,0 +1,5 @@
+component_name,weight,raw_score,weighted_score,severity,status_label,monitored_items,warning_items,critical_items,explanation
+data_quality,0.25,100.0,25.0,Normal,Excellent,8,0,0,"Covers missingness, duplication, constant sensors, invalid probability-like values and schema mismatch."
+feature_drift,0.35,99.7,34.894999999999996,Critical,Excellent,450,1,6,34 of 450 monitored features show Watch-or-higher drift.
+prediction_drift,0.25,70.0,17.5,Warning,Warning,4,4,0,Monitors failure probability and other available operational output distributions.
+confidence_and_uncertainty,0.15,70.0,10.5,Warning,Warning,3,3,0,"Measures drift in prediction confidence, uncertainty and available input-data confidence."

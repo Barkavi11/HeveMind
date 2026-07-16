@@ -1,0 +1,58 @@
+{
+    "metrics": {
+        "roc_auc": 0.775394116691045,
+        "pr_auc": 0.22405121498555475,
+        "brier_score": 0.05850252625549584,
+        "log_loss": 0.21755943881123477
+    },
+    "decision_summary": [
+        {
+            "decision": "Low Risk",
+            "records": 100,
+            "record_rate": 0.3184713375796178,
+            "actual_failures": 1,
+            "actual_passes": 99,
+            "observed_failure_rate": 0.01,
+            "mean_failure_probability": 0.02335197055457948,
+            "mean_prediction_confidence": 0.41505514775049074,
+            "mean_combined_uncertainty": 0.5849448522495093,
+            "mean_ood_percentile": 0.5010853950518755
+        },
+        {
+            "decision": "Engineering Review",
+            "records": 134,
+            "record_rate": 0.4267515923566879,
+            "actual_failures": 9,
+            "actual_passes": 125,
+            "observed_failure_rate": 0.06716417910447761,
+            "mean_failure_probability": 0.05276959580350388,
+            "mean_prediction_confidence": 0.34903298613520556,
+            "mean_combined_uncertainty": 0.6509670138647945,
+            "mean_ood_percentile": 0.4934842944098343
+        },
+        {
+            "decision": "High Risk",
+            "records": 73,
+            "record_rate": 0.23248407643312102,
+            "actual_failures": 9,
+            "actual_passes": 64,
+            "observed_failure_rate": 0.1232876712328767,
+            "mean_failure_probability": 0.1259816676032757,
+            "mean_prediction_confidence": 0.26294820220239434,
+            "mean_combined_uncertainty": 0.7370517977976057,
+            "mean_ood_percentile": 0.5653172112956302
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "records": 7,
+            "record_rate": 0.022292993630573247,
+            "actual_failures": 2,
+            "actual_passes": 5,
+            "observed_failure_rate": 0.2857142857142857,
+            "mean_failure_probability": 0.13464958539429148,
+            "mean_prediction_confidence": 0.18202859115961395,
+            "mean_combined_uncertainty": 0.8179714088403861,
+            "mean_ood_percentile": 0.9811880059286284
+        }
+    ]
+}

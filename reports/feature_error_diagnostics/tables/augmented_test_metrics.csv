@@ -1,0 +1,2 @@
+model,threshold,recall_fail,precision_fail,f1_fail,balanced_accuracy,true_negative,false_positive,false_negative,true_positive,false_alarms_per_detected_failure,operational_cost,roc_auc,pr_auc,brier_score
+Baseline Balanced Random Forest,0.385,0.8095238095238095,0.14655172413793102,0.24817518248175183,0.7358199252397204,194,99,4,17,5.823529411764706,139.0,0.7753941166910451,0.22405121498555472,0.14962538179549947

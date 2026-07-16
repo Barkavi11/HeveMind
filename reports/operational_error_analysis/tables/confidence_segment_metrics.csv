@@ -1,0 +1,4 @@
+segment_variable,segment_value,records,actual_failures,predicted_failures,true_negative,false_positive,false_negative,true_positive,failure_recall,failure_precision,failure_f1,balanced_accuracy,mean_fail_probability,mean_data_quality,mean_anomaly_score,roc_auc,pr_auc
+confidence_band,Low,118,16,118,0,102,0,16,1.0,0.13559322033898305,0.23880597014925373,0.5,0.4475098870056497,0.9447764211538044,0.28345223959307775,0.5545343137254902,0.18416209636514402
+confidence_band,Moderate,182,5,1,177,0,4,1,0.2,1.0,0.3333333333333333,0.6,0.3286485042735042,0.9444569658985741,0.23185152863802136,0.7378531073446328,0.4480207264788658
+confidence_band,High,14,0,0,14,0,0,0,0.0,0.0,0.0,1.0,0.2256765873015873,0.9439237413767432,0.23537350850474661,,

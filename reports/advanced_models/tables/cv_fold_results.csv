@@ -1,0 +1,526 @@
+model,metric,fold,value
+Regularized Logistic Regression,roc_auc,1,0.6473102061337355
+Regularized Logistic Regression,roc_auc,2,0.6460532931121167
+Regularized Logistic Regression,roc_auc,3,0.6943187531422826
+Regularized Logistic Regression,roc_auc,4,0.6493055555555556
+Regularized Logistic Regression,roc_auc,5,0.6808226495726496
+Regularized Logistic Regression,roc_auc,6,0.5281548516842635
+Regularized Logistic Regression,roc_auc,7,0.6787330316742082
+Regularized Logistic Regression,roc_auc,8,0.5407239819004526
+Regularized Logistic Regression,roc_auc,9,0.6738782051282051
+Regularized Logistic Regression,roc_auc,10,0.6530448717948718
+Regularized Logistic Regression,roc_auc,11,0.702865761689291
+Regularized Logistic Regression,roc_auc,12,0.6221719457013575
+Regularized Logistic Regression,roc_auc,13,0.6000502765208647
+Regularized Logistic Regression,roc_auc,14,0.5381944444444444
+Regularized Logistic Regression,roc_auc,15,0.6709401709401709
+Regularized Logistic Regression,pr_auc,1,0.1702776304230489
+Regularized Logistic Regression,pr_auc,2,0.1315373388318434
+Regularized Logistic Regression,pr_auc,3,0.13947082203512204
+Regularized Logistic Regression,pr_auc,4,0.12716689779535106
+Regularized Logistic Regression,pr_auc,5,0.15263103404186262
+Regularized Logistic Regression,pr_auc,6,0.08501609827838148
+Regularized Logistic Regression,pr_auc,7,0.15851887278273838
+Regularized Logistic Regression,pr_auc,8,0.10788420661341616
+Regularized Logistic Regression,pr_auc,9,0.22778138019341393
+Regularized Logistic Regression,pr_auc,10,0.11990232860903093
+Regularized Logistic Regression,pr_auc,11,0.26605590223341447
+Regularized Logistic Regression,pr_auc,12,0.14767304165248651
+Regularized Logistic Regression,pr_auc,13,0.09016387161843287
+Regularized Logistic Regression,pr_auc,14,0.10848763025423902
+Regularized Logistic Regression,pr_auc,15,0.13451763767051914
+Regularized Logistic Regression,recall_fail,1,0.35294117647058826
+Regularized Logistic Regression,recall_fail,2,0.23529411764705882
+Regularized Logistic Regression,recall_fail,3,0.29411764705882354
+Regularized Logistic Regression,recall_fail,4,0.25
+Regularized Logistic Regression,recall_fail,5,0.375
+Regularized Logistic Regression,recall_fail,6,0.17647058823529413
+Regularized Logistic Regression,recall_fail,7,0.5294117647058824
+Regularized Logistic Regression,recall_fail,8,0.23529411764705882
+Regularized Logistic Regression,recall_fail,9,0.1875
+Regularized Logistic Regression,recall_fail,10,0.0625
+Regularized Logistic Regression,recall_fail,11,0.47058823529411764
+Regularized Logistic Regression,recall_fail,12,0.23529411764705882
+Regularized Logistic Regression,recall_fail,13,0.17647058823529413
+Regularized Logistic Regression,recall_fail,14,0.125
+Regularized Logistic Regression,recall_fail,15,0.25
+Regularized Logistic Regression,precision_fail,1,0.15789473684210525
+Regularized Logistic Regression,precision_fail,2,0.15384615384615385
+Regularized Logistic Regression,precision_fail,3,0.13513513513513514
+Regularized Logistic Regression,precision_fail,4,0.15384615384615385
+Regularized Logistic Regression,precision_fail,5,0.18181818181818182
+Regularized Logistic Regression,precision_fail,6,0.06818181818181818
+Regularized Logistic Regression,precision_fail,7,0.21951219512195122
+Regularized Logistic Regression,precision_fail,8,0.13333333333333333
+Regularized Logistic Regression,precision_fail,9,0.08333333333333333
+Regularized Logistic Regression,precision_fail,10,0.041666666666666664
+Regularized Logistic Regression,precision_fail,11,0.20512820512820512
+Regularized Logistic Regression,precision_fail,12,0.13793103448275862
+Regularized Logistic Regression,precision_fail,13,0.08333333333333333
+Regularized Logistic Regression,precision_fail,14,0.07692307692307693
+Regularized Logistic Regression,precision_fail,15,0.10526315789473684
+Regularized Logistic Regression,f1_fail,1,0.21818181818181817
+Regularized Logistic Regression,f1_fail,2,0.18604651162790697
+Regularized Logistic Regression,f1_fail,3,0.18518518518518517
+Regularized Logistic Regression,f1_fail,4,0.19047619047619047
+Regularized Logistic Regression,f1_fail,5,0.24489795918367346
+Regularized Logistic Regression,f1_fail,6,0.09836065573770492
+Regularized Logistic Regression,f1_fail,7,0.3103448275862069
+Regularized Logistic Regression,f1_fail,8,0.1702127659574468
+Regularized Logistic Regression,f1_fail,9,0.11538461538461539
+Regularized Logistic Regression,f1_fail,10,0.05
+Regularized Logistic Regression,f1_fail,11,0.2857142857142857
+Regularized Logistic Regression,f1_fail,12,0.17391304347826086
+Regularized Logistic Regression,f1_fail,13,0.11320754716981132
+Regularized Logistic Regression,f1_fail,14,0.09523809523809523
+Regularized Logistic Regression,f1_fail,15,0.14814814814814814
+Regularized Logistic Regression,balanced_accuracy,1,0.6080945198592258
+Regularized Logistic Regression,balanced_accuracy,2,0.5706385118149824
+Regularized Logistic Regression,balanced_accuracy,3,0.5786827551533434
+Regularized Logistic Regression,balanced_accuracy,4,0.5779914529914529
+Regularized Logistic Regression,balanced_accuracy,5,0.6298076923076923
+Regularized Logistic Regression,balanced_accuracy,6,0.5006284565108094
+Regularized Logistic Regression,balanced_accuracy,7,0.6963298139768728
+Regularized Logistic Regression,balanced_accuracy,8,0.5620915032679739
+Regularized Logistic Regression,balanced_accuracy,9,0.5232371794871795
+Regularized Logistic Regression,balanced_accuracy,10,0.48210470085470086
+Regularized Logistic Regression,balanced_accuracy,11,0.6690548014077426
+Regularized Logistic Regression,balanced_accuracy,12,0.564228255404726
+Regularized Logistic Regression,balanced_accuracy,13,0.5177224736048265
+Regularized Logistic Regression,balanced_accuracy,14,0.5112179487179487
+Regularized Logistic Regression,balanced_accuracy,15,0.5523504273504274
+Regularized Logistic Regression,brier_score,1,0.12535653750439768
+Regularized Logistic Regression,brier_score,2,0.10938516883718155
+Regularized Logistic Regression,brier_score,3,0.14710188235490707
+Regularized Logistic Regression,brier_score,4,0.12635816925980106
+Regularized Logistic Regression,brier_score,5,0.11245717991643363
+Regularized Logistic Regression,brier_score,6,0.17110791681047627
+Regularized Logistic Regression,brier_score,7,0.13384659674077495
+Regularized Logistic Regression,brier_score,8,0.13336841898928833
+Regularized Logistic Regression,brier_score,9,0.1431496478442784
+Regularized Logistic Regression,brier_score,10,0.11681730879922306
+Regularized Logistic Regression,brier_score,11,0.11927716559681965
+Regularized Logistic Regression,brier_score,12,0.12111502702642382
+Regularized Logistic Regression,brier_score,13,0.16209511998816417
+Regularized Logistic Regression,brier_score,14,0.12935752116049057
+Regularized Logistic Regression,brier_score,15,0.15314743723339388
+Balanced Random Forest,roc_auc,1,0.7845651080945198
+Balanced Random Forest,roc_auc,2,0.7111613876319759
+Balanced Random Forest,roc_auc,3,0.675465057817999
+Balanced Random Forest,roc_auc,4,0.8191773504273504
+Balanced Random Forest,roc_auc,5,0.7895299145299145
+Balanced Random Forest,roc_auc,6,0.7742584213172449
+Balanced Random Forest,roc_auc,7,0.7081447963800904
+Balanced Random Forest,roc_auc,8,0.6626445449974862
+Balanced Random Forest,roc_auc,9,0.7928685897435898
+Balanced Random Forest,roc_auc,10,0.7251602564102564
+Balanced Random Forest,roc_auc,11,0.7874560080442433
+Balanced Random Forest,roc_auc,12,0.6975867269984917
+Balanced Random Forest,roc_auc,13,0.7468577174459528
+Balanced Random Forest,roc_auc,14,0.6666666666666667
+Balanced Random Forest,roc_auc,15,0.7152777777777778
+Balanced Random Forest,pr_auc,1,0.23605637797309179
+Balanced Random Forest,pr_auc,2,0.19412769733222476
+Balanced Random Forest,pr_auc,3,0.14138355227547017
+Balanced Random Forest,pr_auc,4,0.2560897595627279
+Balanced Random Forest,pr_auc,5,0.2975033151167735
+Balanced Random Forest,pr_auc,6,0.28263200827538293
+Balanced Random Forest,pr_auc,7,0.14523265913588626
+Balanced Random Forest,pr_auc,8,0.1579058680244107
+Balanced Random Forest,pr_auc,9,0.217715284394362
+Balanced Random Forest,pr_auc,10,0.19879021740873976
+Balanced Random Forest,pr_auc,11,0.278347600067898
+Balanced Random Forest,pr_auc,12,0.226871962394524
+Balanced Random Forest,pr_auc,13,0.28907590528305505
+Balanced Random Forest,pr_auc,14,0.12416312416677033
+Balanced Random Forest,pr_auc,15,0.1905977500450478
+Balanced Random Forest,recall_fail,1,0.23529411764705882
+Balanced Random Forest,recall_fail,2,0.11764705882352941
+Balanced Random Forest,recall_fail,3,0.23529411764705882
+Balanced Random Forest,recall_fail,4,0.375
+Balanced Random Forest,recall_fail,5,0.3125
+Balanced Random Forest,recall_fail,6,0.17647058823529413
+Balanced Random Forest,recall_fail,7,0.17647058823529413
+Balanced Random Forest,recall_fail,8,0.17647058823529413
+Balanced Random Forest,recall_fail,9,0.25
+Balanced Random Forest,recall_fail,10,0.25
+Balanced Random Forest,recall_fail,11,0.23529411764705882
+Balanced Random Forest,recall_fail,12,0.29411764705882354
+Balanced Random Forest,recall_fail,13,0.17647058823529413
+Balanced Random Forest,recall_fail,14,0.125
+Balanced Random Forest,recall_fail,15,0.1875
+Balanced Random Forest,precision_fail,1,0.3333333333333333
+Balanced Random Forest,precision_fail,2,0.13333333333333333
+Balanced Random Forest,precision_fail,3,0.15384615384615385
+Balanced Random Forest,precision_fail,4,0.35294117647058826
+Balanced Random Forest,precision_fail,5,0.2631578947368421
+Balanced Random Forest,precision_fail,6,0.1875
+Balanced Random Forest,precision_fail,7,0.14285714285714285
+Balanced Random Forest,precision_fail,8,0.13636363636363635
+Balanced Random Forest,precision_fail,9,0.2857142857142857
+Balanced Random Forest,precision_fail,10,0.25
+Balanced Random Forest,precision_fail,11,0.19047619047619047
+Balanced Random Forest,precision_fail,12,0.22727272727272727
+Balanced Random Forest,precision_fail,13,0.25
+Balanced Random Forest,precision_fail,14,0.15384615384615385
+Balanced Random Forest,precision_fail,15,0.16666666666666666
+Balanced Random Forest,f1_fail,1,0.27586206896551724
+Balanced Random Forest,f1_fail,2,0.125
+Balanced Random Forest,f1_fail,3,0.18604651162790697
+Balanced Random Forest,f1_fail,4,0.36363636363636365
+Balanced Random Forest,f1_fail,5,0.2857142857142857
+Balanced Random Forest,f1_fail,6,0.18181818181818182
+Balanced Random Forest,f1_fail,7,0.15789473684210525
+Balanced Random Forest,f1_fail,8,0.15384615384615385
+Balanced Random Forest,f1_fail,9,0.26666666666666666
+Balanced Random Forest,f1_fail,10,0.25
+Balanced Random Forest,f1_fail,11,0.21052631578947367
+Balanced Random Forest,f1_fail,12,0.2564102564102564
+Balanced Random Forest,f1_fail,13,0.20689655172413793
+Balanced Random Forest,f1_fail,14,0.13793103448275862
+Balanced Random Forest,f1_fail,15,0.17647058823529413
+Balanced Random Forest,balanced_accuracy,1,0.6005530417295123
+Balanced Random Forest,balanced_accuracy,2,0.5310457516339869
+Balanced Random Forest,balanced_accuracy,3,0.5706385118149824
+Balanced Random Forest,balanced_accuracy,4,0.6639957264957265
+Balanced Random Forest,balanced_accuracy,5,0.6263354700854701
+Balanced Random Forest,balanced_accuracy,6,0.5604575163398693
+Balanced Random Forest,balanced_accuracy,7,0.5497737556561086
+Balanced Random Forest,balanced_accuracy,8,0.5476370035193564
+Balanced Random Forest,balanced_accuracy,9,0.6036324786324787
+Balanced Random Forest,balanced_accuracy,10,0.5993589743589743
+Balanced Random Forest,balanced_accuracy,11,0.5813222724987431
+Balanced Random Forest,balanced_accuracy,12,0.6107340372046255
+Balanced Random Forest,balanced_accuracy,13,0.5690045248868778
+Balanced Random Forest,balanced_accuracy,14,0.5389957264957265
+Balanced Random Forest,balanced_accuracy,15,0.561698717948718
+Balanced Random Forest,brier_score,1,0.15487309763415472
+Balanced Random Forest,brier_score,2,0.1522052843256603
+Balanced Random Forest,brier_score,3,0.15837667664834487
+Balanced Random Forest,brier_score,4,0.15445596092901234
+Balanced Random Forest,brier_score,5,0.15481838185185182
+Balanced Random Forest,brier_score,6,0.15548838803120849
+Balanced Random Forest,brier_score,7,0.15335550401480497
+Balanced Random Forest,brier_score,8,0.15845363835706555
+Balanced Random Forest,brier_score,9,0.15479585511419752
+Balanced Random Forest,brier_score,10,0.15600986599382716
+Balanced Random Forest,brier_score,11,0.15132034780630563
+Balanced Random Forest,brier_score,12,0.15886395397730066
+Balanced Random Forest,brier_score,13,0.16021908480583838
+Balanced Random Forest,brier_score,14,0.1527647728796296
+Balanced Random Forest,brier_score,15,0.15338753787654322
+Easy Ensemble,roc_auc,1,0.7526395173453997
+Easy Ensemble,roc_auc,2,0.6535947712418301
+Easy Ensemble,roc_auc,3,0.6654097536450478
+Easy Ensemble,roc_auc,4,0.7863247863247863
+Easy Ensemble,roc_auc,5,0.7521367521367521
+Easy Ensemble,roc_auc,6,0.7561588738059326
+Easy Ensemble,roc_auc,7,0.7078934137757668
+Easy Ensemble,roc_auc,8,0.7099044746103569
+Easy Ensemble,roc_auc,9,0.7873931623931625
+Easy Ensemble,roc_auc,10,0.8213141025641025
+Easy Ensemble,roc_auc,11,0.7689793866264454
+Easy Ensemble,roc_auc,12,0.7295123177476119
+Easy Ensemble,roc_auc,13,0.7961287078934138
+Easy Ensemble,roc_auc,14,0.6444978632478632
+Easy Ensemble,roc_auc,15,0.7347756410256411
+Easy Ensemble,pr_auc,1,0.23845429314301106
+Easy Ensemble,pr_auc,2,0.16933205647960675
+Easy Ensemble,pr_auc,3,0.16429434926797432
+Easy Ensemble,pr_auc,4,0.2227483447210183
+Easy Ensemble,pr_auc,5,0.32873928136696456
+Easy Ensemble,pr_auc,6,0.3120366923688731
+Easy Ensemble,pr_auc,7,0.15540512811658858
+Easy Ensemble,pr_auc,8,0.1953578974884407
+Easy Ensemble,pr_auc,9,0.19725491980178578
+Easy Ensemble,pr_auc,10,0.25902901705721293
+Easy Ensemble,pr_auc,11,0.2350207701100269
+Easy Ensemble,pr_auc,12,0.24227744755786557
+Easy Ensemble,pr_auc,13,0.20073591042096603
+Easy Ensemble,pr_auc,14,0.12298466225290845
+Easy Ensemble,pr_auc,15,0.1612052767225562
+Easy Ensemble,recall_fail,1,0.6470588235294118
+Easy Ensemble,recall_fail,2,0.47058823529411764
+Easy Ensemble,recall_fail,3,0.47058823529411764
+Easy Ensemble,recall_fail,4,0.8125
+Easy Ensemble,recall_fail,5,0.75
+Easy Ensemble,recall_fail,6,0.7647058823529411
+Easy Ensemble,recall_fail,7,0.5882352941176471
+Easy Ensemble,recall_fail,8,0.6470588235294118
+Easy Ensemble,recall_fail,9,0.6875
+Easy Ensemble,recall_fail,10,0.75
+Easy Ensemble,recall_fail,11,0.7058823529411765
+Easy Ensemble,recall_fail,12,0.7058823529411765
+Easy Ensemble,recall_fail,13,0.9411764705882353
+Easy Ensemble,recall_fail,14,0.4375
+Easy Ensemble,recall_fail,15,0.6875
+Easy Ensemble,precision_fail,1,0.12222222222222222
+Easy Ensemble,precision_fail,2,0.09195402298850575
+Easy Ensemble,precision_fail,3,0.08421052631578947
+Easy Ensemble,precision_fail,4,0.13541666666666666
+Easy Ensemble,precision_fail,5,0.13793103448275862
+Easy Ensemble,precision_fail,6,0.13131313131313133
+Easy Ensemble,precision_fail,7,0.11764705882352941
+Easy Ensemble,precision_fail,8,0.13414634146341464
+Easy Ensemble,precision_fail,9,0.11956521739130435
+Easy Ensemble,precision_fail,10,0.125
+Easy Ensemble,precision_fail,11,0.14285714285714285
+Easy Ensemble,precision_fail,12,0.13793103448275862
+Easy Ensemble,precision_fail,13,0.13445378151260504
+Easy Ensemble,precision_fail,14,0.0945945945945946
+Easy Ensemble,precision_fail,15,0.1375
+Easy Ensemble,f1_fail,1,0.205607476635514
+Easy Ensemble,f1_fail,2,0.15384615384615385
+Easy Ensemble,f1_fail,3,0.14285714285714285
+Easy Ensemble,f1_fail,4,0.23214285714285715
+Easy Ensemble,f1_fail,5,0.23300970873786409
+Easy Ensemble,f1_fail,6,0.22413793103448276
+Easy Ensemble,f1_fail,7,0.19607843137254902
+Easy Ensemble,f1_fail,8,0.2222222222222222
+Easy Ensemble,f1_fail,9,0.2037037037037037
+Easy Ensemble,f1_fail,10,0.21428571428571427
+Easy Ensemble,f1_fail,11,0.2376237623762376
+Easy Ensemble,f1_fail,12,0.23076923076923078
+Easy Ensemble,f1_fail,13,0.23529411764705882
+Easy Ensemble,f1_fail,14,0.15555555555555556
+Easy Ensemble,f1_fail,15,0.22916666666666666
+Easy Ensemble,balanced_accuracy,1,0.6547259929612871
+Easy Ensemble,balanced_accuracy,2,0.56649069884364
+Easy Ensemble,balanced_accuracy,3,0.549396681749623
+Easy Ensemble,balanced_accuracy,4,0.7288995726495726
+Easy Ensemble,balanced_accuracy,5,0.7147435897435898
+Easy Ensemble,balanced_accuracy,6,0.6985922574157868
+Easy Ensemble,balanced_accuracy,7,0.6338612368024132
+Easy Ensemble,balanced_accuracy,8,0.6718200100553042
+Easy Ensemble,balanced_accuracy,9,0.6706730769230769
+Easy Ensemble,balanced_accuracy,10,0.6955128205128205
+Easy Ensemble,balanced_accuracy,11,0.6990950226244343
+Easy Ensemble,balanced_accuracy,12,0.692684766214178
+Easy Ensemble,balanced_accuracy,13,0.7505027652086476
+Easy Ensemble,balanced_accuracy,14,0.5755876068376069
+Easy Ensemble,balanced_accuracy,15,0.6963141025641026
+Easy Ensemble,brier_score,1,0.23512120969823264
+Easy Ensemble,brier_score,2,0.23312975522500917
+Easy Ensemble,brier_score,3,0.2350885550144072
+Easy Ensemble,brier_score,4,0.23300606137963137
+Easy Ensemble,brier_score,5,0.23706114604730147
+Easy Ensemble,brier_score,6,0.23515443523816765
+Easy Ensemble,brier_score,7,0.23271132452389975
+Easy Ensemble,brier_score,8,0.23262326630139482
+Easy Ensemble,brier_score,9,0.23498407029021418
+Easy Ensemble,brier_score,10,0.2329097753016705
+Easy Ensemble,brier_score,11,0.23104989323423697
+Easy Ensemble,brier_score,12,0.2334133125121115
+Easy Ensemble,brier_score,13,0.24159130124525352
+Easy Ensemble,brier_score,14,0.22920883150048485
+Easy Ensemble,brier_score,15,0.23332818824529036
+XGBoost,roc_auc,1,0.7564102564102564
+XGBoost,roc_auc,2,0.7192056309703369
+XGBoost,roc_auc,3,0.6993464052287581
+XGBoost,roc_auc,4,0.797275641025641
+XGBoost,roc_auc,5,0.7467948717948718
+XGBoost,roc_auc,6,0.7111613876319759
+XGBoost,roc_auc,7,0.7209653092006033
+XGBoost,roc_auc,8,0.7119155354449472
+XGBoost,roc_auc,9,0.7748397435897436
+XGBoost,roc_auc,10,0.7652243589743589
+XGBoost,roc_auc,11,0.717948717948718
+XGBoost,roc_auc,12,0.7390648567119156
+XGBoost,roc_auc,13,0.729260935143288
+XGBoost,roc_auc,14,0.5985576923076923
+XGBoost,roc_auc,15,0.7756410256410255
+XGBoost,pr_auc,1,0.2349829172574396
+XGBoost,pr_auc,2,0.25377994332166737
+XGBoost,pr_auc,3,0.19384516481742617
+XGBoost,pr_auc,4,0.20749444355745306
+XGBoost,pr_auc,5,0.19423884010796297
+XGBoost,pr_auc,6,0.264415649371476
+XGBoost,pr_auc,7,0.13459250796230884
+XGBoost,pr_auc,8,0.22402546730874112
+XGBoost,pr_auc,9,0.19989408817521181
+XGBoost,pr_auc,10,0.2890346266640106
+XGBoost,pr_auc,11,0.2821813380897159
+XGBoost,pr_auc,12,0.3210754428513763
+XGBoost,pr_auc,13,0.22113192820157887
+XGBoost,pr_auc,14,0.08992327068000855
+XGBoost,pr_auc,15,0.17435772887688036
+XGBoost,recall_fail,1,0.058823529411764705
+XGBoost,recall_fail,2,0.058823529411764705
+XGBoost,recall_fail,3,0.058823529411764705
+XGBoost,recall_fail,4,0.0625
+XGBoost,recall_fail,5,0.0625
+XGBoost,recall_fail,6,0.058823529411764705
+XGBoost,recall_fail,7,0.0
+XGBoost,recall_fail,8,0.058823529411764705
+XGBoost,recall_fail,9,0.0
+XGBoost,recall_fail,10,0.125
+XGBoost,recall_fail,11,0.11764705882352941
+XGBoost,recall_fail,12,0.058823529411764705
+XGBoost,recall_fail,13,0.058823529411764705
+XGBoost,recall_fail,14,0.0
+XGBoost,recall_fail,15,0.0625
+XGBoost,precision_fail,1,1.0
+XGBoost,precision_fail,2,1.0
+XGBoost,precision_fail,3,0.3333333333333333
+XGBoost,precision_fail,4,0.3333333333333333
+XGBoost,precision_fail,5,0.3333333333333333
+XGBoost,precision_fail,6,1.0
+XGBoost,precision_fail,7,0.0
+XGBoost,precision_fail,8,0.3333333333333333
+XGBoost,precision_fail,9,0.0
+XGBoost,precision_fail,10,0.6666666666666666
+XGBoost,precision_fail,11,1.0
+XGBoost,precision_fail,12,0.5
+XGBoost,precision_fail,13,1.0
+XGBoost,precision_fail,14,0.0
+XGBoost,precision_fail,15,0.25
+XGBoost,f1_fail,1,0.1111111111111111
+XGBoost,f1_fail,2,0.1111111111111111
+XGBoost,f1_fail,3,0.1
+XGBoost,f1_fail,4,0.10526315789473684
+XGBoost,f1_fail,5,0.10526315789473684
+XGBoost,f1_fail,6,0.1111111111111111
+XGBoost,f1_fail,7,0.0
+XGBoost,f1_fail,8,0.1
+XGBoost,f1_fail,9,0.0
+XGBoost,f1_fail,10,0.21052631578947367
+XGBoost,f1_fail,11,0.21052631578947367
+XGBoost,f1_fail,12,0.10526315789473684
+XGBoost,f1_fail,13,0.1111111111111111
+XGBoost,f1_fail,14,0.0
+XGBoost,f1_fail,15,0.1
+XGBoost,balanced_accuracy,1,0.5294117647058824
+XGBoost,balanced_accuracy,2,0.5294117647058824
+XGBoost,balanced_accuracy,3,0.5251382604323781
+XGBoost,balanced_accuracy,4,0.5269764957264957
+XGBoost,balanced_accuracy,5,0.5269764957264957
+XGBoost,balanced_accuracy,6,0.5294117647058824
+XGBoost,balanced_accuracy,7,0.49572649572649574
+XGBoost,balanced_accuracy,8,0.5251382604323781
+XGBoost,balanced_accuracy,9,0.49572649572649574
+XGBoost,balanced_accuracy,10,0.5603632478632479
+XGBoost,balanced_accuracy,11,0.5588235294117647
+XGBoost,balanced_accuracy,12,0.5272750125691302
+XGBoost,balanced_accuracy,13,0.5294117647058824
+XGBoost,balanced_accuracy,14,0.49786324786324787
+XGBoost,balanced_accuracy,15,0.5248397435897436
+XGBoost,brier_score,1,0.06068325415253639
+XGBoost,brier_score,2,0.059749338775873184
+XGBoost,brier_score,3,0.06350158154964447
+XGBoost,brier_score,4,0.058726176619529724
+XGBoost,brier_score,5,0.0590638592839241
+XGBoost,brier_score,6,0.058834683150053024
+XGBoost,brier_score,7,0.06761237978935242
+XGBoost,brier_score,8,0.06180605664849281
+XGBoost,brier_score,9,0.05799437686800957
+XGBoost,brier_score,10,0.054077066481113434
+XGBoost,brier_score,11,0.05846291035413742
+XGBoost,brier_score,12,0.05613024905323982
+XGBoost,brier_score,13,0.06070038303732872
+XGBoost,brier_score,14,0.06595448404550552
+XGBoost,brier_score,15,0.06215513497591019
+LightGBM,roc_auc,1,0.7435897435897436
+LightGBM,roc_auc,2,0.7131724484665661
+LightGBM,roc_auc,3,0.6963298139768728
+LightGBM,roc_auc,4,0.8141025641025641
+LightGBM,roc_auc,5,0.7938034188034188
+LightGBM,roc_auc,6,0.7812971342383107
+LightGBM,roc_auc,7,0.7094017094017094
+LightGBM,roc_auc,8,0.6591251885369532
+LightGBM,roc_auc,9,0.7179487179487178
+LightGBM,roc_auc,10,0.7072649572649573
+LightGBM,roc_auc,11,0.6744595274007039
+LightGBM,roc_auc,12,0.7126696832579185
+LightGBM,roc_auc,13,0.7624434389140271
+LightGBM,roc_auc,14,0.5694444444444444
+LightGBM,roc_auc,15,0.7983440170940171
+LightGBM,pr_auc,1,0.21339115550014573
+LightGBM,pr_auc,2,0.25535311276460404
+LightGBM,pr_auc,3,0.18479326107194494
+LightGBM,pr_auc,4,0.20551744506532646
+LightGBM,pr_auc,5,0.30365437372047865
+LightGBM,pr_auc,6,0.27756743545392365
+LightGBM,pr_auc,7,0.1284218780003874
+LightGBM,pr_auc,8,0.159512414224932
+LightGBM,pr_auc,9,0.249001627267299
+LightGBM,pr_auc,10,0.19160415671553885
+LightGBM,pr_auc,11,0.20118953056616828
+LightGBM,pr_auc,12,0.25535968819002397
+LightGBM,pr_auc,13,0.1938377121992081
+LightGBM,pr_auc,14,0.08077927860766457
+LightGBM,pr_auc,15,0.21410681879088939
+LightGBM,recall_fail,1,0.0
+LightGBM,recall_fail,2,0.0
+LightGBM,recall_fail,3,0.11764705882352941
+LightGBM,recall_fail,4,0.0
+LightGBM,recall_fail,5,0.0
+LightGBM,recall_fail,6,0.058823529411764705
+LightGBM,recall_fail,7,0.0
+LightGBM,recall_fail,8,0.058823529411764705
+LightGBM,recall_fail,9,0.0
+LightGBM,recall_fail,10,0.0
+LightGBM,recall_fail,11,0.0
+LightGBM,recall_fail,12,0.0
+LightGBM,recall_fail,13,0.0
+LightGBM,recall_fail,14,0.0
+LightGBM,recall_fail,15,0.0
+LightGBM,precision_fail,1,0.0
+LightGBM,precision_fail,2,0.0
+LightGBM,precision_fail,3,0.5
+LightGBM,precision_fail,4,0.0
+LightGBM,precision_fail,5,0.0
+LightGBM,precision_fail,6,1.0
+LightGBM,precision_fail,7,0.0
+LightGBM,precision_fail,8,0.5
+LightGBM,precision_fail,9,0.0
+LightGBM,precision_fail,10,0.0
+LightGBM,precision_fail,11,0.0
+LightGBM,precision_fail,12,0.0
+LightGBM,precision_fail,13,0.0
+LightGBM,precision_fail,14,0.0
+LightGBM,precision_fail,15,0.0
+LightGBM,f1_fail,1,0.0
+LightGBM,f1_fail,2,0.0
+LightGBM,f1_fail,3,0.19047619047619047
+LightGBM,f1_fail,4,0.0
+LightGBM,f1_fail,5,0.0
+LightGBM,f1_fail,6,0.1111111111111111
+LightGBM,f1_fail,7,0.0
+LightGBM,f1_fail,8,0.10526315789473684
+LightGBM,f1_fail,9,0.0
+LightGBM,f1_fail,10,0.0
+LightGBM,f1_fail,11,0.0
+LightGBM,f1_fail,12,0.0
+LightGBM,f1_fail,13,0.0
+LightGBM,f1_fail,14,0.0
+LightGBM,f1_fail,15,0.0
+LightGBM,balanced_accuracy,1,0.5
+LightGBM,balanced_accuracy,2,0.5
+LightGBM,balanced_accuracy,3,0.5545500251382605
+LightGBM,balanced_accuracy,4,0.4935897435897436
+LightGBM,balanced_accuracy,5,0.5
+LightGBM,balanced_accuracy,6,0.5294117647058824
+LightGBM,balanced_accuracy,7,0.49572649572649574
+LightGBM,balanced_accuracy,8,0.5272750125691302
+LightGBM,balanced_accuracy,9,0.5
+LightGBM,balanced_accuracy,10,0.5
+LightGBM,balanced_accuracy,11,0.5
+LightGBM,balanced_accuracy,12,0.49786324786324787
+LightGBM,balanced_accuracy,13,0.5
+LightGBM,balanced_accuracy,14,0.49786324786324787
+LightGBM,balanced_accuracy,15,0.49572649572649574
+LightGBM,brier_score,1,0.061498299199585126
+LightGBM,brier_score,2,0.06208401562283762
+LightGBM,brier_score,3,0.06460315352009073
+LightGBM,brier_score,4,0.06047452191047282
+LightGBM,brier_score,5,0.055431901881019686
+LightGBM,brier_score,6,0.05883264273784725
+LightGBM,brier_score,7,0.06864847890881551
+LightGBM,brier_score,8,0.06500755732054718
+LightGBM,brier_score,9,0.057522825376586664
+LightGBM,brier_score,10,0.05926742273871782
+LightGBM,brier_score,11,0.0631629485614399
+LightGBM,brier_score,12,0.0609168824396396
+LightGBM,brier_score,13,0.06242709054289785
+LightGBM,brier_score,14,0.06695769852468217
+LightGBM,brier_score,15,0.05907156493327638

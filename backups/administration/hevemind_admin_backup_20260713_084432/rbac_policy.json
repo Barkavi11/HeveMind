@@ -1,0 +1,28 @@
+{
+    "schema_version": 1,
+    "roles": {
+        "viewer": {
+            "description": "Read-only executive access.",
+            "permissions": [
+                "dashboard.executive_view"
+            ]
+        },
+        "engineer": {
+            "description": "Engineering review and investigation access.",
+            "permissions": [
+                "dashboard.executive_view",
+                "wafer.view",
+                "queue.view",
+                "sensor.view",
+                "report.pdf_download",
+                "report.json_download"
+            ]
+        },
+        "admin": {
+            "description": "Full platform administration and governance access.",
+            "permissions": [
+                "*"
+            ]
+        }
+    }
+}

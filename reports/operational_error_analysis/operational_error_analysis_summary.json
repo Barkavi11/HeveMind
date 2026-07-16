@@ -1,0 +1,415 @@
+{
+    "project": "HeveMind",
+    "stage": "Operational error analysis",
+    "test_records": 314,
+    "actual_failures": 21,
+    "detected_failures": 17,
+    "missed_failures": 4,
+    "false_alarms": 102,
+    "mean_quality": {
+        "correct": 0.9442699682213914,
+        "missed_failure": 0.9507501186261333,
+        "false_alarm": 0.9448878823961752
+    },
+    "mean_anomaly": {
+        "correct": 0.24084023079418446,
+        "missed_failure": 0.2575276811305942,
+        "false_alarm": 0.272693067386831
+    },
+    "mean_missingness": {
+        "correct": 0.020662393162393163,
+        "missed_failure": 0.008888888888888889,
+        "false_alarm": 0.019237472766884534
+    },
+    "quality_segment_metrics": [
+        {
+            "segment_variable": "data_quality_band",
+            "segment_value": "Acceptable",
+            "records": 6,
+            "actual_failures": 1,
+            "predicted_failures": 3,
+            "true_negative": 3,
+            "false_positive": 2,
+            "false_negative": 0,
+            "true_positive": 1,
+            "failure_recall": 1.0,
+            "failure_precision": 0.3333333333333333,
+            "failure_f1": 0.5,
+            "balanced_accuracy": 0.8,
+            "mean_fail_probability": 0.37596296296296283,
+            "mean_data_quality": 0.8839766289356126,
+            "mean_anomaly_score": 0.2477367541287081,
+            "roc_auc": 1.0,
+            "pr_auc": 1.0
+        },
+        {
+            "segment_variable": "data_quality_band",
+            "segment_value": "High",
+            "records": 308,
+            "actual_failures": 20,
+            "predicted_failures": 116,
+            "true_negative": 188,
+            "false_positive": 100,
+            "false_negative": 4,
+            "true_positive": 16,
+            "failure_recall": 0.8,
+            "failure_precision": 0.13793103448275862,
+            "failure_f1": 0.23529411764705882,
+            "balanced_accuracy": 0.726388888888889,
+            "mean_fail_probability": 0.3685840548340548,
+            "mean_data_quality": 0.9457333055043835,
+            "mean_anomaly_score": 0.251471269735056,
+            "roc_auc": 0.7677083333333334,
+            "pr_auc": 0.218574824591958
+        }
+    ],
+    "missingness_segment_metrics": [
+        {
+            "segment_variable": "missingness_quartile",
+            "segment_value": "(-0.001, 0.00889]",
+            "records": 139,
+            "actual_failures": 12,
+            "predicted_failures": 60,
+            "true_negative": 76,
+            "false_positive": 51,
+            "false_negative": 3,
+            "true_positive": 9,
+            "failure_recall": 0.75,
+            "failure_precision": 0.15,
+            "failure_f1": 0.25,
+            "balanced_accuracy": 0.6742125984251969,
+            "mean_fail_probability": 0.3752078337330136,
+            "mean_data_quality": 0.9522843998323774,
+            "mean_anomaly_score": 0.2629470301366484,
+            "roc_auc": 0.6837270341207349,
+            "pr_auc": 0.15130419292522257
+        },
+        {
+            "segment_variable": "missingness_quartile",
+            "segment_value": "(0.00889, 0.0178]",
+            "records": 81,
+            "actual_failures": 4,
+            "predicted_failures": 23,
+            "true_negative": 57,
+            "false_positive": 20,
+            "false_negative": 1,
+            "true_positive": 3,
+            "failure_recall": 0.75,
+            "failure_precision": 0.13043478260869565,
+            "failure_f1": 0.2222222222222222,
+            "balanced_accuracy": 0.7451298701298701,
+            "mean_fail_probability": 0.359932098765432,
+            "mean_data_quality": 0.9464283920127331,
+            "mean_anomaly_score": 0.26044388123018986,
+            "roc_auc": 0.8149350649350648,
+            "pr_auc": 0.30374149659863947
+        },
+        {
+            "segment_variable": "missingness_quartile",
+            "segment_value": "(0.0178, 0.0267]",
+            "records": 27,
+            "actual_failures": 0,
+            "predicted_failures": 11,
+            "true_negative": 16,
+            "false_positive": 11,
+            "false_negative": 0,
+            "true_positive": 0,
+            "failure_recall": 0.0,
+            "failure_precision": 0.0,
+            "failure_f1": 0.0,
+            "balanced_accuracy": 0.5925925925925926,
+            "mean_fail_probability": 0.37294753086419746,
+            "mean_data_quality": 0.9404894651764804,
+            "mean_anomaly_score": 0.20855238079145869,
+            "roc_auc": NaN,
+            "pr_auc": NaN
+        },
+        {
+            "segment_variable": "missingness_quartile",
+            "segment_value": "(0.0267, 0.164]",
+            "records": 67,
+            "actual_failures": 5,
+            "predicted_failures": 25,
+            "true_negative": 42,
+            "false_positive": 20,
+            "false_negative": 0,
+            "true_positive": 5,
+            "failure_recall": 1.0,
+            "failure_precision": 0.2,
+            "failure_f1": 0.3333333333333333,
+            "balanced_accuracy": 0.8387096774193548,
+            "mean_fail_probability": 0.3642043946932006,
+            "mean_data_quality": 0.9278846414845825,
+            "mean_anomaly_score": 0.2337771007934421,
+            "roc_auc": 0.9354838709677419,
+            "pr_auc": 0.7326315789473683
+        }
+    ],
+    "anomaly_segment_metrics": [
+        {
+            "segment_variable": "anomaly_quartile",
+            "segment_value": "Q1 Lowest",
+            "records": 79,
+            "actual_failures": 3,
+            "predicted_failures": 20,
+            "true_negative": 58,
+            "false_positive": 18,
+            "false_negative": 1,
+            "true_positive": 2,
+            "failure_recall": 0.6666666666666666,
+            "failure_precision": 0.1,
+            "failure_f1": 0.17391304347826086,
+            "balanced_accuracy": 0.7149122807017544,
+            "mean_fail_probability": 0.3461005625879043,
+            "mean_data_quality": 0.9434963051255015,
+            "mean_anomaly_score": 0.13954397984378097,
+            "roc_auc": 0.8377192982456141,
+            "pr_auc": 0.19719169719169719
+        },
+        {
+            "segment_variable": "anomaly_quartile",
+            "segment_value": "Q2",
+            "records": 78,
+            "actual_failures": 4,
+            "predicted_failures": 29,
+            "true_negative": 48,
+            "false_positive": 26,
+            "false_negative": 1,
+            "true_positive": 3,
+            "failure_recall": 0.75,
+            "failure_precision": 0.10344827586206896,
+            "failure_f1": 0.18181818181818182,
+            "balanced_accuracy": 0.6993243243243243,
+            "mean_fail_probability": 0.37222329059829057,
+            "mean_data_quality": 0.9435524653418376,
+            "mean_anomaly_score": 0.20738711163582438,
+            "roc_auc": 0.75,
+            "pr_auc": 0.44784382284382285
+        },
+        {
+            "segment_variable": "anomaly_quartile",
+            "segment_value": "Q3",
+            "records": 78,
+            "actual_failures": 4,
+            "predicted_failures": 30,
+            "true_negative": 48,
+            "false_positive": 26,
+            "false_negative": 0,
+            "true_positive": 4,
+            "failure_recall": 1.0,
+            "failure_precision": 0.13333333333333333,
+            "failure_f1": 0.23529411764705882,
+            "balanced_accuracy": 0.8243243243243243,
+            "mean_fail_probability": 0.37119017094017087,
+            "mean_data_quality": 0.9440227733623234,
+            "mean_anomaly_score": 0.2690707094417824,
+            "roc_auc": 0.7635135135135135,
+            "pr_auc": 0.12651283380865957
+        },
+        {
+            "segment_variable": "anomaly_quartile",
+            "segment_value": "Q4 Highest",
+            "records": 79,
+            "actual_failures": 10,
+            "predicted_failures": 40,
+            "true_negative": 37,
+            "false_positive": 32,
+            "false_negative": 2,
+            "true_positive": 8,
+            "failure_recall": 0.8,
+            "failure_precision": 0.2,
+            "failure_f1": 0.32,
+            "balanced_accuracy": 0.6681159420289855,
+            "mean_fail_probability": 0.3854616736990154,
+            "mean_data_quality": 0.9471220398117043,
+            "mean_anomaly_score": 0.3892643943222466,
+            "roc_auc": 0.7333333333333334,
+            "pr_auc": 0.30390725367411164
+        }
+    ],
+    "confidence_segment_metrics": [
+        {
+            "segment_variable": "confidence_band",
+            "segment_value": "Low",
+            "records": 118,
+            "actual_failures": 16,
+            "predicted_failures": 118,
+            "true_negative": 0,
+            "false_positive": 102,
+            "false_negative": 0,
+            "true_positive": 16,
+            "failure_recall": 1.0,
+            "failure_precision": 0.13559322033898305,
+            "failure_f1": 0.23880597014925373,
+            "balanced_accuracy": 0.5,
+            "mean_fail_probability": 0.4475098870056497,
+            "mean_data_quality": 0.9447764211538044,
+            "mean_anomaly_score": 0.28345223959307775,
+            "roc_auc": 0.5545343137254902,
+            "pr_auc": 0.18416209636514402
+        },
+        {
+            "segment_variable": "confidence_band",
+            "segment_value": "Moderate",
+            "records": 182,
+            "actual_failures": 5,
+            "predicted_failures": 1,
+            "true_negative": 177,
+            "false_positive": 0,
+            "false_negative": 4,
+            "true_positive": 1,
+            "failure_recall": 0.2,
+            "failure_precision": 1.0,
+            "failure_f1": 0.3333333333333333,
+            "balanced_accuracy": 0.6,
+            "mean_fail_probability": 0.3286485042735042,
+            "mean_data_quality": 0.9444569658985741,
+            "mean_anomaly_score": 0.23185152863802136,
+            "roc_auc": 0.7378531073446328,
+            "pr_auc": 0.4480207264788658
+        },
+        {
+            "segment_variable": "confidence_band",
+            "segment_value": "High",
+            "records": 14,
+            "actual_failures": 0,
+            "predicted_failures": 0,
+            "true_negative": 14,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0,
+            "failure_recall": 0.0,
+            "failure_precision": 0.0,
+            "failure_f1": 0.0,
+            "balanced_accuracy": 1.0,
+            "mean_fail_probability": 0.2256765873015873,
+            "mean_data_quality": 0.9439237413767432,
+            "mean_anomaly_score": 0.23537350850474661,
+            "roc_auc": NaN,
+            "pr_auc": NaN
+        }
+    ],
+    "top_diagnostic_features": [
+        {
+            "feature": "sensor_060",
+            "importance_mean": 0.022677909801204755,
+            "importance_std": 0.00420920225355445,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_342",
+            "importance_mean": 0.006938781015729316,
+            "importance_std": 0.0036294195490548607,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_022",
+            "importance_mean": 0.00665585832104368,
+            "importance_std": 0.0024114962907145977,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_478",
+            "importance_mean": 0.0063195379349993445,
+            "importance_std": 0.0052149370248894605,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_153",
+            "importance_mean": 0.005868768338527444,
+            "importance_std": 0.002404012941292467,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_572",
+            "importance_mean": 0.005461430585100911,
+            "importance_std": 0.0025803326938183264,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_211",
+            "importance_mean": 0.005011923699642711,
+            "importance_std": 0.002194431470897193,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_001",
+            "importance_mean": 0.004627654483889634,
+            "importance_std": 0.0018561938059397528,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_426",
+            "importance_mean": 0.0046035515103929935,
+            "importance_std": 0.0018784604535701766,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_122",
+            "importance_mean": 0.0044612721337138435,
+            "importance_std": 0.0014969527259686786,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_434",
+            "importance_mean": 0.004429020497632159,
+            "importance_std": 0.0027981321340407087,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_461",
+            "importance_mean": 0.004310489433952455,
+            "importance_std": 0.002394958309328923,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_020",
+            "importance_mean": 0.004294245165466922,
+            "importance_std": 0.0023036255301401238,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_299",
+            "importance_mean": 0.004139438521692023,
+            "importance_std": 0.0011184872620934757,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_431",
+            "importance_mean": 0.004091683160824948,
+            "importance_std": 0.001635679797180749,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_125",
+            "importance_mean": 0.003899050378900476,
+            "importance_std": 0.0026048235553401086,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_091",
+            "importance_mean": 0.0038796716838814067,
+            "importance_std": 0.0023396429583554777,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_588",
+            "importance_mean": 0.0038739584006199828,
+            "importance_std": 0.0022175646014816024,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_486",
+            "importance_mean": 0.0038222692746015877,
+            "importance_std": 0.001398751804606262,
+            "importance_positive": true
+        },
+        {
+            "feature": "sensor_118",
+            "importance_mean": 0.003754808535938696,
+            "importance_std": 0.002041870547315776,
+            "importance_positive": true
+        }
+    ],
+    "important_warning": "Permutation importance was calculated on the held-out test set for diagnostic interpretation only. It must not be used for feature selection or model retraining."
+}

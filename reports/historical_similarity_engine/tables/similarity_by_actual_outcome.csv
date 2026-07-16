@@ -1,0 +1,3 @@
+group_variable,group_value,records,actual_failures,mean_model_probability,mean_historical_failure_rate,mean_similarity,mean_failed_neighbour_count,strong_or_moderate_evidence_rate
+target,0,293,0,0.058942203624555656,0.0629825374871225,0.38726311916824313,0.6723549488054608,0.030716723549488054
+target,1,21,21,0.10835552685389589,0.08737532778654628,0.2928133753292418,0.7142857142857143,0.047619047619047616

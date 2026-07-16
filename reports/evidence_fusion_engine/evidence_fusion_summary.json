@@ -1,0 +1,70 @@
+{
+    "project": "HeveMind",
+    "stage": "Cross-fitted statistical evidence fusion",
+    "development_records": 1253,
+    "test_records": 314,
+    "fusion_features": [
+        "calibrated_failure_probability",
+        "prediction_confidence",
+        "combined_uncertainty",
+        "data_confidence",
+        "ood_percentile",
+        "neighbour_distance_percentile",
+        "missing_sensor_rate",
+        "decision_margin",
+        "historical_weighted_failure_rate",
+        "failed_neighbour_rate",
+        "mean_similarity",
+        "maximum_similarity",
+        "minimum_similarity",
+        "mean_failed_neighbour_similarity",
+        "mean_passed_neighbour_similarity"
+    ],
+    "base_test_metrics": {
+        "roc_auc": 0.7753941166910451,
+        "pr_auc": 0.22405121498555472,
+        "brier_score": 0.05850252625549584
+    },
+    "fusion_test_metrics": {
+        "roc_auc": 0.762879895985698,
+        "pr_auc": 0.19794057790312503,
+        "brier_score": 0.08913775089387015
+    },
+    "fusion_test_threshold_metrics": {
+        "threshold": 0.275,
+        "recall_fail": 0.47619047619047616,
+        "precision_fail": 0.18181818181818182,
+        "f1_fail": 0.2631578947368421,
+        "balanced_accuracy": 0.661303429221518,
+        "true_negative": 248,
+        "false_positive": 45,
+        "false_negative": 11,
+        "true_positive": 10,
+        "operational_cost": 155.0
+    },
+    "selected_threshold": {
+        "threshold": 0.275,
+        "recall_fail": 0.9036144578313253,
+        "precision_fail": 0.08630609896432681,
+        "f1_fail": 0.15756302521008403,
+        "balanced_accuracy": 0.6124909895994234,
+        "true_negative": 376.0,
+        "false_positive": 794.0,
+        "false_negative": 8.0,
+        "true_positive": 75.0,
+        "operational_cost": 874.0,
+        "selection_reason": "Minimum development operational cost while maintaining recall >= 0.90"
+    },
+    "fusion_improved_test_pr_auc": false,
+    "fusion_improved_test_roc_auc": false,
+    "deployment_decision": "Retain fusion as supporting evidence only; do not replace the base model",
+    "methodological_controls": {
+        "test_outcomes_used_for_training": false,
+        "development_similarity_cross_fitted": true,
+        "meta_model_evaluated_out_of_fold": true,
+        "test_set_used_once_for_final_evaluation": true,
+        "manual_evidence_weights_used": false,
+        "physical_root_causes_invented": false
+    },
+    "important_warning": "The evidence-fusion probability is a statistical meta-model output. It is not an engineering certainty score and does not establish physical causality."
+}

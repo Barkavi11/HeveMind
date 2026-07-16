@@ -1,0 +1,5 @@
+{
+    "low_confidence_threshold": 0.16557084858336113,
+    "high_uncertainty_threshold": 0.8487255924380456,
+    "extreme_ood_threshold": 0.9750199521149242
+}

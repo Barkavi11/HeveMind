@@ -1,0 +1,38 @@
+{
+    "run_id": "bf535e922da48c6b",
+    "generated_utc": "2026-07-14T13:07:10.192747+00:00",
+    "summary": {
+        "monitored_numeric_outputs": 4,
+        "numeric_output_severity": "Warning",
+        "decision_severity": "Warning",
+        "data_quality_severity": "Normal",
+        "mean_numeric_health_score": 70.0,
+        "decision_health_score": null,
+        "data_quality_health_score": 100.0,
+        "dominant_severity": "Warning"
+    },
+    "decision_metric": null,
+    "data_quality_summary": {
+        "reference_rows": 1253,
+        "current_rows": 314,
+        "current_duplicate_rows": 0,
+        "current_duplicate_rate": 0.0,
+        "reference_total_missing_rate": 0.0198829475924448,
+        "current_total_missing_rate": 0.02004953998584572,
+        "current_constant_features": 6,
+        "current_constant_feature_rate": 0.013333333333333334,
+        "reference_only_features": 0,
+        "current_only_features": 0,
+        "unmatched_feature_rate": 0.0,
+        "id_duplicate_count": 0,
+        "id_duplicate_rate": 0.0,
+        "invalid_probability_count": null,
+        "invalid_confidence_count": null,
+        "invalid_uncertainty_count": null,
+        "severity": "Normal",
+        "health_score": 100.0
+    },
+    "prediction_drift_path": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/prediction_drift.csv",
+    "decision_drift_path": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/decision_drift.csv",
+    "data_quality_path": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/data_quality_monitoring.csv"
+}

@@ -1,0 +1,141 @@
+{
+    "schema_version": 1,
+    "application_version": "1.0.0",
+    "number_of_bins": 10,
+    "minimum_reference_rows": 100,
+    "minimum_current_rows": 30,
+    "maximum_features": 590,
+    "epsilon": 1e-08,
+    "feature_prefixes": [
+        "sensor_"
+    ],
+    "exclude_columns": [],
+    "reference_data_path": null,
+    "current_data_path": null,
+    "column_candidates": {
+        "id": [
+            "wafer_id",
+            "record_id",
+            "sample_id",
+            "id"
+        ],
+        "timestamp": [
+            "timestamp",
+            "datetime",
+            "event_time",
+            "recorded_at"
+        ],
+        "target": [
+            "target",
+            "label",
+            "failure",
+            "actual_failure",
+            "y_true"
+        ],
+        "probability": [
+            "calibrated_failure_probability",
+            "failure_probability",
+            "predicted_probability",
+            "probability",
+            "y_score"
+        ],
+        "decision": [
+            "uncertainty_adjusted_decision",
+            "operational_decision",
+            "decision"
+        ],
+        "confidence": [
+            "prediction_confidence",
+            "confidence",
+            "model_confidence"
+        ],
+        "uncertainty": [
+            "combined_uncertainty",
+            "uncertainty",
+            "prediction_uncertainty"
+        ],
+        "data_confidence": [
+            "data_confidence",
+            "input_data_confidence"
+        ],
+        "familiarity": [
+            "data_familiarity_band",
+            "data_familiarity",
+            "familiarity_band"
+        ]
+    },
+    "feature_drift_thresholds": {
+        "psi": {
+            "watch": 0.1,
+            "warning": 0.2,
+            "critical": 0.35
+        },
+        "ks_statistic": {
+            "watch": 0.1,
+            "warning": 0.2,
+            "critical": 0.3
+        },
+        "standardised_mean_shift": {
+            "watch": 0.25,
+            "warning": 0.5,
+            "critical": 1.0
+        },
+        "missing_rate_difference": {
+            "watch": 0.03,
+            "warning": 0.08,
+            "critical": 0.15
+        }
+    },
+    "prediction_drift_thresholds": {
+        "probability_mean_shift": {
+            "watch": 0.02,
+            "warning": 0.05,
+            "critical": 0.1
+        },
+        "confidence_mean_shift": {
+            "watch": 0.05,
+            "warning": 0.1,
+            "critical": 0.2
+        },
+        "uncertainty_mean_shift": {
+            "watch": 0.05,
+            "warning": 0.1,
+            "critical": 0.2
+        },
+        "decision_total_variation": {
+            "watch": 0.08,
+            "warning": 0.15,
+            "critical": 0.25
+        }
+    },
+    "data_quality_thresholds": {
+        "missing_rate": {
+            "watch": 0.05,
+            "warning": 0.15,
+            "critical": 0.3
+        },
+        "duplicate_rate": {
+            "watch": 0.01,
+            "warning": 0.03,
+            "critical": 0.1
+        },
+        "constant_feature_rate": {
+            "watch": 0.02,
+            "warning": 0.05,
+            "critical": 0.1
+        },
+        "unmatched_feature_rate": {
+            "watch": 0.02,
+            "warning": 0.05,
+            "critical": 0.1
+        }
+    },
+    "health_weights": {
+        "data_quality": 0.25,
+        "feature_drift": 0.35,
+        "prediction_drift": 0.25,
+        "confidence_and_uncertainty": 0.15
+    },
+    "created_utc": "2026-07-14T11:19:25.522281+00:00",
+    "updated_utc": "2026-07-14T11:19:25.522286+00:00"
+}

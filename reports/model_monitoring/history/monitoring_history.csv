@@ -1,0 +1,5 @@
+run_id,generated_utc,overall_health_score,overall_health_band,overall_severity,recommendation,alert_count,watch_alerts,warning_alerts,critical_alerts,retraining_triggered,immediate_action_required,primary_risk_driver
+d95c963f8447536f,2026-07-14T11:49:26.161145+00:00,87.89,Watch,Critical,Immediate Retraining,38,27,5,6,True,True,"Prediction Drift (70.00/100, Warning)"
+24cb5deb475e00d9,2026-07-14T11:49:38.611023+00:00,87.89,Watch,Critical,Immediate Retraining,38,27,5,6,True,True,"Prediction Drift (70.00/100, Warning)"
+7d44f4360ad11644,2026-07-14T13:04:49.092284+00:00,87.89,Watch,Critical,Immediate Retraining,38,27,5,6,True,True,"Prediction Drift (70.00/100, Warning)"
+bf535e922da48c6b,2026-07-14T13:07:10.192747+00:00,87.89,Watch,Critical,Immediate Retraining,38,27,5,6,True,True,"Prediction Drift (70.00/100, Warning)"

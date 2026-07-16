@@ -1,0 +1,5 @@
+metric_name,reference_column,current_column,reference_count,current_count,reference_mean,current_mean,absolute_mean_shift,reference_std,current_std,psi,ks_statistic,ks_p_value,wasserstein_distance,severity,health_score,notes,severity_rank
+failure_probability,,,0,0,,,,,,,,,,Warning,70.0,The operational metric is unavailable in one or both datasets.,2
+prediction_confidence,,,0,0,,,,,,,,,,Warning,70.0,The operational metric is unavailable in one or both datasets.,2
+combined_uncertainty,,,0,0,,,,,,,,,,Warning,70.0,The operational metric is unavailable in one or both datasets.,2
+data_confidence,,,0,0,,,,,,,,,,Warning,70.0,The operational metric is unavailable in one or both datasets.,2

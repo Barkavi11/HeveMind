@@ -1,0 +1,1190 @@
+{
+    "project": "HeveMind",
+    "stage": "SHAP explainability and sensor-attribution engine",
+    "test_records_explained": 314,
+    "transformed_feature_count": 816,
+    "top_global_features": [
+        {
+            "feature": "sensor_104",
+            "mean_absolute_shap": 0.013069512256550474,
+            "mean_signed_shap": -0.005465406969755012,
+            "positive_contribution_rate": 0.2802547770700637,
+            "relative_importance": 0.029655553134588022,
+            "cumulative_importance": 0.029655553134588022
+        },
+        {
+            "feature": "sensor_060",
+            "mean_absolute_shap": 0.0075707665984331395,
+            "mean_signed_shap": -0.003336897781588248,
+            "positive_contribution_rate": 0.22611464968152867,
+            "relative_importance": 0.017178550103648327,
+            "cumulative_importance": 0.04683410323823635
+        },
+        {
+            "feature": "sensor_034",
+            "mean_absolute_shap": 0.005640125658720066,
+            "mean_signed_shap": -0.001645031969741628,
+            "positive_contribution_rate": 0.6050955414012739,
+            "relative_importance": 0.012797803228968587,
+            "cumulative_importance": 0.05963190646720494
+        },
+        {
+            "feature": "sensor_478",
+            "mean_absolute_shap": 0.005146321673113297,
+            "mean_signed_shap": -0.0020225048755250804,
+            "positive_contribution_rate": 0.24522292993630573,
+            "relative_importance": 0.011677330632457326,
+            "cumulative_importance": 0.07130923709966226
+        },
+        {
+            "feature": "sensor_511",
+            "mean_absolute_shap": 0.005126153373235079,
+            "mean_signed_shap": -0.001876544345963447,
+            "positive_contribution_rate": 0.27388535031847133,
+            "relative_importance": 0.011631567479484801,
+            "cumulative_importance": 0.08294080457914707
+        },
+        {
+            "feature": "sensor_206",
+            "mean_absolute_shap": 0.004741401365800474,
+            "mean_signed_shap": -0.0014994364854557973,
+            "positive_contribution_rate": 0.2898089171974522,
+            "relative_importance": 0.010758540745499562,
+            "cumulative_importance": 0.09369934532464663
+        },
+        {
+            "feature": "sensor_342",
+            "mean_absolute_shap": 0.004018094913999238,
+            "mean_signed_shap": -0.0011709481266673097,
+            "positive_contribution_rate": 0.30254777070063693,
+            "relative_importance": 0.009117312481359018,
+            "cumulative_importance": 0.10281665780600566
+        },
+        {
+            "feature": "sensor_065",
+            "mean_absolute_shap": 0.003972636906896749,
+            "mean_signed_shap": -0.0015948038444535038,
+            "positive_contribution_rate": 0.1592356687898089,
+            "relative_importance": 0.009014165376971502,
+            "cumulative_importance": 0.11183082318297716
+        },
+        {
+            "feature": "sensor_214",
+            "mean_absolute_shap": 0.003767018168478027,
+            "mean_signed_shap": -0.0011888640458637138,
+            "positive_contribution_rate": 0.7420382165605095,
+            "relative_importance": 0.008547603404118446,
+            "cumulative_importance": 0.1203784265870956
+        },
+        {
+            "feature": "sensor_131",
+            "mean_absolute_shap": 0.0033713330702617138,
+            "mean_signed_shap": -0.0007697582979402488,
+            "positive_contribution_rate": 0.7834394904458599,
+            "relative_importance": 0.00764976879297316,
+            "cumulative_importance": 0.12802819538006877
+        },
+        {
+            "feature": "sensor_432",
+            "mean_absolute_shap": 0.0033387310090182126,
+            "mean_signed_shap": -0.0009613789929963398,
+            "positive_contribution_rate": 0.44904458598726116,
+            "relative_importance": 0.007575792646004158,
+            "cumulative_importance": 0.13560398802607293
+        },
+        {
+            "feature": "sensor_317",
+            "mean_absolute_shap": 0.0033293075405646496,
+            "mean_signed_shap": -0.001122813360759565,
+            "positive_contribution_rate": 0.4012738853503185,
+            "relative_importance": 0.007554410197757347,
+            "cumulative_importance": 0.14315839822383028
+        },
+        {
+            "feature": "sensor_352",
+            "mean_absolute_shap": 0.003288687679344921,
+            "mean_signed_shap": -0.0007794298203615374,
+            "positive_contribution_rate": 0.6656050955414012,
+            "relative_importance": 0.007462241153566925,
+            "cumulative_importance": 0.1506206393773972
+        },
+        {
+            "feature": "sensor_424",
+            "mean_absolute_shap": 0.00323745160474818,
+            "mean_signed_shap": -0.001041808467938498,
+            "positive_contribution_rate": 0.20063694267515925,
+            "relative_importance": 0.0073459832471672575,
+            "cumulative_importance": 0.15796662262456446
+        },
+        {
+            "feature": "sensor_015",
+            "mean_absolute_shap": 0.0031711568989159777,
+            "mean_signed_shap": -0.0011228655649412193,
+            "positive_contribution_rate": 0.21656050955414013,
+            "relative_importance": 0.007195556350374426,
+            "cumulative_importance": 0.16516217897493887
+        },
+        {
+            "feature": "sensor_181",
+            "mean_absolute_shap": 0.0031184723253500236,
+            "mean_signed_shap": -0.0010223517711098096,
+            "positive_contribution_rate": 0.37579617834394907,
+            "relative_importance": 0.007076011707843854,
+            "cumulative_importance": 0.17223819068278273
+        },
+        {
+            "feature": "sensor_520",
+            "mean_absolute_shap": 0.0029636616937304136,
+            "mean_signed_shap": -0.0012689235347210874,
+            "positive_contribution_rate": 0.3248407643312102,
+            "relative_importance": 0.006724736555284625,
+            "cumulative_importance": 0.17896292723806737
+        },
+        {
+            "feature": "sensor_032",
+            "mean_absolute_shap": 0.002956236991687566,
+            "mean_signed_shap": -0.001386463158522191,
+            "positive_contribution_rate": 0.7802547770700637,
+            "relative_importance": 0.006707889434931698,
+            "cumulative_importance": 0.18567081667299906
+        },
+        {
+            "feature": "sensor_153",
+            "mean_absolute_shap": 0.002714872744206728,
+            "mean_signed_shap": -0.0005114934736774036,
+            "positive_contribution_rate": 0.24522292993630573,
+            "relative_importance": 0.006160218632421809,
+            "cumulative_importance": 0.19183103530542087
+        },
+        {
+            "feature": "sensor_126",
+            "mean_absolute_shap": 0.002677591487098,
+            "mean_signed_shap": -0.0010271657380530501,
+            "positive_contribution_rate": 0.6178343949044586,
+            "relative_importance": 0.006075625092937732,
+            "cumulative_importance": 0.1979066603983586
+        },
+        {
+            "feature": "sensor_130",
+            "mean_absolute_shap": 0.00258924267904711,
+            "mean_signed_shap": -0.0009213939327973827,
+            "positive_contribution_rate": 0.4713375796178344,
+            "relative_importance": 0.005875156037926325,
+            "cumulative_importance": 0.20378181643628493
+        },
+        {
+            "feature": "sensor_282",
+            "mean_absolute_shap": 0.0025806900219890404,
+            "mean_signed_shap": -0.0009305347249715499,
+            "positive_contribution_rate": 0.4745222929936306,
+            "relative_importance": 0.005855749516026445,
+            "cumulative_importance": 0.20963756595231137
+        },
+        {
+            "feature": "sensor_248",
+            "mean_absolute_shap": 0.0025668358981671175,
+            "mean_signed_shap": -0.000974130851848181,
+            "positive_contribution_rate": 0.7738853503184714,
+            "relative_importance": 0.005824313629432568,
+            "cumulative_importance": 0.21546187958174393
+        },
+        {
+            "feature": "sensor_456",
+            "mean_absolute_shap": 0.002563959232464956,
+            "mean_signed_shap": -0.0007599137478116331,
+            "positive_contribution_rate": 0.3821656050955414,
+            "relative_importance": 0.005817786292305803,
+            "cumulative_importance": 0.22127966587404974
+        },
+        {
+            "feature": "sensor_103",
+            "mean_absolute_shap": 0.0025343651631142715,
+            "mean_signed_shap": -0.00021967428950988788,
+            "positive_contribution_rate": 0.4171974522292994,
+            "relative_importance": 0.005750635469928477,
+            "cumulative_importance": 0.22703030134397822
+        },
+        {
+            "feature": "sensor_066",
+            "mean_absolute_shap": 0.0025074090187442327,
+            "mean_signed_shap": -0.0012380724268410343,
+            "positive_contribution_rate": 0.16878980891719744,
+            "relative_importance": 0.005689470266822397,
+            "cumulative_importance": 0.23271977161080062
+        },
+        {
+            "feature": "sensor_184",
+            "mean_absolute_shap": 0.0024872249936056853,
+            "mean_signed_shap": -0.0007478807824801987,
+            "positive_contribution_rate": 0.42356687898089174,
+            "relative_importance": 0.005643671432235739,
+            "cumulative_importance": 0.23836344304303636
+        },
+        {
+            "feature": "sensor_453",
+            "mean_absolute_shap": 0.0024421705107965422,
+            "mean_signed_shap": -0.0008713570677459093,
+            "positive_contribution_rate": 0.3535031847133758,
+            "relative_importance": 0.005541439950090852,
+            "cumulative_importance": 0.2439048829931272
+        },
+        {
+            "feature": "sensor_489",
+            "mean_absolute_shap": 0.002277990359441757,
+            "mean_signed_shap": -0.00019136266278353825,
+            "positive_contribution_rate": 0.27388535031847133,
+            "relative_importance": 0.005168904762352208,
+            "cumulative_importance": 0.24907378775547942
+        },
+        {
+            "feature": "sensor_082",
+            "mean_absolute_shap": 0.0022416848564976223,
+            "mean_signed_shap": -0.00028024944392578344,
+            "positive_contribution_rate": 0.31528662420382164,
+            "relative_importance": 0.005086525271021297,
+            "cumulative_importance": 0.2541603130265007
+        }
+    ],
+    "decision_group_top_features": [
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_104",
+            "records": 132,
+            "mean_absolute_shap": 0.012982197500103319,
+            "mean_signed_shap": -0.007874944286029115,
+            "positive_contribution_rate": 0.19696969696969696,
+            "rank_within_group": 1.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_032",
+            "records": 20,
+            "mean_absolute_shap": 0.01255798587583104,
+            "mean_signed_shap": -0.01255798587583104,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 2.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_131",
+            "records": 13,
+            "mean_absolute_shap": 0.01109102842696861,
+            "mean_signed_shap": -0.010289281679692683,
+            "positive_contribution_rate": 0.07692307692307693,
+            "rank_within_group": 3.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_214",
+            "records": 23,
+            "mean_absolute_shap": 0.010659591799274658,
+            "mean_signed_shap": -0.009503737420252966,
+            "positive_contribution_rate": 0.13043478260869565,
+            "rank_within_group": 4.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_034",
+            "records": 55,
+            "mean_absolute_shap": 0.009712464933602187,
+            "mean_signed_shap": -0.0042814156822646885,
+            "positive_contribution_rate": 0.4909090909090909,
+            "rank_within_group": 5.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_248",
+            "records": 24,
+            "mean_absolute_shap": 0.009459173162870831,
+            "mean_signed_shap": -0.009459173162870831,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 6.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_352",
+            "records": 23,
+            "mean_absolute_shap": 0.008720678919821671,
+            "mean_signed_shap": -0.008720678919821671,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 7.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_066",
+            "records": 2,
+            "mean_absolute_shap": 0.008438775469061117,
+            "mean_signed_shap": 0.008438775469061117,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 8.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_520",
+            "records": 32,
+            "mean_absolute_shap": 0.008280771367613932,
+            "mean_signed_shap": -0.005615269802357579,
+            "positive_contribution_rate": 0.21875,
+            "rank_within_group": 9.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_060",
+            "records": 105,
+            "mean_absolute_shap": 0.008245581405251919,
+            "mean_signed_shap": -0.005872202804902801,
+            "positive_contribution_rate": 0.12380952380952381,
+            "rank_within_group": 10.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_126",
+            "records": 29,
+            "mean_absolute_shap": 0.007113760336134894,
+            "mean_signed_shap": -0.006315288362765587,
+            "positive_contribution_rate": 0.06896551724137931,
+            "rank_within_group": 11.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_511",
+            "records": 67,
+            "mean_absolute_shap": 0.007042736146315846,
+            "mean_signed_shap": -0.0033455571785802017,
+            "positive_contribution_rate": 0.22388059701492538,
+            "rank_within_group": 12.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_029",
+            "records": 24,
+            "mean_absolute_shap": 0.006930728445712166,
+            "mean_signed_shap": -0.006930728445712166,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 13.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_424",
+            "records": 27,
+            "mean_absolute_shap": 0.006858517989788453,
+            "mean_signed_shap": 0.005288069400527356,
+            "positive_contribution_rate": 0.8518518518518519,
+            "rank_within_group": 14.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_130",
+            "records": 22,
+            "mean_absolute_shap": 0.006818872541736148,
+            "mean_signed_shap": -0.005298818912676694,
+            "positive_contribution_rate": 0.13636363636363635,
+            "rank_within_group": 15.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_017",
+            "records": 2,
+            "mean_absolute_shap": 0.006717302488442465,
+            "mean_signed_shap": 0.006717302488442465,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 16.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_065",
+            "records": 20,
+            "mean_absolute_shap": 0.006684156992599774,
+            "mean_signed_shap": 0.002583796912073041,
+            "positive_contribution_rate": 0.55,
+            "rank_within_group": 17.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_478",
+            "records": 70,
+            "mean_absolute_shap": 0.006519192979153757,
+            "mean_signed_shap": -0.0028711356064022144,
+            "positive_contribution_rate": 0.2,
+            "rank_within_group": 18.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_342",
+            "records": 33,
+            "mean_absolute_shap": 0.006378608021168828,
+            "mean_signed_shap": 0.0015718249540095323,
+            "positive_contribution_rate": 0.5454545454545454,
+            "rank_within_group": 19.0
+        },
+        {
+            "decision": "Engineering Review",
+            "feature": "sensor_421",
+            "records": 1,
+            "mean_absolute_shap": 0.006329184429028562,
+            "mean_signed_shap": 0.006329184429028562,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 20.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_104",
+            "records": 72,
+            "mean_absolute_shap": 0.013640948355316332,
+            "mean_signed_shap": 0.0072690790866539595,
+            "positive_contribution_rate": 0.7222222222222222,
+            "rank_within_group": 1.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_032",
+            "records": 12,
+            "mean_absolute_shap": 0.013048721513445355,
+            "mean_signed_shap": -0.013048721513445355,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 2.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_214",
+            "records": 7,
+            "mean_absolute_shap": 0.011606566068159697,
+            "mean_signed_shap": -0.01037373025615267,
+            "positive_contribution_rate": 0.14285714285714285,
+            "rank_within_group": 3.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_060",
+            "records": 65,
+            "mean_absolute_shap": 0.010255334907692915,
+            "mean_signed_shap": 0.0035117197397052952,
+            "positive_contribution_rate": 0.5692307692307692,
+            "rank_within_group": 4.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_065",
+            "records": 21,
+            "mean_absolute_shap": 0.009954514151492028,
+            "mean_signed_shap": 0.009954514151492028,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 5.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_352",
+            "records": 7,
+            "mean_absolute_shap": 0.008871939018815054,
+            "mean_signed_shap": -0.008871939018815054,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 6.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_131",
+            "records": 2,
+            "mean_absolute_shap": 0.008443727235711325,
+            "mean_signed_shap": -0.0030288907984662356,
+            "positive_contribution_rate": 0.5,
+            "rank_within_group": 7.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_248",
+            "records": 7,
+            "mean_absolute_shap": 0.008352744088131348,
+            "mean_signed_shap": -0.008352744088131348,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 8.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_511",
+            "records": 40,
+            "mean_absolute_shap": 0.008304388044494876,
+            "mean_signed_shap": 0.003554375477414359,
+            "positive_contribution_rate": 0.65,
+            "rank_within_group": 9.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_066",
+            "records": 14,
+            "mean_absolute_shap": 0.00768752611547019,
+            "mean_signed_shap": 0.00768752611547019,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 10.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_563",
+            "records": 2,
+            "mean_absolute_shap": 0.007518104549445678,
+            "mean_signed_shap": 0.007518104549445678,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 11.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_130",
+            "records": 4,
+            "mean_absolute_shap": 0.007492031843927171,
+            "mean_signed_shap": -0.0048875533906988615,
+            "positive_contribution_rate": 0.25,
+            "rank_within_group": 12.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_034",
+            "records": 31,
+            "mean_absolute_shap": 0.007453100583629641,
+            "mean_signed_shap": 0.0006415672674765833,
+            "positive_contribution_rate": 0.7096774193548387,
+            "rank_within_group": 13.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_126",
+            "records": 9,
+            "mean_absolute_shap": 0.007406935720137225,
+            "mean_signed_shap": -0.006222072343047582,
+            "positive_contribution_rate": 0.1111111111111111,
+            "rank_within_group": 14.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_342",
+            "records": 33,
+            "mean_absolute_shap": 0.007329509400725621,
+            "mean_signed_shap": 0.00275834823133258,
+            "positive_contribution_rate": 0.5757575757575758,
+            "rank_within_group": 15.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_389",
+            "records": 2,
+            "mean_absolute_shap": 0.00732602584209784,
+            "mean_signed_shap": -0.00732602584209784,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 16.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_478",
+            "records": 48,
+            "mean_absolute_shap": 0.007296909158057185,
+            "mean_signed_shap": 0.0001454693391518319,
+            "positive_contribution_rate": 0.4166666666666667,
+            "rank_within_group": 17.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_125",
+            "records": 8,
+            "mean_absolute_shap": 0.007064106479038591,
+            "mean_signed_shap": 0.0011287157178822248,
+            "positive_contribution_rate": 0.5,
+            "rank_within_group": 18.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_206",
+            "records": 37,
+            "mean_absolute_shap": 0.0070448982344727675,
+            "mean_signed_shap": 0.0011258797261891437,
+            "positive_contribution_rate": 0.4864864864864865,
+            "rank_within_group": 19.0
+        },
+        {
+            "decision": "High Risk",
+            "feature": "sensor_520",
+            "records": 20,
+            "mean_absolute_shap": 0.006967885148386183,
+            "mean_signed_shap": 0.0007698208832386412,
+            "positive_contribution_rate": 0.65,
+            "rank_within_group": 20.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_214",
+            "records": 2,
+            "mean_absolute_shap": 0.0134328599279976,
+            "mean_signed_shap": -0.0134328599279976,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 1.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_104",
+            "records": 7,
+            "mean_absolute_shap": 0.012340613971555985,
+            "mean_signed_shap": 0.0022096390600069237,
+            "positive_contribution_rate": 0.5714285714285714,
+            "rank_within_group": 2.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_060",
+            "records": 6,
+            "mean_absolute_shap": 0.011807597888840789,
+            "mean_signed_shap": 0.008939881613308007,
+            "positive_contribution_rate": 0.8333333333333334,
+            "rank_within_group": 3.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_352",
+            "records": 2,
+            "mean_absolute_shap": 0.009189647673535226,
+            "mean_signed_shap": -0.009189647673535226,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 4.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_478",
+            "records": 6,
+            "mean_absolute_shap": 0.008319040719053782,
+            "mean_signed_shap": 0.00035534784393316765,
+            "positive_contribution_rate": 0.3333333333333333,
+            "rank_within_group": 5.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_386",
+            "records": 1,
+            "mean_absolute_shap": 0.007969020329361557,
+            "mean_signed_shap": 0.007969020329361557,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 6.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_065",
+            "records": 3,
+            "mean_absolute_shap": 0.007954931265657604,
+            "mean_signed_shap": 0.007954931265657604,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 7.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_511",
+            "records": 5,
+            "mean_absolute_shap": 0.00734879817356196,
+            "mean_signed_shap": 0.00473689916696257,
+            "positive_contribution_rate": 0.8,
+            "rank_within_group": 8.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_480",
+            "records": 1,
+            "mean_absolute_shap": 0.007102931204485909,
+            "mean_signed_shap": -0.007102931204485909,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 9.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_201",
+            "records": 1,
+            "mean_absolute_shap": 0.006944147786750588,
+            "mean_signed_shap": -0.006944147786750588,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 10.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_066",
+            "records": 3,
+            "mean_absolute_shap": 0.006842912908873119,
+            "mean_signed_shap": 0.006842912908873119,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 11.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_342",
+            "records": 4,
+            "mean_absolute_shap": 0.006713150569132514,
+            "mean_signed_shap": 0.0009611585633437913,
+            "positive_contribution_rate": 0.5,
+            "rank_within_group": 12.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_470",
+            "records": 2,
+            "mean_absolute_shap": 0.00667382782160967,
+            "mean_signed_shap": -0.00667382782160967,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 13.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_206",
+            "records": 4,
+            "mean_absolute_shap": 0.006617874870488995,
+            "mean_signed_shap": 0.0016617412408434465,
+            "positive_contribution_rate": 0.5,
+            "rank_within_group": 14.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_015",
+            "records": 4,
+            "mean_absolute_shap": 0.006441085020128749,
+            "mean_signed_shap": 0.000710699576900091,
+            "positive_contribution_rate": 0.5,
+            "rank_within_group": 15.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_476",
+            "records": 1,
+            "mean_absolute_shap": 0.00642061723800161,
+            "mean_signed_shap": 0.00642061723800161,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 16.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_461",
+            "records": 1,
+            "mean_absolute_shap": 0.006188869076815158,
+            "mean_signed_shap": -0.006188869076815158,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 17.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_317",
+            "records": 2,
+            "mean_absolute_shap": 0.006123958204271345,
+            "mean_signed_shap": -0.00016834167120076057,
+            "positive_contribution_rate": 0.5,
+            "rank_within_group": 18.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_282",
+            "records": 1,
+            "mean_absolute_shap": 0.005619808362611297,
+            "mean_signed_shap": -0.005619808362611297,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 19.0
+        },
+        {
+            "decision": "Insufficient Evidence",
+            "feature": "sensor_064",
+            "records": 1,
+            "mean_absolute_shap": 0.005595706988742304,
+            "mean_signed_shap": 0.005595706988742304,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 20.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_034",
+            "records": 48,
+            "mean_absolute_shap": 0.013633619980200564,
+            "mean_signed_shap": -0.011399505348321355,
+            "positive_contribution_rate": 0.20833333333333334,
+            "rank_within_group": 1.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_104",
+            "records": 99,
+            "mean_absolute_shap": 0.013225087803983236,
+            "mean_signed_shap": -0.012259689706509548,
+            "positive_contribution_rate": 0.050505050505050504,
+            "rank_within_group": 2.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_131",
+            "records": 38,
+            "mean_absolute_shap": 0.012703121484096953,
+            "mean_signed_shap": -0.012703121484096953,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 3.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_214",
+            "records": 34,
+            "mean_absolute_shap": 0.011786160599705955,
+            "mean_signed_shap": -0.011786160599705955,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 4.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_032",
+            "records": 22,
+            "mean_absolute_shap": 0.011544675462468923,
+            "mean_signed_shap": -0.011544675462468923,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 5.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_520",
+            "records": 32,
+            "mean_absolute_shap": 0.008825639070102441,
+            "mean_signed_shap": -0.008825639070102441,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 6.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_066",
+            "records": 1,
+            "mean_absolute_shap": 0.008582962046991927,
+            "mean_signed_shap": 0.008582962046991927,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 7.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_352",
+            "records": 37,
+            "mean_absolute_shap": 0.00830114409494336,
+            "mean_signed_shap": -0.00830114409494336,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 8.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_248",
+            "records": 33,
+            "mean_absolute_shap": 0.008006225751322538,
+            "mean_signed_shap": -0.008006225751322538,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 9.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_060",
+            "records": 79,
+            "mean_absolute_shap": 0.007991679451834847,
+            "mean_signed_shap": -0.007991679451834847,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 10.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_126",
+            "records": 36,
+            "mean_absolute_shap": 0.007109687068719307,
+            "mean_signed_shap": -0.007109687068719307,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 11.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_424",
+            "records": 14,
+            "mean_absolute_shap": 0.006991110195653914,
+            "mean_signed_shap": 0.0023093730183576544,
+            "positive_contribution_rate": 0.5714285714285714,
+            "rank_within_group": 12.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_130",
+            "records": 25,
+            "mean_absolute_shap": 0.0068060530063357725,
+            "mean_signed_shap": -0.005572464915459014,
+            "positive_contribution_rate": 0.12,
+            "rank_within_group": 13.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_029",
+            "records": 22,
+            "mean_absolute_shap": 0.0067081869009930125,
+            "mean_signed_shap": -0.0067081869009930125,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 14.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_478",
+            "records": 45,
+            "mean_absolute_shap": 0.0065632191080083006,
+            "mean_signed_shap": -0.00448815716654127,
+            "positive_contribution_rate": 0.1111111111111111,
+            "rank_within_group": 15.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_511",
+            "records": 56,
+            "mean_absolute_shap": 0.006480936285050637,
+            "mean_signed_shap": -0.004737011668205035,
+            "positive_contribution_rate": 0.10714285714285714,
+            "rank_within_group": 16.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_317",
+            "records": 26,
+            "mean_absolute_shap": 0.006423292615989045,
+            "mean_signed_shap": -0.006423292615989045,
+            "positive_contribution_rate": 0.0,
+            "rank_within_group": 17.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_133",
+            "records": 1,
+            "mean_absolute_shap": 0.00628862841657644,
+            "mean_signed_shap": 0.00628862841657644,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 18.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_206",
+            "records": 38,
+            "mean_absolute_shap": 0.006184407815553293,
+            "mean_signed_shap": -0.0033560253244056194,
+            "positive_contribution_rate": 0.18421052631578946,
+            "rank_within_group": 19.0
+        },
+        {
+            "decision": "Low Risk",
+            "feature": "sensor_153",
+            "records": 8,
+            "mean_absolute_shap": 0.006061324557251804,
+            "mean_signed_shap": 0.006061324557251804,
+            "positive_contribution_rate": 1.0,
+            "rank_within_group": 20.0
+        }
+    ],
+    "actual_failure_top_features": [
+        {
+            "feature": "sensor_032",
+            "failure_records": 3,
+            "mean_absolute_shap": 0.016586580413732135,
+            "mean_signed_shap": -0.016586580413732135,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_104",
+            "failure_records": 21,
+            "mean_absolute_shap": 0.01258313284063416,
+            "mean_signed_shap": -0.0018958411795986219,
+            "positive_contribution_rate": 0.38095238095238093
+        },
+        {
+            "feature": "sensor_060",
+            "failure_records": 18,
+            "mean_absolute_shap": 0.010830239126359456,
+            "mean_signed_shap": 0.008364945540468204,
+            "positive_contribution_rate": 0.8333333333333334
+        },
+        {
+            "feature": "sensor_214",
+            "failure_records": 7,
+            "mean_absolute_shap": 0.010694444892567817,
+            "mean_signed_shap": -0.008131987007765027,
+            "positive_contribution_rate": 0.2857142857142857
+        },
+        {
+            "feature": "sensor_352",
+            "failure_records": 6,
+            "mean_absolute_shap": 0.009737462141707136,
+            "mean_signed_shap": -0.009737462141707136,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_065",
+            "failure_records": 4,
+            "mean_absolute_shap": 0.00967131852123418,
+            "mean_signed_shap": 0.00967131852123418,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_342",
+            "failure_records": 7,
+            "mean_absolute_shap": 0.00856629045313577,
+            "mean_signed_shap": 0.007244666776939364,
+            "positive_contribution_rate": 0.8571428571428571
+        },
+        {
+            "feature": "sensor_564",
+            "failure_records": 1,
+            "mean_absolute_shap": 0.00826571091114513,
+            "mean_signed_shap": -0.00826571091114513,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_034",
+            "failure_records": 9,
+            "mean_absolute_shap": 0.008130295732843702,
+            "mean_signed_shap": -0.0011263628301196357,
+            "positive_contribution_rate": 0.6666666666666666
+        },
+        {
+            "feature": "sensor_248",
+            "failure_records": 2,
+            "mean_absolute_shap": 0.008006930720689281,
+            "mean_signed_shap": -0.008006930720689281,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_478",
+            "failure_records": 14,
+            "mean_absolute_shap": 0.007844143343871308,
+            "mean_signed_shap": 0.0012743761435991645,
+            "positive_contribution_rate": 0.42857142857142855
+        },
+        {
+            "feature": "sensor_511",
+            "failure_records": 10,
+            "mean_absolute_shap": 0.007718772349719895,
+            "mean_signed_shap": 0.0013364845778616357,
+            "positive_contribution_rate": 0.5
+        },
+        {
+            "feature": "sensor_066",
+            "failure_records": 3,
+            "mean_absolute_shap": 0.007680461722800122,
+            "mean_signed_shap": 0.007680461722800122,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_029",
+            "failure_records": 2,
+            "mean_absolute_shap": 0.0074844494474340766,
+            "mean_signed_shap": -0.0074844494474340766,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_389",
+            "failure_records": 3,
+            "mean_absolute_shap": 0.00736380279244572,
+            "mean_signed_shap": -0.00736380279244572,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_126",
+            "failure_records": 4,
+            "mean_absolute_shap": 0.007213406283864993,
+            "mean_signed_shap": -0.007213406283864993,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_125",
+            "failure_records": 1,
+            "mean_absolute_shap": 0.0071667141736111726,
+            "mean_signed_shap": 0.0071667141736111726,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_206",
+            "failure_records": 11,
+            "mean_absolute_shap": 0.00689550742814114,
+            "mean_signed_shap": 0.002198238980070788,
+            "positive_contribution_rate": 0.5454545454545454
+        },
+        {
+            "feature": "sensor_386",
+            "failure_records": 4,
+            "mean_absolute_shap": 0.006725492236851925,
+            "mean_signed_shap": 0.006725492236851925,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_520",
+            "failure_records": 6,
+            "mean_absolute_shap": 0.006722014458917872,
+            "mean_signed_shap": 0.00024429627203463084,
+            "positive_contribution_rate": 0.6666666666666666
+        },
+        {
+            "feature": "sensor_130",
+            "failure_records": 1,
+            "mean_absolute_shap": 0.006689241648660733,
+            "mean_signed_shap": -0.006689241648660733,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_064",
+            "failure_records": 2,
+            "mean_absolute_shap": 0.0066140854647783525,
+            "mean_signed_shap": 0.0066140854647783525,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_424",
+            "failure_records": 3,
+            "mean_absolute_shap": 0.006586266083849826,
+            "mean_signed_shap": 0.006586266083849826,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_133",
+            "failure_records": 2,
+            "mean_absolute_shap": 0.0063853103452459516,
+            "mean_signed_shap": 0.0063853103452459516,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_153",
+            "failure_records": 7,
+            "mean_absolute_shap": 0.00631088677807083,
+            "mean_signed_shap": 0.00631088677807083,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_201",
+            "failure_records": 5,
+            "mean_absolute_shap": 0.006113246032167306,
+            "mean_signed_shap": -0.006113246032167306,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_563",
+            "failure_records": 1,
+            "mean_absolute_shap": 0.00601560452913416,
+            "mean_signed_shap": 0.00601560452913416,
+            "positive_contribution_rate": 1.0
+        },
+        {
+            "feature": "sensor_317",
+            "failure_records": 3,
+            "mean_absolute_shap": 0.005905170255036306,
+            "mean_signed_shap": -0.005905170255036306,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_470",
+            "failure_records": 1,
+            "mean_absolute_shap": 0.005857906069494163,
+            "mean_signed_shap": -0.005857906069494163,
+            "positive_contribution_rate": 0.0
+        },
+        {
+            "feature": "sensor_578",
+            "failure_records": 2,
+            "mean_absolute_shap": 0.005729556532241282,
+            "mean_signed_shap": -0.005729556532241282,
+            "positive_contribution_rate": 0.0
+        }
+    ],
+    "local_plot_count": 25,
+    "methodology": {
+        "explainer": "TreeSHAP applied to the fitted Balanced Random Forest",
+        "explained_class": "Failure class",
+        "local_feature_count": 10,
+        "global_importance": "Mean absolute SHAP contribution"
+    },
+    "important_warning": "SHAP identifies model-attribution patterns, not confirmed physical causality. Because SECOM sensor names are anonymous, outputs must be described as diagnostic sensor hypotheses rather than verified process root causes."
+}

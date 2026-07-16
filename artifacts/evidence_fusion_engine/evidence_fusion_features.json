@@ -1,0 +1,24 @@
+{
+    "feature_count": 15,
+    "features": [
+        "calibrated_failure_probability",
+        "prediction_confidence",
+        "combined_uncertainty",
+        "data_confidence",
+        "ood_percentile",
+        "neighbour_distance_percentile",
+        "missing_sensor_rate",
+        "decision_margin",
+        "historical_weighted_failure_rate",
+        "failed_neighbour_rate",
+        "mean_similarity",
+        "maximum_similarity",
+        "minimum_similarity",
+        "mean_failed_neighbour_similarity",
+        "mean_passed_neighbour_similarity"
+    ],
+    "meta_model": "Class-weighted logistic regression",
+    "development_similarity": "Generated using five-fold cross-fitted historical retrieval",
+    "shap_used_as_predictive_input": false,
+    "reason_shap_excluded": "SHAP is retained as an explanation layer. Test-only SHAP values must not be used to train the fusion model."
+}

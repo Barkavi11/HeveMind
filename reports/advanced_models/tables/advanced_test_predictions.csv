@@ -1,0 +1,315 @@
+wafer_id,timestamp,target,status,fail_probability,predicted_target,predicted_status,decision_threshold,model_name,prediction_source,prediction_correct,error_type
+WF-000247,2008-08-18 04:35:00,0,Pass,0.013460213,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001316,2008-10-05 09:47:00,0,Pass,0.05968821,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000445,2008-08-24 07:12:00,0,Pass,0.011391415,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000297,2008-08-19 08:07:00,0,Pass,0.010966992,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001296,2008-10-04 18:25:00,0,Pass,0.018817814,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001240,2008-10-02 09:42:00,0,Pass,0.06663872,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001433,2008-10-08 21:19:00,0,Pass,0.00070099195,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000974,2008-09-21 03:47:00,0,Pass,0.0071286513,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000284,2008-08-19 04:58:00,0,Pass,0.01704058,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000554,2008-08-30 00:57:00,0,Pass,0.004924592,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000727,2008-09-04 11:50:00,0,Pass,0.0036354547,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001123,2008-09-27 11:04:00,0,Pass,0.008270761,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001275,2008-10-03 19:23:00,0,Pass,0.007479034,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000338,2008-08-20 20:19:00,0,Pass,0.0023776724,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000513,2008-08-29 05:54:00,0,Pass,0.0015524279,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000793,2008-09-11 15:08:00,0,Pass,0.0060108593,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000644,2008-09-01 23:59:00,0,Pass,0.0062164892,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001033,2008-09-23 12:29:00,0,Pass,0.06705119,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001397,2008-10-07 11:15:00,0,Pass,0.005384506,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000960,2008-09-20 16:43:00,0,Pass,0.0058323885,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001526,2008-10-15 07:36:00,0,Pass,0.004012812,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001443,2008-10-09 15:04:00,0,Pass,0.0005380377,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000265,2008-08-18 14:01:00,0,Pass,0.011694227,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001542,2008-10-15 22:45:00,0,Pass,0.0030355242,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001530,2008-10-15 10:00:00,0,Pass,0.0006777482,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000799,2008-09-12 05:11:00,0,Pass,0.040935453,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001209,2008-10-01 00:20:00,0,Pass,0.07984817,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001475,2008-10-13 03:53:00,0,Pass,0.005685856,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001494,2008-10-13 22:48:00,0,Pass,0.018064303,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001143,2008-09-28 01:22:00,0,Pass,0.012565221,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000531,2008-08-29 12:22:00,0,Pass,0.0063942196,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000117,2008-08-05 07:48:00,0,Pass,0.011173883,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000528,2008-08-29 08:41:00,0,Pass,0.010725383,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001037,2008-09-23 15:23:00,0,Pass,0.029866274,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000835,2008-09-14 15:02:00,0,Pass,0.0134016285,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000866,2008-09-16 18:23:00,0,Pass,0.006038105,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000233,2008-08-17 13:34:00,0,Pass,0.0327109,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000155,2008-08-07 11:40:00,1,Fail,0.0041313106,0,Pass,0.01,XGBoost,Held-out test,False,Missed Failure
+WF-000141,2008-08-06 19:24:00,0,Pass,0.01379216,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001361,2008-10-06 12:39:00,0,Pass,0.011350418,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000904,2008-09-19 07:18:00,0,Pass,0.0021979462,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001480,2008-10-13 14:30:00,0,Pass,0.010644815,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001284,2008-10-03 22:53:00,0,Pass,0.025733234,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001499,2008-10-14 03:35:00,0,Pass,0.0045652296,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001157,2008-09-28 18:34:00,0,Pass,0.021581955,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001564,2008-10-16 20:49:00,0,Pass,0.006837392,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000955,2008-09-20 14:53:00,0,Pass,0.0020147332,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001091,2008-09-25 22:05:00,0,Pass,0.027791372,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001479,2008-10-13 14:29:00,0,Pass,0.0007938849,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000391,2008-08-22 00:44:00,0,Pass,0.0014660605,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000441,2008-08-23 15:10:00,0,Pass,0.0006357839,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000259,2008-08-18 11:04:00,0,Pass,0.0031768915,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000256,2008-08-18 08:18:00,0,Pass,0.011682428,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000370,2008-08-21 16:36:00,0,Pass,0.02420173,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000787,2008-09-11 12:47:00,0,Pass,0.05887072,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001107,2008-09-26 15:36:00,0,Pass,0.0096030515,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000063,2008-07-31 20:18:00,1,Fail,0.01384831,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001449,2008-10-10 12:30:00,0,Pass,0.0057624015,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000188,2008-08-10 19:07:00,0,Pass,0.49648654,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001028,2008-09-23 08:11:00,0,Pass,0.036011957,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001243,2008-10-02 14:10:00,1,Fail,0.1760474,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000694,2008-09-02 16:10:00,0,Pass,0.0014895847,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000142,2008-08-06 20:00:00,0,Pass,0.018809505,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001237,2008-10-02 08:52:00,0,Pass,0.003393058,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000080,2008-08-03 17:58:00,0,Pass,0.015465905,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000196,2008-08-12 04:23:00,0,Pass,0.15389556,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001412,2008-10-08 04:47:00,0,Pass,0.0030931144,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000731,2008-09-04 16:30:00,0,Pass,0.00034432363,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001398,2008-10-07 11:16:00,0,Pass,0.109328456,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000069,2008-08-01 12:29:00,0,Pass,0.012994221,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000270,2008-08-18 15:30:00,0,Pass,0.024928447,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000307,2008-08-19 11:46:00,0,Pass,0.06612239,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001362,2008-10-06 12:42:00,0,Pass,0.110889114,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000577,2008-08-30 09:45:00,1,Fail,0.0046402602,0,Pass,0.01,XGBoost,Held-out test,False,Missed Failure
+WF-000947,2008-09-20 12:26:00,0,Pass,0.003411976,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000716,2008-09-03 14:29:00,0,Pass,0.008819188,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001454,2008-10-10 21:07:00,0,Pass,0.0038790745,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000605,2008-08-31 10:36:00,0,Pass,0.004424732,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000519,2008-08-29 06:45:00,1,Fail,0.22833705,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001100,2008-09-26 05:32:00,0,Pass,0.0075868038,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001541,2008-10-15 21:44:00,0,Pass,0.0044583096,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000246,2008-08-18 04:12:00,0,Pass,0.06290714,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000059,2008-07-30 21:16:00,1,Fail,0.13655509,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000751,2008-09-07 23:33:00,0,Pass,0.015181105,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001487,2008-10-13 19:40:00,0,Pass,0.0012573148,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001500,2008-10-14 13:13:00,0,Pass,0.006811318,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000032,2008-07-27 22:28:00,0,Pass,0.017347729,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000113,2008-08-05 06:11:00,0,Pass,0.047215134,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000327,2008-08-20 08:40:00,1,Fail,0.06604662,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000367,2008-08-21 15:48:00,0,Pass,0.0026387812,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001523,2008-10-15 05:13:00,0,Pass,0.006845233,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000690,2008-09-02 14:09:00,0,Pass,0.10451199,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000450,2008-08-25 09:29:00,0,Pass,0.048117395,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001395,2008-10-07 10:10:00,0,Pass,0.010029622,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001367,2008-10-06 15:01:00,0,Pass,0.020484138,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000166,2008-08-09 02:37:00,0,Pass,0.06744458,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000726,2008-09-04 08:53:00,0,Pass,0.0029701965,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001434,2008-10-08 21:45:00,0,Pass,0.0023990145,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000343,2008-08-20 22:45:00,0,Pass,0.038492125,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000878,2008-09-18 01:43:00,0,Pass,0.021086352,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000707,2008-09-03 00:18:00,0,Pass,0.0067718253,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000346,2008-08-21 02:11:00,0,Pass,0.020260118,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000042,2008-07-28 23:57:00,0,Pass,0.024042385,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000818,2008-09-12 22:45:00,0,Pass,0.009128419,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001053,2008-09-24 06:13:00,0,Pass,0.024720455,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000931,2008-09-19 23:26:00,0,Pass,0.006441685,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000477,2008-08-28 10:28:00,0,Pass,0.005989915,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001440,2008-10-09 06:06:00,0,Pass,0.0017943479,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000863,2008-09-16 09:37:00,0,Pass,0.00097277283,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001006,2008-09-22 06:05:00,0,Pass,0.03054132,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000012,2008-07-19 22:52:00,1,Fail,0.29639086,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000010,2008-07-19 21:35:00,0,Pass,0.022410054,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000314,2008-08-19 18:30:00,0,Pass,0.012877409,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001353,2008-10-06 07:35:00,0,Pass,0.012926403,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001176,2008-09-29 11:53:00,0,Pass,0.037404265,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001130,2008-09-27 13:19:00,0,Pass,0.011535846,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000525,2008-08-29 07:33:00,0,Pass,0.009896639,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001206,2008-09-30 21:42:00,0,Pass,0.025705328,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000177,2008-08-09 23:17:00,0,Pass,0.016252268,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001483,2008-10-13 15:42:00,0,Pass,0.0047280504,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001093,2008-09-25 23:48:00,0,Pass,0.16932413,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000564,2008-08-30 04:55:00,0,Pass,0.047283996,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000968,2008-09-20 19:21:00,0,Pass,0.0110410545,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001272,2008-10-03 11:40:00,0,Pass,0.06701454,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001473,2008-10-12 18:47:00,0,Pass,0.0015788835,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000465,2008-08-28 04:20:00,0,Pass,0.027250199,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000622,2008-09-01 00:53:00,0,Pass,0.0016419017,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001167,2008-09-29 02:06:00,0,Pass,0.01443487,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000630,2008-09-01 09:19:00,0,Pass,0.0016179512,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001442,2008-10-09 14:15:00,0,Pass,0.0017804962,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000109,2008-08-05 04:32:00,0,Pass,0.02839344,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000550,2008-08-29 22:49:00,0,Pass,0.002416275,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000027,2008-07-27 11:10:00,0,Pass,0.023722623,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000616,2008-08-31 22:32:00,0,Pass,0.00085594424,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000873,2008-09-17 07:14:00,0,Pass,0.0042509865,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001345,2008-10-06 04:26:00,0,Pass,0.08394079,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000018,2008-07-22 08:41:00,0,Pass,0.0041489834,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000766,2008-09-08 20:00:00,0,Pass,0.02092363,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001232,2008-10-02 04:24:00,0,Pass,0.022170197,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000105,2008-08-05 02:45:00,0,Pass,0.03157251,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000269,2008-08-18 15:26:00,0,Pass,0.031917192,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001059,2008-09-24 11:47:00,0,Pass,0.0019742092,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000049,2008-07-29 15:49:00,1,Fail,0.025668638,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001386,2008-10-07 03:39:00,0,Pass,0.0060239416,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001315,2008-10-05 09:04:00,0,Pass,0.0039261323,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001032,2008-09-23 11:43:00,0,Pass,0.035725903,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000191,2008-08-11 03:06:00,0,Pass,0.11017815,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001457,2008-10-11 06:56:00,0,Pass,0.035693426,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000990,2008-09-21 15:15:00,0,Pass,0.0027882857,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000937,2008-09-20 04:28:00,0,Pass,0.003866053,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001492,2008-10-13 21:47:00,0,Pass,0.0018769607,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000709,2008-09-03 00:58:00,0,Pass,0.008076453,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001544,2008-10-15 23:00:00,0,Pass,0.0027263202,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000052,2008-07-29 21:07:00,0,Pass,0.038988512,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001355,2008-10-06 08:24:00,0,Pass,0.0054293685,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000908,2008-09-19 09:47:00,0,Pass,0.00082500547,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000715,2008-09-03 14:24:00,0,Pass,0.0020942409,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000629,2008-09-01 09:06:00,0,Pass,0.002828901,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001467,2008-10-12 00:57:00,0,Pass,0.00051568286,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000501,2008-08-28 23:42:00,0,Pass,0.016944634,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000461,2008-08-28 03:29:00,0,Pass,0.03929282,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000289,2008-08-19 05:41:00,0,Pass,0.028762946,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000321,2008-08-20 02:13:00,0,Pass,0.13608693,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001219,2008-10-01 15:16:00,0,Pass,0.03830278,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001283,2008-10-03 22:08:00,0,Pass,0.02774509,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000588,2008-08-30 15:16:00,0,Pass,0.02755593,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000176,2008-08-09 22:37:00,0,Pass,0.030337062,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001354,2008-10-06 07:38:00,0,Pass,0.00339221,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000298,2008-08-19 08:33:00,0,Pass,0.017182054,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000234,2008-08-17 14:21:00,0,Pass,0.02125848,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001138,2008-09-27 18:14:00,0,Pass,0.12246717,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000571,2008-08-30 08:10:00,0,Pass,0.017155357,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001096,2008-09-26 02:26:00,0,Pass,0.026871214,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000812,2008-09-12 18:01:00,0,Pass,0.00065562135,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001098,2008-09-26 03:29:00,0,Pass,0.008998006,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000534,2008-08-29 13:14:00,0,Pass,0.002794071,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000436,2008-08-23 05:58:00,0,Pass,0.015293747,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000821,2008-09-13 00:25:00,0,Pass,0.01541279,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000612,2008-08-31 20:24:00,0,Pass,0.008526043,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000777,2008-09-10 21:56:00,0,Pass,0.017796945,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000220,2008-08-16 13:51:00,0,Pass,0.091203876,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000097,2008-08-04 20:58:00,1,Fail,0.13026483,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001214,2008-10-01 07:28:00,0,Pass,0.0063265893,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001213,2008-10-01 07:19:00,0,Pass,0.0050461516,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000024,2008-07-25 15:23:00,1,Fail,0.11677864,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000337,2008-08-20 19:20:00,1,Fail,0.1370873,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001306,2008-10-05 01:35:00,0,Pass,0.023531826,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000915,2008-09-19 16:58:00,1,Fail,0.15163702,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001383,2008-10-06 23:03:00,0,Pass,0.0040334086,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001335,2008-10-05 22:13:00,0,Pass,0.032011244,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000516,2008-08-29 06:35:00,0,Pass,0.16075139,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000326,2008-08-20 07:12:00,0,Pass,0.11950442,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000045,2008-07-29 06:19:00,0,Pass,0.6764414,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000459,2008-08-28 03:03:00,0,Pass,0.01678482,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000847,2008-09-15 02:04:00,0,Pass,0.0644954,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001104,2008-09-26 14:20:00,0,Pass,0.041323047,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001529,2008-10-15 09:11:00,0,Pass,0.0024536687,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001124,2008-09-27 11:45:00,0,Pass,0.0048839105,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001099,2008-09-26 04:14:00,0,Pass,0.0009015662,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001035,2008-09-23 12:46:00,0,Pass,0.016241636,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000398,2008-08-22 02:25:00,0,Pass,0.028427392,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000706,2008-09-02 20:59:00,0,Pass,0.0063403216,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000435,2008-08-23 05:57:00,0,Pass,0.11709961,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001260,2008-10-02 23:32:00,0,Pass,0.0061779735,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000393,2008-08-22 01:04:00,1,Fail,0.026015483,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000216,2008-08-16 07:33:00,0,Pass,0.10436136,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000667,2008-09-02 07:22:00,0,Pass,0.003991408,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001205,2008-09-30 21:39:00,0,Pass,0.062306393,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000122,2008-08-05 15:45:00,0,Pass,0.06593506,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000954,2008-09-20 14:50:00,0,Pass,0.0041553876,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000154,2008-08-07 11:10:00,0,Pass,0.05452294,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001447,2008-10-10 10:46:00,0,Pass,0.0053308248,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000767,2008-09-08 21:36:00,0,Pass,0.033242512,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000456,2008-08-27 17:14:00,0,Pass,0.0035032071,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001250,2008-10-02 17:00:00,0,Pass,0.057769872,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001117,2008-09-27 00:16:00,0,Pass,0.025094904,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000384,2008-08-21 22:25:00,0,Pass,0.011991031,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001034,2008-09-23 12:31:00,0,Pass,0.024143692,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000171,2008-08-09 17:34:00,0,Pass,0.25118974,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001368,2008-10-06 15:52:00,0,Pass,0.035487644,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000888,2008-09-18 18:12:00,0,Pass,0.0028494815,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001074,2008-09-25 07:58:00,0,Pass,0.004821766,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001566,2008-10-17 06:01:00,0,Pass,0.008033135,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000217,2008-08-16 08:39:00,0,Pass,0.27943784,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001185,2008-09-29 21:26:00,0,Pass,0.022501579,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000002,2008-07-19 12:32:00,0,Pass,0.0045050685,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001151,2008-09-28 08:41:00,0,Pass,0.0019653311,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000583,2008-08-30 11:57:00,0,Pass,0.04065748,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001192,2008-09-30 04:42:00,0,Pass,0.14895873,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001399,2008-10-07 11:36:00,0,Pass,0.011452131,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000877,2008-09-18 01:40:00,0,Pass,0.0061202105,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000957,2008-09-20 15:19:00,0,Pass,0.0023597067,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001376,2008-10-06 19:42:00,0,Pass,0.014532329,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000713,2008-09-03 06:26:00,0,Pass,0.008388053,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000232,2008-08-17 12:16:00,1,Fail,0.012160956,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000570,2008-08-30 07:54:00,0,Pass,0.020155143,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001220,2008-10-01 16:43:00,0,Pass,0.013201157,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000869,2008-09-16 21:21:00,0,Pass,0.023518156,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000770,2008-09-09 00:25:00,0,Pass,0.013873568,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001255,2008-10-02 21:32:00,1,Fail,0.05114767,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-000659,2008-09-02 03:35:00,0,Pass,0.024374323,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001190,2008-09-30 02:44:00,1,Fail,0.0047219247,0,Pass,0.01,XGBoost,Held-out test,False,Missed Failure
+WF-000867,2008-09-16 19:34:00,0,Pass,0.091846906,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001050,2008-09-24 03:40:00,0,Pass,0.016999615,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000940,2008-09-20 05:34:00,0,Pass,0.004594605,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000536,2008-08-29 13:49:00,0,Pass,0.012942,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000546,2008-08-29 21:46:00,0,Pass,0.0032133947,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000628,2008-09-01 08:18:00,0,Pass,0.010092802,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000019,2008-07-22 11:47:00,0,Pass,0.033332814,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000239,2008-08-17 23:04:00,1,Fail,0.14415501,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001352,2008-10-06 07:17:00,0,Pass,0.0028334456,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001246,2008-10-02 15:44:00,0,Pass,0.011923862,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001553,2008-10-16 04:02:00,0,Pass,0.0033129435,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001432,2008-10-08 20:27:00,0,Pass,0.061326373,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000699,2008-09-02 17:18:00,0,Pass,0.0034558333,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000026,2008-07-27 09:37:00,0,Pass,0.020987429,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001378,2008-10-06 20:36:00,0,Pass,0.049095895,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000631,2008-09-01 09:54:00,0,Pass,0.018341035,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001238,2008-10-02 08:57:00,0,Pass,0.019597447,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000443,2008-08-24 02:32:00,0,Pass,0.008499923,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000838,2008-09-14 17:40:00,0,Pass,0.004387368,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000451,2008-08-27 00:46:00,0,Pass,0.008294312,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000755,2008-09-08 03:32:00,0,Pass,0.026417516,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000131,2008-08-06 03:22:00,0,Pass,0.025969548,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000400,2008-08-22 03:18:00,0,Pass,0.0068614082,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000150,2008-08-07 08:21:00,0,Pass,0.08142333,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000819,2008-09-12 23:28:00,0,Pass,0.0008616138,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000497,2008-08-28 21:03:00,0,Pass,0.017399812,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000749,2008-09-07 20:12:00,0,Pass,0.004873914,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000894,2008-09-18 23:44:00,0,Pass,0.008206118,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000913,2008-09-19 15:31:00,0,Pass,0.015078315,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001163,2008-09-28 21:08:00,0,Pass,0.022978699,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000841,2008-09-14 19:13:00,0,Pass,0.021026542,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000708,2008-09-03 00:45:00,0,Pass,0.005919253,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001135,2008-09-27 15:30:00,0,Pass,0.019411508,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001478,2008-10-13 14:06:00,0,Pass,0.00077017903,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000051,2008-07-29 18:08:00,1,Fail,0.06508125,1,Fail,0.01,XGBoost,Held-out test,True,Correct
+WF-001346,2008-10-06 05:21:00,0,Pass,0.0073770783,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000460,2008-08-28 03:04:00,0,Pass,0.01432865,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001317,2008-10-05 10:00:00,0,Pass,0.012897591,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001422,2008-10-08 12:11:00,0,Pass,0.00060165784,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000572,2008-08-30 08:29:00,0,Pass,0.016942425,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000817,2008-09-12 22:25:00,0,Pass,0.00046482275,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000796,2008-09-11 22:07:00,1,Fail,0.0075737494,0,Pass,0.01,XGBoost,Held-out test,False,Missed Failure
+WF-000345,2008-08-20 23:43:00,1,Fail,0.004980594,0,Pass,0.01,XGBoost,Held-out test,False,Missed Failure
+WF-001095,2008-09-26 01:21:00,0,Pass,0.11713415,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001391,2008-10-07 09:11:00,0,Pass,0.017897228,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000848,2008-09-15 10:03:00,0,Pass,0.19894198,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000462,2008-08-28 03:38:00,0,Pass,0.0026206244,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001139,2008-09-27 19:16:00,0,Pass,0.033544328,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001005,2008-09-22 03:51:00,0,Pass,0.0014750641,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000675,2008-09-02 10:25:00,0,Pass,0.010259587,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001337,2008-10-06 01:25:00,0,Pass,0.013443228,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000332,2008-08-20 17:09:00,0,Pass,0.00818803,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001425,2008-10-08 14:48:00,0,Pass,0.0057641477,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001273,2008-10-03 12:31:00,0,Pass,0.38153824,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000521,2008-08-29 07:18:00,0,Pass,0.004369131,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001269,2008-10-03 06:15:00,0,Pass,0.007833506,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000851,2008-09-15 16:10:00,0,Pass,0.0020909193,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000229,2008-08-17 03:46:00,0,Pass,0.13286611,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000948,2008-09-20 12:27:00,0,Pass,0.0027171928,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000679,2008-09-02 11:47:00,0,Pass,0.006869003,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000933,2008-09-20 00:18:00,0,Pass,0.003358517,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000243,2008-08-18 00:20:00,0,Pass,0.32553247,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000653,2008-09-02 02:02:00,0,Pass,0.030725736,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000235,2008-08-17 15:25:00,0,Pass,0.022995805,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001227,2008-10-02 00:22:00,0,Pass,0.059212558,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000754,2008-09-08 01:24:00,0,Pass,0.0020862592,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-000714,2008-09-03 09:38:00,0,Pass,0.0317739,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000175,2008-08-09 22:15:00,0,Pass,0.03354979,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001310,2008-10-05 05:31:00,0,Pass,0.026259983,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-001334,2008-10-05 20:30:00,0,Pass,0.059185285,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm
+WF-000973,2008-09-21 03:04:00,0,Pass,0.0040390114,0,Pass,0.01,XGBoost,Held-out test,True,Correct
+WF-001038,2008-09-23 15:33:00,0,Pass,0.010948232,1,Fail,0.01,XGBoost,Held-out test,False,False Alarm

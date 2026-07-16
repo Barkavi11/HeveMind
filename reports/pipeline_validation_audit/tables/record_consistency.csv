@@ -1,0 +1,14 @@
+category,item,status,severity,details
+records,development_row_count,PASS,info,Observed development rows: 1253; expected: 1253.
+records,test_row_count,PASS,info,Observed test rows: 314; expected: 314.
+records,12_test_uncertainty:row_count,PASS,info,Rows: 314; expected: 314.
+records,12_test_uncertainty:wafer_id_set,PASS,info,Wafer ID set matches held-out test split.
+records,13_wafer_summary:row_count,PASS,info,Rows: 314; expected: 314.
+records,13_wafer_summary:wafer_id_set,PASS,info,Wafer ID set matches held-out test split.
+records,14_similarity_summary:row_count,PASS,info,Rows: 314; expected: 314.
+records,14_similarity_summary:wafer_id_set,PASS,info,Wafer ID set matches held-out test split.
+records,15_engineering_report:row_count,PASS,info,Rows: 314; expected: 314.
+records,15_engineering_report:wafer_id_set,PASS,info,Wafer ID set matches held-out test split.
+records,16_wafer_summary:row_count,PASS,info,Rows: 314; expected: 314.
+records,16_wafer_summary:wafer_id_set,PASS,info,Wafer ID set matches held-out test split.
+records,12_development_uncertainty:row_count,PASS,info,Rows: 1253; expected: 1253.

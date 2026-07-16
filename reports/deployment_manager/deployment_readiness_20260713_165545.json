@@ -1,0 +1,413 @@
+{
+    "generated_utc": "2026-07-13T08:55:45.121986+00:00",
+    "root_dir": "/Users/barkavi/Desktop/HeveMind",
+    "readiness": {
+        "score": 100.0,
+        "passed": 30,
+        "warnings": 0,
+        "failed": 0,
+        "critical_failures": 0,
+        "total_checks": 30,
+        "production_ready": true
+    },
+    "checks": [
+        {
+            "name": "Python version",
+            "category": "Environment",
+            "status": "PASS",
+            "critical": true,
+            "message": "3.13.9",
+            "details": {
+                "executable": "/usr/local/bin/python3",
+                "minimum": "3.11"
+            }
+        },
+        {
+            "name": "Disk space",
+            "category": "Environment",
+            "status": "PASS",
+            "critical": true,
+            "message": "757.46 GB free",
+            "details": {
+                "total": "926.3 GB",
+                "used": "168.8 GB",
+                "free": "757.5 GB"
+            }
+        },
+        {
+            "name": "pandas",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "3.0.3",
+            "details": {}
+        },
+        {
+            "name": "numpy",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "2.4.6",
+            "details": {}
+        },
+        {
+            "name": "fastapi",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "0.139.0",
+            "details": {}
+        },
+        {
+            "name": "uvicorn",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "0.51.0",
+            "details": {}
+        },
+        {
+            "name": "streamlit",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "1.59.1",
+            "details": {}
+        },
+        {
+            "name": "joblib",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "1.5.3",
+            "details": {}
+        },
+        {
+            "name": "scikit-learn",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "1.8.0",
+            "details": {}
+        },
+        {
+            "name": "reportlab",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "5.0.0",
+            "details": {}
+        },
+        {
+            "name": "openpyxl",
+            "category": "Packages",
+            "status": "PASS",
+            "critical": true,
+            "message": "3.1.5",
+            "details": {}
+        },
+        {
+            "name": "FastAPI service",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/src/19_fastapi_service.py",
+            "details": {
+                "exists": true,
+                "size_bytes": 41642
+            }
+        },
+        {
+            "name": "Secure gateway",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/src/21_secure_access_gateway.py",
+            "details": {
+                "exists": true,
+                "size_bytes": 27432
+            }
+        },
+        {
+            "name": "Audit engine",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/src/24_audit_activity_tracking.py",
+            "details": {
+                "exists": true,
+                "size_bytes": 65126
+            }
+        },
+        {
+            "name": "Governance dashboard",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/src/25_governance_security_dashboard.py",
+            "details": {
+                "exists": true,
+                "size_bytes": 77768
+            }
+        },
+        {
+            "name": "PDF report generator",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/src/26_executive_pdf_report_generator.py",
+            "details": {
+                "exists": true,
+                "size_bytes": 83940
+            }
+        },
+        {
+            "name": "Administration console",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/src/27_platform_administration_rbac.py",
+            "details": {
+                "exists": true,
+                "size_bytes": 60553
+            }
+        },
+        {
+            "name": "Platform settings",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/config/platform_settings.json",
+            "details": {
+                "exists": true,
+                "size_bytes": 635
+            }
+        },
+        {
+            "name": "RBAC policy",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/config/rbac_policy.json",
+            "details": {
+                "exists": true,
+                "size_bytes": 762
+            }
+        },
+        {
+            "name": "User registry",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/config/users.json",
+            "details": {
+                "exists": true,
+                "size_bytes": 1049
+            }
+        },
+        {
+            "name": "Authentication settings",
+            "category": "Required Files",
+            "status": "PASS",
+            "critical": true,
+            "message": "/Users/barkavi/Desktop/HeveMind/config/auth_settings.json",
+            "details": {
+                "exists": true,
+                "size_bytes": 302
+            }
+        },
+        {
+            "name": "Platform settings",
+            "category": "Configuration",
+            "status": "PASS",
+            "critical": true,
+            "message": "Valid JSON",
+            "details": {
+                "keys": [
+                    "allow_governance_exports",
+                    "allow_raw_json_downloads",
+                    "allow_report_downloads",
+                    "api_base_url",
+                    "audit_retention_days",
+                    "environment_name",
+                    "last_updated_by",
+                    "last_updated_utc",
+                    "lockout_minutes",
+                    "maintenance_message",
+                    "maintenance_mode",
+                    "maximum_failed_attempts",
+                    "schema_version",
+                    "session_timeout_minutes",
+                    "site_name"
+                ]
+            }
+        },
+        {
+            "name": "RBAC policy",
+            "category": "Configuration",
+            "status": "PASS",
+            "critical": true,
+            "message": "Valid JSON",
+            "details": {
+                "keys": [
+                    "roles",
+                    "schema_version"
+                ]
+            }
+        },
+        {
+            "name": "User registry",
+            "category": "Configuration",
+            "status": "PASS",
+            "critical": true,
+            "message": "Valid JSON",
+            "details": {
+                "keys": [
+                    "schema_version",
+                    "users"
+                ]
+            }
+        },
+        {
+            "name": "Authentication settings",
+            "category": "Configuration",
+            "status": "PASS",
+            "critical": true,
+            "message": "Valid JSON",
+            "details": {
+                "keys": [
+                    "allow_development_login",
+                    "auth_mode",
+                    "development_email_domain",
+                    "lockout_minutes",
+                    "maximum_failed_attempts",
+                    "oidc_provider_name",
+                    "production_email_domain",
+                    "session_timeout_minutes"
+                ]
+            }
+        },
+        {
+            "name": "Audit database",
+            "category": "Data Services",
+            "status": "PASS",
+            "critical": true,
+            "message": "ok",
+            "details": {
+                "size": "68.0 KB"
+            }
+        },
+        {
+            "name": "Model and report artifacts",
+            "category": "Model Assets",
+            "status": "PASS",
+            "critical": false,
+            "message": "36 files found",
+            "details": {
+                "examples": [
+                    "artifacts/preprocessors/feature_columns.json",
+                    "artifacts/explainability_engine/transformed_feature_names.json",
+                    "artifacts/explainability_engine/tree_shap_explainer.joblib",
+                    "artifacts/quality_engine/isolation_forest.joblib",
+                    "artifacts/quality_engine/quality_aware_model.joblib",
+                    "artifacts/models/best_baseline_model.joblib",
+                    "artifacts/models/best_baseline_pipeline.joblib",
+                    "artifacts/uncertainty_engine/uncertainty_isolation_forest.joblib",
+                    "artifacts/uncertainty_engine/uncertainty_reference_metadata.json",
+                    "artifacts/uncertainty_engine/uncertainty_preprocessor.joblib",
+                    "artifacts/uncertainty_engine/uncertainty_nearest_neighbours.joblib",
+                    "artifacts/evidence_fusion_engine/evidence_fusion_meta_model.joblib",
+                    "artifacts/evidence_fusion_engine/evidence_fusion_features.json",
+                    "artifacts/metadata/calibrated_model_feature_columns.json",
+                    "artifacts/metadata/operational_feature_columns.json"
+                ]
+            }
+        },
+        {
+            "name": "FastAPI health",
+            "category": "Runtime Services",
+            "status": "PASS",
+            "critical": true,
+            "message": "10.8 ms",
+            "details": {
+                "url": "http://127.0.0.1:8000/health",
+                "payload": {
+                    "status": "healthy",
+                    "service": "HeveMind Semiconductor Decision-Support API",
+                    "version": "1.0.0",
+                    "timestamp_utc": "2026-07-13T08:55:45.118360+00:00",
+                    "report_store_loaded": true,
+                    "available_wafer_reports": 314,
+                    "raw_record_inference_supported": false
+                }
+            }
+        },
+        {
+            "name": "FastAPI readiness",
+            "category": "Runtime Services",
+            "status": "PASS",
+            "critical": false,
+            "message": "1.5 ms",
+            "details": {
+                "url": "http://127.0.0.1:8000/ready",
+                "payload": {
+                    "ready": true,
+                    "checks": [
+                        {
+                            "name": "validated_report_backend",
+                            "status": "pass",
+                            "details": "/Users/barkavi/Desktop/HeveMind/src/18_validated_report_backend.py"
+                        },
+                        {
+                            "name": "report_store_loaded",
+                            "status": "pass",
+                            "details": "314 reports loaded"
+                        },
+                        {
+                            "name": "wafer_index_loaded",
+                            "status": "pass",
+                            "details": "314 index rows loaded"
+                        }
+                    ],
+                    "timestamp_utc": "2026-07-13T08:55:45.119935+00:00"
+                }
+            }
+        },
+        {
+            "name": "Streamlit reachability",
+            "category": "Runtime Services",
+            "status": "PASS",
+            "critical": false,
+            "message": "1.7 ms",
+            "details": {
+                "url": "http://127.0.0.1:8501"
+            }
+        }
+    ],
+    "services": [
+        {
+            "name": "FastAPI",
+            "pid": null,
+            "running": false,
+            "healthy": true,
+            "url": "http://127.0.0.1:8000",
+            "response_time_ms": 1.0750840010587126,
+            "message": "Healthy"
+        },
+        {
+            "name": "Streamlit",
+            "pid": null,
+            "running": false,
+            "healthy": true,
+            "url": "http://127.0.0.1:8501",
+            "response_time_ms": 1.0889169934671372,
+            "message": "Reachable"
+        }
+    ],
+    "system": {
+        "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+        "python_version": "3.13.9",
+        "machine": "arm64",
+        "hostname": "BARKAVIs-MacBook-Air.local"
+    }
+}

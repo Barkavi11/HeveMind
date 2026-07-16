@@ -1,0 +1,24 @@
+{
+    "run_id": "7d44f4360ad11644",
+    "generated_utc": "2026-07-14T13:04:49.092284+00:00",
+    "drift_summary_json": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/drift_summary_20260714_130449_7d44f4360ad11644.json",
+    "deployment_health_json": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/deployment_health_20260714_130449_7d44f4360ad11644.json",
+    "feature_drift_csv": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/feature_drift_20260714_130449_7d44f4360ad11644.csv",
+    "prediction_drift_csv": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/prediction_drift_20260714_130449_7d44f4360ad11644.csv",
+    "decision_drift_csv": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/decision_drift_20260714_130449_7d44f4360ad11644.csv",
+    "data_quality_csv": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/data_quality_monitoring_20260714_130449_7d44f4360ad11644.csv",
+    "alerts_csv": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/monitoring_alerts_20260714_130449_7d44f4360ad11644.csv",
+    "health_components_csv": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/health_components_20260714_130449_7d44f4360ad11644.csv",
+    "monitoring_excel": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/exports/hevemind_model_monitoring_20260714_130449_7d44f4360ad11644.xlsx",
+    "monitoring_pdf": null,
+    "figure_paths": [
+        "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/figures/health_components_20260714_130449_7d44f4360ad11644.png",
+        "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/figures/feature_drift_priority_20260714_130449_7d44f4360ad11644.png",
+        "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/figures/prediction_shift_20260714_130449_7d44f4360ad11644.png",
+        "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/figures/decision_distribution_20260714_130449_7d44f4360ad11644.png",
+        "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/figures/alert_distribution_20260714_130449_7d44f4360ad11644.png",
+        "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/figures/monitoring_history_20260714_130449_7d44f4360ad11644.png"
+    ],
+    "report_sha256": "8524f9b464b479f3dcb17bd6d0b927718138a6a27701272694381d089adb9820",
+    "model_modification_performed": false
+}

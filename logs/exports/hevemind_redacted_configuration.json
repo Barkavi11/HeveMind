@@ -1,0 +1,130 @@
+{
+  "generated_utc": "2026-07-13T08:44:37.831110+00:00",
+  "platform_settings": {
+    "schema_version": 1,
+    "environment_name": "Validated Research Environment",
+    "site_name": "Malaysia Engineering Demonstration",
+    "maintenance_mode": false,
+    "maintenance_message": "HeveMind is temporarily unavailable while approved maintenance activities are completed.",
+    "allow_report_downloads": true,
+    "allow_governance_exports": true,
+    "allow_raw_json_downloads": true,
+    "session_timeout_minutes": 30,
+    "maximum_failed_attempts": 5,
+    "lockout_minutes": 15,
+    "audit_retention_days": 365,
+    "api_base_url": "http://127.0.0.1:8000",
+    "last_updated_utc": null,
+    "last_updated_by": null
+  },
+  "auth_settings": {
+    "auth_mode": "development",
+    "development_email_domain": "hevemind.local",
+    "production_email_domain": "infineon.com",
+    "session_timeout_minutes": 30,
+    "maximum_failed_attempts": 5,
+    "lockout_minutes": 15,
+    "oidc_provider_name": "infineon",
+    "allow_development_login": true
+  },
+  "rbac_policy": {
+    "schema_version": 1,
+    "roles": {
+      "viewer": {
+        "description": "Read-only executive access.",
+        "permissions": [
+          "dashboard.executive_view"
+        ]
+      },
+      "engineer": {
+        "description": "Engineering review and investigation access.",
+        "permissions": [
+          "dashboard.executive_view",
+          "wafer.view",
+          "queue.view",
+          "sensor.view",
+          "report.pdf_download",
+          "report.json_download"
+        ]
+      },
+      "admin": {
+        "description": "Full platform administration and governance access.",
+        "permissions": [
+          "*"
+        ]
+      }
+    }
+  },
+  "users": [
+    {
+      "email": "barkavi@hevemind.local",
+      "display_name": "Barkavi",
+      "role": "admin",
+      "active": true,
+      "password_hash": "[REDACTED]",
+      "failed_attempts": 0,
+      "locked_until_epoch": 0,
+      "created_utc": "2026-07-13T04:43:17.204596+00:00",
+      "last_login_utc": "2026-07-13T08:36:04.351988+00:00"
+    },
+    {
+      "email": "johny@hevemind.local",
+      "display_name": "Johny",
+      "role": "admin",
+      "active": true,
+      "password_hash": "[REDACTED]",
+      "failed_attempts": 0,
+      "locked_until_epoch": 0,
+      "created_utc": "2026-07-13T08:44:25.481354+00:00",
+      "last_login_utc": null,
+      "updated_utc": "2026-07-13T08:44:25.481384+00:00"
+    }
+  ],
+  "component_status": [
+    {
+      "component": "FastAPI service",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/src/19_fastapi_service.py"
+    },
+    {
+      "component": "Streamlit dashboard",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/src/20_streamlit_dashboard.py"
+    },
+    {
+      "component": "Secure access gateway",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/src/21_secure_access_gateway.py"
+    },
+    {
+      "component": "PDF report generator",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/src/26_executive_pdf_report_generator.py"
+    },
+    {
+      "component": "Audit engine",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/src/24_audit_activity_tracking.py"
+    },
+    {
+      "component": "Audit database",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/logs/hevemind_audit.db"
+    },
+    {
+      "component": "User registry",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/config/users.json"
+    },
+    {
+      "component": "Platform settings",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/config/platform_settings.json"
+    },
+    {
+      "component": "RBAC policy",
+      "status": "Available",
+      "details": "/Users/barkavi/Desktop/HeveMind/config/rbac_policy.json"
+    }
+  ]
+}

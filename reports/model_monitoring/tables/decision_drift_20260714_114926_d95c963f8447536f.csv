@@ -1,0 +1,2 @@
+category,reference_share,current_share,absolute_shift,total_variation_distance,severity,health_score,notes
+Unavailable,,,,,Warning,70.0,Decision column is unavailable in one or both datasets.

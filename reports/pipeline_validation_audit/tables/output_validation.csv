@@ -1,0 +1,34 @@
+category,item,status,severity,details
+output,11_cross_fitted_calibration_summary,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/cross_fitted_calibration_policy/cross_fitted_calibration_summary.json
+output,11_cross_fitted_calibration_summary:readable,PASS,info,Readable JSON with 15 top-level keys.
+output,12_development_uncertainty,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/uncertainty_engine/tables/development_uncertainty_scores.csv
+output,12_development_uncertainty:readable,PASS,info,Readable table with 1253 rows and 34 columns.
+output,12_development_uncertainty:duplicate_ids,PASS,info,Duplicate wafer IDs: 0.
+output,12_test_uncertainty,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/uncertainty_engine/tables/test_uncertainty_scores.csv
+output,12_test_uncertainty:readable,PASS,info,Readable table with 314 rows and 34 columns.
+output,12_test_uncertainty:required_columns,PASS,info,All required columns are present.
+output,12_test_uncertainty:duplicate_ids,PASS,info,Duplicate wafer IDs: 0.
+output,13_global_shap,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/explainability_engine/tables/global_shap_importance.csv
+output,13_global_shap:readable,PASS,info,Readable table with 816 rows and 6 columns.
+output,13_local_shap,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/explainability_engine/tables/local_shap_explanations.csv
+output,13_local_shap:readable,PASS,info,Readable table with 3140 rows and 13 columns.
+output,13_local_shap:duplicate_ids,FAIL,critical,Duplicate wafer IDs: 2826.
+output,13_wafer_summary,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/explainability_engine/tables/wafer_explanation_summary.csv
+output,13_wafer_summary:readable,PASS,info,Readable table with 314 rows and 13 columns.
+output,13_wafer_summary:required_columns,PASS,info,All required columns are present.
+output,13_wafer_summary:duplicate_ids,PASS,info,Duplicate wafer IDs: 0.
+output,14_similarity_summary,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/historical_similarity_engine/tables/historical_similarity_summary.csv
+output,14_similarity_summary:readable,PASS,info,Readable table with 314 rows and 25 columns.
+output,14_similarity_summary:required_columns,PASS,info,All required columns are present.
+output,14_similarity_summary:duplicate_ids,PASS,info,Duplicate wafer IDs: 0.
+output,15_engineering_report,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/evidence_aggregation_engine/tables/engineering_evidence_report.csv
+output,15_engineering_report:readable,PASS,info,Readable table with 314 rows and 39 columns.
+output,15_engineering_report:required_columns,PASS,info,All required columns are present.
+output,15_engineering_report:duplicate_ids,PASS,info,Duplicate wafer IDs: 0.
+output,16_sensor_priority,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/sensor_investigation_priority/tables/sensor_investigation_priority.csv
+output,16_sensor_priority:readable,PASS,info,Readable table with 3140 rows and 35 columns.
+output,16_sensor_priority:duplicate_ids,FAIL,critical,Duplicate wafer IDs: 2826.
+output,16_wafer_summary,PASS,info,Found: /Users/barkavi/Desktop/HeveMind/reports/sensor_investigation_priority/tables/wafer_investigation_summary.csv
+output,16_wafer_summary:readable,PASS,info,Readable table with 314 rows and 16 columns.
+output,16_wafer_summary:required_columns,PASS,info,All required columns are present.
+output,16_wafer_summary:duplicate_ids,PASS,info,Duplicate wafer IDs: 0.

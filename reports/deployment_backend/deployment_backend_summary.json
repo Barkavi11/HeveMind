@@ -1,0 +1,15 @@
+{
+    "project": "HeveMind",
+    "stage": "Validated held-out report backend",
+    "available_wafer_reports": 314,
+    "backend_index": "/Users/barkavi/Desktop/HeveMind/reports/deployment_backend/wafer_report_index.csv",
+    "serves_new_raw_sensor_records": false,
+    "creates_new_failure_probability": false,
+    "changes_primary_decision": false,
+    "intended_consumers": [
+        "Streamlit dashboard",
+        "REST API",
+        "CLI report inspection"
+    ],
+    "important_limit": "This backend currently serves fully validated held-out wafer reports. Raw-record production inference requires a separately validated artifact bundle and inference adapter."
+}

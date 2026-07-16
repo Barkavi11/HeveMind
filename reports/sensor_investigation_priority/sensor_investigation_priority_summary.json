@@ -1,0 +1,632 @@
+{
+    "project": "HeveMind",
+    "stage": "Sensor investigation priority engine",
+    "test_wafers_ranked": 314,
+    "sensor_priority_rows": 3140,
+    "sensors_ranked_per_wafer": 10,
+    "rank_aggregation_components": {
+        "local_positive_shap_rank": 0.25,
+        "robust_deviation_rank": 0.25,
+        "global_importance_rank": 0.25,
+        "failure_recurrence_rank": 0.25
+    },
+    "priority_level_counts": {
+        "Moderate": 1855,
+        "Low": 815,
+        "High": 272,
+        "Very High": 194,
+        "Data Verification": 4
+    },
+    "top_global_investigation_sensors": [
+        {
+            "feature": "sensor_104",
+            "wafers_ranked": 310,
+            "average_investigation_rank": 2.1225806451612903,
+            "average_priority_score": 0.7284274193548387,
+            "priority_1_count": 128,
+            "actual_failure_wafers": 21,
+            "positive_shap_rate": 0.2806451612903226,
+            "mean_absolute_robust_z": 0.6406810035842296,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_060",
+            "wafers_ranked": 255,
+            "average_investigation_rank": 2.996078431372549,
+            "average_priority_score": 0.682843137254902,
+            "priority_1_count": 57,
+            "actual_failure_wafers": 18,
+            "positive_shap_rate": 0.21568627450980393,
+            "mean_absolute_robust_z": 0.9210261548407407,
+            "missing_measurement_rate": 0.00784313725490196
+        },
+        {
+            "feature": "sensor_034",
+            "wafers_ranked": 135,
+            "average_investigation_rank": 3.140740740740741,
+            "average_priority_score": 0.6608333333333334,
+            "priority_1_count": 34,
+            "actual_failure_wafers": 9,
+            "positive_shap_rate": 0.4444444444444444,
+            "mean_absolute_robust_z": 1.8060217937454695,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_478",
+            "wafers_ranked": 169,
+            "average_investigation_rank": 3.5502958579881656,
+            "average_priority_score": 0.635576923076923,
+            "priority_1_count": 25,
+            "actual_failure_wafers": 14,
+            "positive_shap_rate": 0.24260355029585798,
+            "mean_absolute_robust_z": 1.0409204558669614,
+            "missing_measurement_rate": 0.005917159763313609
+        },
+        {
+            "feature": "sensor_424",
+            "wafers_ranked": 54,
+            "average_investigation_rank": 3.9074074074074074,
+            "average_priority_score": 0.6171296296296297,
+            "priority_1_count": 16,
+            "actual_failure_wafers": 3,
+            "positive_shap_rate": 0.7407407407407407,
+            "mean_absolute_robust_z": 1.6140532094702922,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_511",
+            "wafers_ranked": 168,
+            "average_investigation_rank": 4.5773809523809526,
+            "average_priority_score": 0.6076636904761905,
+            "priority_1_count": 11,
+            "actual_failure_wafers": 10,
+            "positive_shap_rate": 0.30357142857142855,
+            "mean_absolute_robust_z": 1.005213204571352,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_153",
+            "wafers_ranked": 37,
+            "average_investigation_rank": 2.3783783783783785,
+            "average_priority_score": 0.6976351351351351,
+            "priority_1_count": 9,
+            "actual_failure_wafers": 7,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 2.7330541725446196,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_065",
+            "wafers_ranked": 52,
+            "average_investigation_rank": 4.75,
+            "average_priority_score": 0.5980769230769231,
+            "priority_1_count": 7,
+            "actual_failure_wafers": 4,
+            "positive_shap_rate": 0.7115384615384616,
+            "mean_absolute_robust_z": 1.431789948217052,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_206",
+            "wafers_ranked": 153,
+            "average_investigation_rank": 4.758169934640523,
+            "average_priority_score": 0.5987745098039216,
+            "priority_1_count": 5,
+            "actual_failure_wafers": 11,
+            "positive_shap_rate": 0.3202614379084967,
+            "mean_absolute_robust_z": 1.1258470142212618,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_342",
+            "wafers_ranked": 90,
+            "average_investigation_rank": 5.2555555555555555,
+            "average_priority_score": 0.5798611111111112,
+            "priority_1_count": 5,
+            "actual_failure_wafers": 7,
+            "positive_shap_rate": 0.5222222222222223,
+            "mean_absolute_robust_z": 1.56284751536774,
+            "missing_measurement_rate": 0.011111111111111112
+        },
+        {
+            "feature": "sensor_214",
+            "wafers_ranked": 66,
+            "average_investigation_rank": 4.5606060606060606,
+            "average_priority_score": 0.5662878787878788,
+            "priority_1_count": 3,
+            "actual_failure_wafers": 7,
+            "positive_shap_rate": 0.06060606060606061,
+            "mean_absolute_robust_z": 1.4148084619782733,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_015",
+            "wafers_ranked": 58,
+            "average_investigation_rank": 4.913793103448276,
+            "average_priority_score": 0.5599137931034484,
+            "priority_1_count": 3,
+            "actual_failure_wafers": 4,
+            "positive_shap_rate": 0.5517241379310345,
+            "mean_absolute_robust_z": 1.073080172344848,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_317",
+            "wafers_ranked": 92,
+            "average_investigation_rank": 5.782608695652174,
+            "average_priority_score": 0.5177989130434782,
+            "priority_1_count": 3,
+            "actual_failure_wafers": 3,
+            "positive_shap_rate": 0.15217391304347827,
+            "mean_absolute_robust_z": 1.176889638336526,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_082",
+            "wafers_ranked": 20,
+            "average_investigation_rank": 5.25,
+            "average_priority_score": 0.5549999999999999,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 0,
+            "positive_shap_rate": 0.95,
+            "mean_absolute_robust_z": 2.022448979591837,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_032",
+            "wafers_ranked": 54,
+            "average_investigation_rank": 5.351851851851852,
+            "average_priority_score": 0.5416666666666666,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 3,
+            "positive_shap_rate": 0.0,
+            "mean_absolute_robust_z": 7.474710136481444,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_432",
+            "wafers_ranked": 71,
+            "average_investigation_rank": 5.535211267605634,
+            "average_priority_score": 0.5390845070422535,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 6,
+            "positive_shap_rate": 0.1267605633802817,
+            "mean_absolute_robust_z": 1.9987198867272074,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_282",
+            "wafers_ranked": 52,
+            "average_investigation_rank": 5.788461538461538,
+            "average_priority_score": 0.525,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 6,
+            "positive_shap_rate": 0.09615384615384616,
+            "mean_absolute_robust_z": 1.5486906710310964,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_181",
+            "wafers_ranked": 51,
+            "average_investigation_rank": 6.352941176470588,
+            "average_priority_score": 0.5080882352941177,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 2,
+            "positive_shap_rate": 0.1568627450980392,
+            "mean_absolute_robust_z": 1.356475842468534,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_520",
+            "wafers_ranked": 85,
+            "average_investigation_rank": 6.788235294117647,
+            "average_priority_score": 0.4786764705882353,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 6,
+            "positive_shap_rate": 0.24705882352941178,
+            "mean_absolute_robust_z": 1.3695758603346018,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_386",
+            "wafers_ranked": 37,
+            "average_investigation_rank": 6.837837837837838,
+            "average_priority_score": 0.47229729729729736,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 4,
+            "positive_shap_rate": 0.6216216216216216,
+            "mean_absolute_robust_z": 2.1613175675675675,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_125",
+            "wafers_ranked": 33,
+            "average_investigation_rank": 8.242424242424242,
+            "average_priority_score": 0.38636363636363635,
+            "priority_1_count": 1,
+            "actual_failure_wafers": 1,
+            "positive_shap_rate": 0.18181818181818182,
+            "mean_absolute_robust_z": 1.099567099567106,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_512",
+            "wafers_ranked": 10,
+            "average_investigation_rank": 5.7,
+            "average_priority_score": 0.5662499999999999,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 1,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 1.5432187270699178,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_421",
+            "wafers_ranked": 1,
+            "average_investigation_rank": 6.0,
+            "average_priority_score": 0.5625,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 0,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 3.175952955112746,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_472",
+            "wafers_ranked": 1,
+            "average_investigation_rank": 4.0,
+            "average_priority_score": 0.5625,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 0,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 5.245183125831017,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_434",
+            "wafers_ranked": 8,
+            "average_investigation_rank": 5.25,
+            "average_priority_score": 0.553125,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 1,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 2.4039105314935085,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_001",
+            "wafers_ranked": 5,
+            "average_investigation_rank": 5.2,
+            "average_priority_score": 0.535,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 0,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 1.6574314255753546,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_066",
+            "wafers_ranked": 20,
+            "average_investigation_rank": 5.75,
+            "average_priority_score": 0.53125,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 3,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 2.9165178153089832,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_589",
+            "wafers_ranked": 2,
+            "average_investigation_rank": 4.5,
+            "average_priority_score": 0.53125,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 0,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 2.2666666666666666,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_017",
+            "wafers_ranked": 3,
+            "average_investigation_rank": 6.666666666666667,
+            "average_priority_score": 0.5291666666666667,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 0,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 3.1319989940679656,
+            "missing_measurement_rate": 0.0
+        },
+        {
+            "feature": "sensor_349",
+            "wafers_ranked": 3,
+            "average_investigation_rank": 5.666666666666667,
+            "average_priority_score": 0.525,
+            "priority_1_count": 0,
+            "actual_failure_wafers": 0,
+            "positive_shap_rate": 1.0,
+            "mean_absolute_robust_z": 5.519298245614036,
+            "missing_measurement_rate": 0.0
+        }
+    ],
+    "top_failure_investigation_sensors": [
+        {
+            "feature": "sensor_060",
+            "failure_wafers": 18,
+            "mean_priority_score": 0.8090277777777778,
+            "mean_investigation_rank": 1.7777777777777777,
+            "priority_1_failure_count": 10,
+            "mean_positive_shap": 0.00959759233341379,
+            "mean_absolute_robust_z": 2.018492377820619
+        },
+        {
+            "feature": "sensor_104",
+            "failure_wafers": 21,
+            "mean_priority_score": 0.7113095238095238,
+            "mean_investigation_rank": 2.9047619047619047,
+            "priority_1_failure_count": 6,
+            "mean_positive_shap": 0.005343645830517748,
+            "mean_absolute_robust_z": 0.6230158730158732
+        },
+        {
+            "feature": "sensor_478",
+            "failure_wafers": 14,
+            "mean_priority_score": 0.6535714285714286,
+            "mean_investigation_rank": 3.4285714285714284,
+            "priority_1_failure_count": 2,
+            "mean_positive_shap": 0.004559259743735221,
+            "mean_absolute_robust_z": 1.2598502594432355
+        },
+        {
+            "feature": "sensor_153",
+            "failure_wafers": 7,
+            "mean_priority_score": 0.6678571428571428,
+            "mean_investigation_rank": 2.7142857142857144,
+            "priority_1_failure_count": 1,
+            "mean_positive_shap": 0.006310886778070786,
+            "mean_absolute_robust_z": 4.029684601113174
+        },
+        {
+            "feature": "sensor_065",
+            "failure_wafers": 4,
+            "mean_priority_score": 0.54375,
+            "mean_investigation_rank": 5.5,
+            "priority_1_failure_count": 1,
+            "mean_positive_shap": 0.009671318521234125,
+            "mean_absolute_robust_z": 1.8380829494792517
+        },
+        {
+            "feature": "sensor_424",
+            "failure_wafers": 3,
+            "mean_priority_score": 0.6208333333333332,
+            "mean_investigation_rank": 3.3333333333333335,
+            "priority_1_failure_count": 1,
+            "mean_positive_shap": 0.0065862660838498,
+            "mean_absolute_robust_z": 2.0756024153234423
+        },
+        {
+            "feature": "sensor_206",
+            "failure_wafers": 11,
+            "mean_priority_score": 0.6113636363636363,
+            "mean_investigation_rank": 4.545454545454546,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.004546873204105936,
+            "mean_absolute_robust_z": 1.4373657838224767
+        },
+        {
+            "feature": "sensor_511",
+            "failure_wafers": 10,
+            "mean_priority_score": 0.5962500000000001,
+            "mean_investigation_rank": 5.3,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.004527628463790749,
+            "mean_absolute_robust_z": 1.3275288820550295
+        },
+        {
+            "feature": "sensor_034",
+            "failure_wafers": 9,
+            "mean_priority_score": 0.6680555555555556,
+            "mean_investigation_rank": 3.3333333333333335,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0035019664513620003,
+            "mean_absolute_robust_z": 7.455402968511572
+        },
+        {
+            "feature": "sensor_342",
+            "failure_wafers": 7,
+            "mean_priority_score": 0.5642857142857143,
+            "mean_investigation_rank": 6.428571428571429,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.007905478615037514,
+            "mean_absolute_robust_z": 2.07112553704427
+        },
+        {
+            "feature": "sensor_214",
+            "failure_wafers": 7,
+            "mean_priority_score": 0.5035714285714287,
+            "mean_investigation_rank": 5.714285714285714,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0012812289424013715,
+            "mean_absolute_robust_z": 1.078937235271467
+        },
+        {
+            "feature": "sensor_520",
+            "failure_wafers": 6,
+            "mean_priority_score": 0.5499999999999999,
+            "mean_investigation_rank": 5.0,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.003483155365476233,
+            "mean_absolute_robust_z": 2.696282490859167
+        },
+        {
+            "feature": "sensor_432",
+            "failure_wafers": 6,
+            "mean_priority_score": 0.5479166666666667,
+            "mean_investigation_rank": 5.333333333333333,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0018067010113250164,
+            "mean_absolute_robust_z": 6.058008596814905
+        },
+        {
+            "feature": "sensor_282",
+            "failure_wafers": 6,
+            "mean_priority_score": 0.46249999999999997,
+            "mean_investigation_rank": 5.833333333333333,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 1.4503546099290778
+        },
+        {
+            "feature": "sensor_352",
+            "failure_wafers": 6,
+            "mean_priority_score": 0.4479166666666667,
+            "mean_investigation_rank": 7.333333333333333,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 0.8698224852071005
+        },
+        {
+            "feature": "sensor_201",
+            "failure_wafers": 5,
+            "mean_priority_score": 0.3325,
+            "mean_investigation_rank": 8.8,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 0.7947613012251791
+        },
+        {
+            "feature": "sensor_386",
+            "failure_wafers": 4,
+            "mean_priority_score": 0.51875,
+            "mean_investigation_rank": 6.0,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0067254922368518745,
+            "mean_absolute_robust_z": 2.8203125
+        },
+        {
+            "feature": "sensor_015",
+            "failure_wafers": 4,
+            "mean_priority_score": 0.4375,
+            "mean_investigation_rank": 7.25,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.002732798655768825,
+            "mean_absolute_robust_z": 0.8833208925381889
+        },
+        {
+            "feature": "sensor_126",
+            "failure_wafers": 4,
+            "mean_priority_score": 0.340625,
+            "mean_investigation_rank": 9.0,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 0.8828382838283829
+        },
+        {
+            "feature": "sensor_317",
+            "failure_wafers": 3,
+            "mean_priority_score": 0.43333333333333335,
+            "mean_investigation_rank": 7.333333333333333,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 1.1322806073525253
+        },
+        {
+            "feature": "sensor_032",
+            "failure_wafers": 3,
+            "mean_priority_score": 0.4208333333333334,
+            "mean_investigation_rank": 7.666666666666667,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 7.456416404415794
+        },
+        {
+            "feature": "sensor_066",
+            "failure_wafers": 3,
+            "mean_priority_score": 0.4208333333333334,
+            "mean_investigation_rank": 7.333333333333333,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.007680461722800066,
+            "mean_absolute_robust_z": 1.8952081636379798
+        },
+        {
+            "feature": "sensor_389",
+            "failure_wafers": 3,
+            "mean_priority_score": 0.3458333333333334,
+            "mean_investigation_rank": 9.333333333333334,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 1.0746205259779467
+        },
+        {
+            "feature": "sensor_548",
+            "failure_wafers": 3,
+            "mean_priority_score": 0.28750000000000003,
+            "mean_investigation_rank": 9.666666666666666,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 0.6520286865114479
+        },
+        {
+            "feature": "sensor_133",
+            "failure_wafers": 2,
+            "mean_priority_score": 0.54375,
+            "mean_investigation_rank": 4.5,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0063853103452458995,
+            "mean_absolute_robust_z": 1.3160493827160449
+        },
+        {
+            "feature": "sensor_476",
+            "failure_wafers": 2,
+            "mean_priority_score": 0.44999999999999996,
+            "mean_investigation_rank": 7.0,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.00562746651725905,
+            "mean_absolute_robust_z": 0.8773280657905345
+        },
+        {
+            "feature": "sensor_578",
+            "failure_wafers": 2,
+            "mean_priority_score": 0.44375,
+            "mean_investigation_rank": 7.0,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 1.857179203733923
+        },
+        {
+            "feature": "sensor_181",
+            "failure_wafers": 2,
+            "mean_priority_score": 0.43750000000000006,
+            "mean_investigation_rank": 7.0,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.00229115338712195,
+            "mean_absolute_robust_z": 1.0267965895249695
+        },
+        {
+            "feature": "sensor_064",
+            "failure_wafers": 2,
+            "mean_priority_score": 0.42500000000000004,
+            "mean_investigation_rank": 7.5,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.00661408546477835,
+            "mean_absolute_robust_z": 2.857322787668368
+        },
+        {
+            "feature": "sensor_029",
+            "failure_wafers": 2,
+            "mean_priority_score": 0.3875,
+            "mean_investigation_rank": 9.5,
+            "priority_1_failure_count": 0,
+            "mean_positive_shap": 0.0,
+            "mean_absolute_robust_z": 1.1577207074546436
+        }
+    ],
+    "methodological_controls": {
+        "development_statistics_only": true,
+        "test_target_used_for_ranking": false,
+        "physical_sensor_meanings_assigned": false,
+        "priority_score_is_probability": false,
+        "priority_score_is_causal_estimate": false
+    },
+    "important_warning": "The investigation priority score is a transparent rank aggregation of statistical evidence. It is not a failure probability, causal estimate, physical root cause, or verified maintenance recommendation."
+}

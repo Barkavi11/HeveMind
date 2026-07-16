@@ -1,0 +1,315 @@
+wafer_id,timestamp,target,status,raw_failure_probability,calibrated_failure_probability,calibration_method,lower_threshold,upper_threshold,decision,requires_engineer_review,automatic_action,decision_outcome
+WF-000247,2008-08-18 04:35:00,0,Pass,0.4316190476190476,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001316,2008-10-05 09:47:00,0,Pass,0.36169047619047623,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000445,2008-08-24 07:12:00,0,Pass,0.3709761904761906,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000297,2008-08-19 08:07:00,0,Pass,0.3911666666666666,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001296,2008-10-04 18:25:00,0,Pass,0.3471904761904762,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001240,2008-10-02 09:42:00,0,Pass,0.36890476190476185,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001433,2008-10-08 21:19:00,0,Pass,0.2893809523809524,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000974,2008-09-21 03:47:00,0,Pass,0.29952380952380947,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000284,2008-08-19 04:58:00,0,Pass,0.3677142857142856,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000554,2008-08-30 00:57:00,0,Pass,0.29314285714285715,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000727,2008-09-04 11:50:00,0,Pass,0.2709523809523809,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001123,2008-09-27 11:04:00,0,Pass,0.31404761904761896,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001275,2008-10-03 19:23:00,0,Pass,0.35388095238095235,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000338,2008-08-20 20:19:00,0,Pass,0.2958333333333334,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000513,2008-08-29 05:54:00,0,Pass,0.30699999999999994,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000793,2008-09-11 15:08:00,0,Pass,0.34788095238095235,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000644,2008-09-01 23:59:00,0,Pass,0.39914285714285713,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001033,2008-09-23 12:29:00,0,Pass,0.3458809523809523,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001397,2008-10-07 11:15:00,0,Pass,0.33502380952380956,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000960,2008-09-20 16:43:00,0,Pass,0.3100238095238095,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001526,2008-10-15 07:36:00,0,Pass,0.2736428571428571,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001443,2008-10-09 15:04:00,0,Pass,0.2656666666666666,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000265,2008-08-18 14:01:00,0,Pass,0.37323809523809515,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001542,2008-10-15 22:45:00,0,Pass,0.28221428571428575,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001530,2008-10-15 10:00:00,0,Pass,0.26783333333333326,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000799,2008-09-12 05:11:00,0,Pass,0.38769047619047603,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001209,2008-10-01 00:20:00,0,Pass,0.40776190476190466,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001475,2008-10-13 03:53:00,0,Pass,0.2953809523809523,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001494,2008-10-13 22:48:00,0,Pass,0.2667380952380952,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001143,2008-09-28 01:22:00,0,Pass,0.2805476190476191,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000531,2008-08-29 12:22:00,0,Pass,0.3185714285714286,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000117,2008-08-05 07:48:00,0,Pass,0.4287619047619047,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000528,2008-08-29 08:41:00,0,Pass,0.3362380952380952,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001037,2008-09-23 15:23:00,0,Pass,0.36711904761904746,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000835,2008-09-14 15:02:00,0,Pass,0.3775476190476191,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000866,2008-09-16 18:23:00,0,Pass,0.2764999999999999,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000233,2008-08-17 13:34:00,0,Pass,0.48685714285714304,0.12121212121212122,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000155,2008-08-07 11:40:00,1,Fail,0.40028571428571424,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000141,2008-08-06 19:24:00,0,Pass,0.4738333333333333,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001361,2008-10-06 12:39:00,0,Pass,0.3149285714285712,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000904,2008-09-19 07:18:00,0,Pass,0.28238095238095234,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001480,2008-10-13 14:30:00,0,Pass,0.31450000000000006,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001284,2008-10-03 22:53:00,0,Pass,0.39297619047619037,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001499,2008-10-14 03:35:00,0,Pass,0.3324047619047618,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001157,2008-09-28 18:34:00,0,Pass,0.35261904761904755,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001564,2008-10-16 20:49:00,0,Pass,0.3102380952380953,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000955,2008-09-20 14:53:00,0,Pass,0.28871428571428565,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001091,2008-09-25 22:05:00,0,Pass,0.3598809523809523,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001479,2008-10-13 14:29:00,0,Pass,0.2362857142857143,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000391,2008-08-22 00:44:00,0,Pass,0.3608809523809523,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000441,2008-08-23 15:10:00,0,Pass,0.32366666666666666,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000259,2008-08-18 11:04:00,0,Pass,0.38199999999999995,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000256,2008-08-18 08:18:00,0,Pass,0.41221428571428564,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000370,2008-08-21 16:36:00,0,Pass,0.36861904761904757,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000787,2008-09-11 12:47:00,0,Pass,0.3700476190476189,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001107,2008-09-26 15:36:00,0,Pass,0.3461904761904762,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000063,2008-07-31 20:18:00,1,Fail,0.40966666666666657,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001449,2008-10-10 12:30:00,0,Pass,0.3007380952380952,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000188,2008-08-10 19:07:00,0,Pass,0.5357380952380952,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001028,2008-09-23 08:11:00,0,Pass,0.38152380952380943,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001243,2008-10-02 14:10:00,1,Fail,0.48171428571428554,0.12121212121212122,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000694,2008-09-02 16:10:00,0,Pass,0.25295238095238093,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000142,2008-08-06 20:00:00,0,Pass,0.43592857142857155,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001237,2008-10-02 08:52:00,0,Pass,0.392095238095238,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000080,2008-08-03 17:58:00,0,Pass,0.4731904761904762,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000196,2008-08-12 04:23:00,0,Pass,0.4232857142857144,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001412,2008-10-08 04:47:00,0,Pass,0.27476190476190476,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000731,2008-09-04 16:30:00,0,Pass,0.1675,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001398,2008-10-07 11:16:00,0,Pass,0.45614285714285724,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000069,2008-08-01 12:29:00,0,Pass,0.5063571428571428,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000270,2008-08-18 15:30:00,0,Pass,0.4447857142857142,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000307,2008-08-19 11:46:00,0,Pass,0.45830952380952367,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001362,2008-10-06 12:42:00,0,Pass,0.3959761904761903,0.09090909090909091,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000577,2008-08-30 09:45:00,1,Fail,0.3890952380952381,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000947,2008-09-20 12:26:00,0,Pass,0.2165238095238096,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000716,2008-09-03 14:29:00,0,Pass,0.34647619047619044,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001454,2008-10-10 21:07:00,0,Pass,0.292,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000605,2008-08-31 10:36:00,0,Pass,0.3043809523809523,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000519,2008-08-29 06:45:00,1,Fail,0.43695238095238087,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001100,2008-09-26 05:32:00,0,Pass,0.30654761904761907,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001541,2008-10-15 21:44:00,0,Pass,0.3184285714285714,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000246,2008-08-18 04:12:00,0,Pass,0.4810714285714285,0.12121212121212122,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000059,2008-07-30 21:16:00,1,Fail,0.4790000000000001,0.12121212121212122,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000751,2008-09-07 23:33:00,0,Pass,0.3703571428571427,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001487,2008-10-13 19:40:00,0,Pass,0.25407142857142856,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001500,2008-10-14 13:13:00,0,Pass,0.30309523809523814,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000032,2008-07-27 22:28:00,0,Pass,0.43669047619047613,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000113,2008-08-05 06:11:00,0,Pass,0.44799999999999995,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000327,2008-08-20 08:40:00,1,Fail,0.511095238095238,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000367,2008-08-21 15:48:00,0,Pass,0.34959523809523807,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001523,2008-10-15 05:13:00,0,Pass,0.3368809523809524,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000690,2008-09-02 14:09:00,0,Pass,0.4925476190476189,0.12121212121212122,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000450,2008-08-25 09:29:00,0,Pass,0.4166428571428569,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001395,2008-10-07 10:10:00,0,Pass,0.3514761904761905,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001367,2008-10-06 15:01:00,0,Pass,0.33142857142857135,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000166,2008-08-09 02:37:00,0,Pass,0.5159047619047616,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000726,2008-09-04 08:53:00,0,Pass,0.29235714285714287,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001434,2008-10-08 21:45:00,0,Pass,0.25833333333333336,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000343,2008-08-20 22:45:00,0,Pass,0.4218095238095238,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000878,2008-09-18 01:43:00,0,Pass,0.3597142857142857,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000707,2008-09-03 00:18:00,0,Pass,0.3862142857142857,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000346,2008-08-21 02:11:00,0,Pass,0.5020714285714285,0.21739130434782608,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000042,2008-07-28 23:57:00,0,Pass,0.41285714285714287,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000818,2008-09-12 22:45:00,0,Pass,0.3057380952380952,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001053,2008-09-24 06:13:00,0,Pass,0.379952380952381,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000931,2008-09-19 23:26:00,0,Pass,0.2578095238095237,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000477,2008-08-28 10:28:00,0,Pass,0.37888095238095243,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001440,2008-10-09 06:06:00,0,Pass,0.2576666666666666,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000863,2008-09-16 09:37:00,0,Pass,0.3028571428571429,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001006,2008-09-22 06:05:00,0,Pass,0.3196904761904762,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000012,2008-07-19 22:52:00,1,Fail,0.5168333333333333,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000010,2008-07-19 21:35:00,0,Pass,0.4776666666666667,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000314,2008-08-19 18:30:00,0,Pass,0.3732142857142857,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001353,2008-10-06 07:35:00,0,Pass,0.3343809523809524,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001176,2008-09-29 11:53:00,0,Pass,0.3218333333333334,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001130,2008-09-27 13:19:00,0,Pass,0.32276190476190464,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000525,2008-08-29 07:33:00,0,Pass,0.38314285714285706,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001206,2008-09-30 21:42:00,0,Pass,0.3682619047619048,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000177,2008-08-09 23:17:00,0,Pass,0.49052380952380953,0.12121212121212122,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001483,2008-10-13 15:42:00,0,Pass,0.31530952380952376,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001093,2008-09-25 23:48:00,0,Pass,0.4438571428571428,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000564,2008-08-30 04:55:00,0,Pass,0.4729761904761904,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000968,2008-09-20 19:21:00,0,Pass,0.3045952380952381,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001272,2008-10-03 11:40:00,0,Pass,0.4450714285714285,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001473,2008-10-12 18:47:00,0,Pass,0.28623809523809524,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000465,2008-08-28 04:20:00,0,Pass,0.4210952380952381,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000622,2008-09-01 00:53:00,0,Pass,0.2840238095238095,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001167,2008-09-29 02:06:00,0,Pass,0.3595238095238096,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000630,2008-09-01 09:19:00,0,Pass,0.3048333333333333,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001442,2008-10-09 14:15:00,0,Pass,0.2563333333333333,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000109,2008-08-05 04:32:00,0,Pass,0.4541666666666667,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000550,2008-08-29 22:49:00,0,Pass,0.3449761904761904,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000027,2008-07-27 11:10:00,0,Pass,0.488095238095238,0.12121212121212122,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000616,2008-08-31 22:32:00,0,Pass,0.23338095238095244,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000873,2008-09-17 07:14:00,0,Pass,0.2824285714285715,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001345,2008-10-06 04:26:00,0,Pass,0.39214285714285707,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000018,2008-07-22 08:41:00,0,Pass,0.4057619047619047,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000766,2008-09-08 20:00:00,0,Pass,0.34642857142857136,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001232,2008-10-02 04:24:00,0,Pass,0.36345238095238097,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000105,2008-08-05 02:45:00,0,Pass,0.43471428571428555,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000269,2008-08-18 15:26:00,0,Pass,0.42888095238095236,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001059,2008-09-24 11:47:00,0,Pass,0.30947619047619057,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000049,2008-07-29 15:49:00,1,Fail,0.38554761904761903,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001386,2008-10-07 03:39:00,0,Pass,0.36030952380952375,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001315,2008-10-05 09:04:00,0,Pass,0.3171666666666666,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001032,2008-09-23 11:43:00,0,Pass,0.32780952380952383,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000191,2008-08-11 03:06:00,0,Pass,0.5692380952380951,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001457,2008-10-11 06:56:00,0,Pass,0.3993095238095238,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000990,2008-09-21 15:15:00,0,Pass,0.293547619047619,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000937,2008-09-20 04:28:00,0,Pass,0.23721428571428577,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001492,2008-10-13 21:47:00,0,Pass,0.20730952380952378,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000709,2008-09-03 00:58:00,0,Pass,0.3063333333333333,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001544,2008-10-15 23:00:00,0,Pass,0.30914285714285716,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000052,2008-07-29 21:07:00,0,Pass,0.4782142857142855,0.11897511091059304,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001355,2008-10-06 08:24:00,0,Pass,0.26792857142857135,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000908,2008-09-19 09:47:00,0,Pass,0.2126904761904762,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000715,2008-09-03 14:24:00,0,Pass,0.2557142857142857,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000629,2008-09-01 09:06:00,0,Pass,0.30035714285714277,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001467,2008-10-12 00:57:00,0,Pass,0.2543571428571429,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000501,2008-08-28 23:42:00,0,Pass,0.3700238095238096,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000461,2008-08-28 03:29:00,0,Pass,0.4364285714285713,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000289,2008-08-19 05:41:00,0,Pass,0.4224285714285713,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000321,2008-08-20 02:13:00,0,Pass,0.4776428571428571,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001219,2008-10-01 15:16:00,0,Pass,0.39569047619047604,0.09090909090909091,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001283,2008-10-03 22:08:00,0,Pass,0.3931904761904762,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000588,2008-08-30 15:16:00,0,Pass,0.37499999999999994,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000176,2008-08-09 22:37:00,0,Pass,0.4446190476190476,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001354,2008-10-06 07:38:00,0,Pass,0.32069047619047614,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000298,2008-08-19 08:33:00,0,Pass,0.46588095238095223,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000234,2008-08-17 14:21:00,0,Pass,0.5187857142857143,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001138,2008-09-27 18:14:00,0,Pass,0.41888095238095224,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000571,2008-08-30 08:10:00,0,Pass,0.3318095238095236,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001096,2008-09-26 02:26:00,0,Pass,0.365095238095238,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000812,2008-09-12 18:01:00,0,Pass,0.2272142857142857,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001098,2008-09-26 03:29:00,0,Pass,0.31199999999999994,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000534,2008-08-29 13:14:00,0,Pass,0.3383333333333331,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000436,2008-08-23 05:58:00,0,Pass,0.42347619047619034,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000821,2008-09-13 00:25:00,0,Pass,0.29504761904761906,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000612,2008-08-31 20:24:00,0,Pass,0.33878571428571413,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000777,2008-09-10 21:56:00,0,Pass,0.3404047619047619,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000220,2008-08-16 13:51:00,0,Pass,0.46899999999999986,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000097,2008-08-04 20:58:00,1,Fail,0.5010714285714285,0.21739130434782608,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001214,2008-10-01 07:28:00,0,Pass,0.3641666666666667,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001213,2008-10-01 07:19:00,0,Pass,0.32135714285714273,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000024,2008-07-25 15:23:00,1,Fail,0.5296666666666666,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000337,2008-08-20 19:20:00,1,Fail,0.5126428571428571,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001306,2008-10-05 01:35:00,0,Pass,0.4368809523809525,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000915,2008-09-19 16:58:00,1,Fail,0.4084761904761905,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001383,2008-10-06 23:03:00,0,Pass,0.36447619047619045,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001335,2008-10-05 22:13:00,0,Pass,0.4419523809523809,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000516,2008-08-29 06:35:00,0,Pass,0.4420714285714286,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000326,2008-08-20 07:12:00,0,Pass,0.5243809523809523,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000045,2008-07-29 06:19:00,0,Pass,0.590095238095238,0.4,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000459,2008-08-28 03:03:00,0,Pass,0.4042142857142857,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000847,2008-09-15 02:04:00,0,Pass,0.4343333333333332,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001104,2008-09-26 14:20:00,0,Pass,0.3411190476190476,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001529,2008-10-15 09:11:00,0,Pass,0.22314285714285717,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001124,2008-09-27 11:45:00,0,Pass,0.29697619047619045,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001099,2008-09-26 04:14:00,0,Pass,0.24642857142857144,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001035,2008-09-23 12:46:00,0,Pass,0.3852380952380951,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000398,2008-08-22 02:25:00,0,Pass,0.42166666666666663,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000706,2008-09-02 20:59:00,0,Pass,0.33952380952380945,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000435,2008-08-23 05:57:00,0,Pass,0.4618571428571428,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001260,2008-10-02 23:32:00,0,Pass,0.3557142857142856,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000393,2008-08-22 01:04:00,1,Fail,0.3783571428571427,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000216,2008-08-16 07:33:00,0,Pass,0.5318095238095237,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000667,2008-09-02 07:22:00,0,Pass,0.33990476190476193,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001205,2008-09-30 21:39:00,0,Pass,0.4730238095238095,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000122,2008-08-05 15:45:00,0,Pass,0.5403095238095238,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000954,2008-09-20 14:50:00,0,Pass,0.3596190476190476,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000154,2008-08-07 11:10:00,0,Pass,0.4672142857142858,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001447,2008-10-10 10:46:00,0,Pass,0.29707142857142854,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000767,2008-09-08 21:36:00,0,Pass,0.36080952380952386,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000456,2008-08-27 17:14:00,0,Pass,0.2874047619047619,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001250,2008-10-02 17:00:00,0,Pass,0.3872142857142855,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001117,2008-09-27 00:16:00,0,Pass,0.3735476190476191,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000384,2008-08-21 22:25:00,0,Pass,0.45780952380952367,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001034,2008-09-23 12:31:00,0,Pass,0.4151666666666666,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000171,2008-08-09 17:34:00,0,Pass,0.5749523809523811,0.33033033033033676,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001368,2008-10-06 15:52:00,0,Pass,0.3592142857142857,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000888,2008-09-18 18:12:00,0,Pass,0.2875,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001074,2008-09-25 07:58:00,0,Pass,0.2966904761904762,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001566,2008-10-17 06:01:00,0,Pass,0.2898333333333332,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000217,2008-08-16 08:39:00,0,Pass,0.5178095238095237,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001185,2008-09-29 21:26:00,0,Pass,0.3163333333333333,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000002,2008-07-19 12:32:00,0,Pass,0.38980952380952355,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001151,2008-09-28 08:41:00,0,Pass,0.267095238095238,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000583,2008-08-30 11:57:00,0,Pass,0.38464285714285706,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001192,2008-09-30 04:42:00,0,Pass,0.4460238095238094,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001399,2008-10-07 11:36:00,0,Pass,0.3668809523809523,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000877,2008-09-18 01:40:00,0,Pass,0.3267142857142856,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000957,2008-09-20 15:19:00,0,Pass,0.3112142857142857,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001376,2008-10-06 19:42:00,0,Pass,0.36388095238095225,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000713,2008-09-03 06:26:00,0,Pass,0.2649523809523809,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000232,2008-08-17 12:16:00,1,Fail,0.3703333333333332,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000570,2008-08-30 07:54:00,0,Pass,0.3583809523809523,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001220,2008-10-01 16:43:00,0,Pass,0.38459523809523805,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000869,2008-09-16 21:21:00,0,Pass,0.339142857142857,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000770,2008-09-09 00:25:00,0,Pass,0.42319047619047623,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001255,2008-10-02 21:32:00,1,Fail,0.4497380952380953,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000659,2008-09-02 03:35:00,0,Pass,0.32526190476190475,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001190,2008-09-30 02:44:00,1,Fail,0.3015714285714285,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000867,2008-09-16 19:34:00,0,Pass,0.4562857142857139,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001050,2008-09-24 03:40:00,0,Pass,0.34488095238095245,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000940,2008-09-20 05:34:00,0,Pass,0.3181904761904762,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000536,2008-08-29 13:49:00,0,Pass,0.3903571428571428,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000546,2008-08-29 21:46:00,0,Pass,0.33788095238095234,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000628,2008-09-01 08:18:00,0,Pass,0.3567380952380951,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000019,2008-07-22 11:47:00,0,Pass,0.43876190476190474,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000239,2008-08-17 23:04:00,1,Fail,0.621595238095238,0.4,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001352,2008-10-06 07:17:00,0,Pass,0.2920714285714286,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001246,2008-10-02 15:44:00,0,Pass,0.36423809523809525,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001553,2008-10-16 04:02:00,0,Pass,0.3836428571428572,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001432,2008-10-08 20:27:00,0,Pass,0.33607142857142847,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000699,2008-09-02 17:18:00,0,Pass,0.3599285714285715,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000026,2008-07-27 09:37:00,0,Pass,0.4503095238095237,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001378,2008-10-06 20:36:00,0,Pass,0.34638095238095246,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000631,2008-09-01 09:54:00,0,Pass,0.3986666666666665,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001238,2008-10-02 08:57:00,0,Pass,0.3586666666666666,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000443,2008-08-24 02:32:00,0,Pass,0.40399999999999986,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000838,2008-09-14 17:40:00,0,Pass,0.3179761904761904,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000451,2008-08-27 00:46:00,0,Pass,0.38500000000000006,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000755,2008-09-08 03:32:00,0,Pass,0.3825238095238095,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000131,2008-08-06 03:22:00,0,Pass,0.4531190476190478,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000400,2008-08-22 03:18:00,0,Pass,0.363595238095238,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000150,2008-08-07 08:21:00,0,Pass,0.46133333333333326,0.11290322580645161,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000819,2008-09-12 23:28:00,0,Pass,0.2799999999999999,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000497,2008-08-28 21:03:00,0,Pass,0.36371428571428566,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000749,2008-09-07 20:12:00,0,Pass,0.2715476190476189,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000894,2008-09-18 23:44:00,0,Pass,0.36885714285714283,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000913,2008-09-19 15:31:00,0,Pass,0.3514523809523809,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001163,2008-09-28 21:08:00,0,Pass,0.3535238095238095,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000841,2008-09-14 19:13:00,0,Pass,0.3327380952380952,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000708,2008-09-03 00:45:00,0,Pass,0.3592142857142857,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001135,2008-09-27 15:30:00,0,Pass,0.3499285714285715,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001478,2008-10-13 14:06:00,0,Pass,0.25269047619047624,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000051,2008-07-29 18:08:00,1,Fail,0.45002380952380927,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001346,2008-10-06 05:21:00,0,Pass,0.28788095238095235,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000460,2008-08-28 03:04:00,0,Pass,0.37099999999999983,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001317,2008-10-05 10:00:00,0,Pass,0.3218095238095238,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001422,2008-10-08 12:11:00,0,Pass,0.20561904761904762,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000572,2008-08-30 08:29:00,0,Pass,0.4007619047619047,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000817,2008-09-12 22:25:00,0,Pass,0.23730952380952386,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000796,2008-09-11 22:07:00,1,Fail,0.3307380952380952,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-000345,2008-08-20 23:43:00,1,Fail,0.40145238095238084,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Failure Routed to Review
+WF-001095,2008-09-26 01:21:00,0,Pass,0.4278095238095237,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001391,2008-10-07 09:11:00,0,Pass,0.33635714285714285,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000848,2008-09-15 10:03:00,0,Pass,0.3734999999999999,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000462,2008-08-28 03:38:00,0,Pass,0.37895238095238093,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001139,2008-09-27 19:16:00,0,Pass,0.3498571428571429,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001005,2008-09-22 03:51:00,0,Pass,0.2620714285714285,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000675,2008-09-02 10:25:00,0,Pass,0.30328571428571416,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001337,2008-10-06 01:25:00,0,Pass,0.36140476190476195,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000332,2008-08-20 17:09:00,0,Pass,0.39528571428571413,0.07751937984496124,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001425,2008-10-08 14:48:00,0,Pass,0.2943571428571428,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-001273,2008-10-03 12:31:00,0,Pass,0.5287380952380952,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000521,2008-08-29 07:18:00,0,Pass,0.4168333333333332,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001269,2008-10-03 06:15:00,0,Pass,0.3720714285714285,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000851,2008-09-15 16:10:00,0,Pass,0.2272142857142857,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000229,2008-08-17 03:46:00,0,Pass,0.566547619047619,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000948,2008-09-20 12:27:00,0,Pass,0.31138095238095226,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000679,2008-09-02 11:47:00,0,Pass,0.35378571428571426,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000933,2008-09-20 00:18:00,0,Pass,0.2483809523809524,0.0,Isotonic,0.01,0.40999999999999986,Low Risk,False,Continue processing,Acceptable Routing
+WF-000243,2008-08-18 00:20:00,0,Pass,0.5008809523809522,0.21739130434782608,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000653,2008-09-02 02:02:00,0,Pass,0.4141190476190476,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000235,2008-08-17 15:25:00,0,Pass,0.44704761904761864,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001227,2008-10-02 00:22:00,0,Pass,0.43157142857142866,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000754,2008-09-08 01:24:00,0,Pass,0.3224047619047618,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000714,2008-09-03 09:38:00,0,Pass,0.3399761904761903,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000175,2008-08-09 22:15:00,0,Pass,0.5086190476190475,0.2222222222222222,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001310,2008-10-05 05:31:00,0,Pass,0.41457142857142854,0.0931174089068826,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001334,2008-10-05 20:30:00,0,Pass,0.3678571428571429,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-000973,2008-09-21 03:04:00,0,Pass,0.33121428571428574,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing
+WF-001038,2008-09-23 15:33:00,0,Pass,0.3437142857142857,0.02459016393442623,Isotonic,0.01,0.40999999999999986,Engineering Review,True,Engineer assessment required,Acceptable Routing

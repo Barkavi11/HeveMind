@@ -1,0 +1,21 @@
+{
+    "run_id": "bf535e922da48c6b",
+    "generated_utc": "2026-07-14T13:07:10.192747+00:00",
+    "summary": {
+        "monitored_features": 450,
+        "normal_features": 416,
+        "watch_features": 27,
+        "warning_features": 1,
+        "critical_features": 6,
+        "drifted_features": 34,
+        "drift_rate": 0.07555555555555556,
+        "mean_feature_health_score": 99.7,
+        "maximum_psi": 0.2316685324003052,
+        "maximum_ks_statistic": 0.09979297124600639,
+        "maximum_standardised_mean_shift": 0.18354334623790503,
+        "maximum_missing_rate_difference": 0.07924166713263964,
+        "dominant_severity": "Critical"
+    },
+    "feature_drift_path": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/feature_drift.csv",
+    "unmatched_features_path": "/Users/barkavi/Desktop/HeveMind/reports/model_monitoring/tables/unmatched_features.csv"
+}

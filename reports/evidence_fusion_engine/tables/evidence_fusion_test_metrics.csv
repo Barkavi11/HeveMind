@@ -1,0 +1,2 @@
+selected_threshold,selection_reason,roc_auc,pr_auc,brier_score,threshold,recall_fail,precision_fail,f1_fail,balanced_accuracy,true_negative,false_positive,false_negative,true_positive,operational_cost
+0.275,Minimum development operational cost while maintaining recall >= 0.90,0.762879895985698,0.19794057790312503,0.08913775089387015,0.275,0.47619047619047616,0.18181818181818182,0.2631578947368421,0.661303429221518,248,45,11,10,155.0
