@@ -1,0 +1,7 @@
+category,item,status,severity,details
+deployment,pipeline_ready_for_dashboard_integration,FAIL,critical,2 critical validation failure(s) must be resolved.
+deployment,primary_predictive_layer,PASS,info,Beta-calibrated Balanced Random Forest remains the retained primary predictive layer.
+deployment,rejected_evidence_fusion_model,PASS,info,The underperforming fusion meta-model is not part of the deployment decision path.
+deployment,evidence_aggregation_layer,PASS,info,Transparent evidence aggregation output is available.
+deployment,sensor_investigation_layer,PASS,info,Sensor investigation-priority output is available.
+deployment,noncritical_warnings,PASS,info,No noncritical warnings detected.

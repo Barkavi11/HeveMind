@@ -1,0 +1,47 @@
+====================================================================================================
+HEVEMIND FINAL OUTPUT COLLECTION
+====================================================================================================
+
+Generated UTC: 2026-07-16T11:46:59.935824+00:00
+Files collected: 39
+Missing expected files: 0
+
+operational_model_comparison: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/operational_model_selection/operational_model_comparison.csv
+selected_model_test_metrics: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/operational_model_selection/selected_model_test_metrics.csv
+selected_model_test_predictions: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/operational_model_selection/selected_model_test_predictions.csv
+advanced_model_comparison: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/advanced_models/advanced_model_comparison.csv
+test_metric_confidence_intervals: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/advanced_models/test_metric_confidence_intervals.csv
+cross_fitted_calibration_comparison: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/cross_fitted_calibration_policy/cross_fitted_calibration_comparison.csv
+cross_fitted_test_metrics: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/cross_fitted_calibration_policy/cross_fitted_test_metrics.csv
+cross_fitted_test_predictions: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/cross_fitted_calibration_policy/cross_fitted_test_predictions.csv
+cross_fitted_test_decision_summary: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/cross_fitted_calibration_policy/cross_fitted_test_decision_summary.csv
+cross_fitted_policy_threshold_analysis: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/cross_fitted_calibration_policy/cross_fitted_policy_threshold_analysis.csv
+calibration_method_comparison: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/calibration_decision_policy/calibration_method_comparison.csv
+calibrated_test_metrics: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/calibration_decision_policy/calibrated_test_metrics.csv
+test_decision_summary: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/calibration_decision_policy/test_decision_summary.csv
+uncertainty_band_performance: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/uncertainty_engine/uncertainty_band_performance.csv
+confidence_band_performance: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/uncertainty_engine/confidence_band_performance.csv
+test_uncertainty_scores: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/uncertainty_engine/test_uncertainty_scores.csv
+uncertainty_adjusted_decision_summary: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/uncertainty_engine/uncertainty_adjusted_decision_summary.csv
+evidence_fusion_model_comparison: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/evidence_fusion_engine/evidence_fusion_model_comparison.csv
+evidence_fusion_test_metrics: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/evidence_fusion_engine/evidence_fusion_test_metrics.csv
+fusion_threshold_analysis: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/evidence_fusion_engine/fusion_threshold_analysis.csv
+test_evidence_fusion_predictions: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/evidence_fusion_engine/test_evidence_fusion_predictions.csv
+error_type_summary: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/operational_error_analysis/error_type_summary.csv
+missed_failures: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/operational_error_analysis/missed_failures.csv
+highest_confidence_false_alarms: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/operational_error_analysis/highest_confidence_false_alarms.csv
+test_error_analysis_master: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/operational_error_analysis/test_error_analysis_master.csv
+deployment_health: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/reports/deployment_health.json
+drift_summary: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/reports/drift_summary.json
+feature_drift: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_monitoring/feature_drift.csv
+prediction_drift: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_monitoring/prediction_drift.csv
+monitoring_alerts: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_monitoring/monitoring_alerts.csv
+health_components: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_monitoring/health_components.csv
+deployment_readiness: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/pipeline_validation_audit/deployment_readiness.csv
+script_validation: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/pipeline_validation_audit/script_validation.csv
+leakage_and_governance_checks: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/pipeline_validation_audit/leakage_and_governance_checks.csv
+best_operational_pipeline: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_artifacts/best_operational_pipeline.joblib
+best_operational_model: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_artifacts/best_operational_model.joblib
+cross_fitted_calibrator: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_artifacts/cross_fitted_calibrator.joblib
+cross_fitted_decision_system: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_artifacts/cross_fitted_decision_system.joblib
+evidence_fusion_meta_model: /Users/barkavi/Desktop/HeveMind/HeveMind_final_outputs/model_artifacts/evidence_fusion_meta_model.joblib

@@ -1,0 +1,7 @@
+category,item,status,severity,details
+governance,script_15_no_meta_model,PASS,info,No rejected fusion-model logic detected.
+governance,script_15_evidence_aggregation_marker,PASS,info,Evidence-aggregation architecture confirmed.
+governance,script_15_primary_decisions_retained,PASS,info,All primary operational decisions were retained.
+governance,script_15_no_new_probability,PASS,info,No new failure probability was created.
+governance,four_level_decision_policy,PASS,info,"Decision counts: {""Engineering Review"": 134, ""Low Risk"": 100, ""High Risk"": 73, ""Insufficient Evidence"": 7}"
+governance,held_out_safety_routing,PASS,info,Safely routed failures: 20/21; rate=0.9524.

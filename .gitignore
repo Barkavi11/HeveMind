@@ -1,0 +1,59 @@
+  # Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# SQLite
+*.db
+*.sqlite3
+
+# Joblib
+*.joblib
+
+# Reports
+reports/**/*.pdf
+reports/**/*.xlsx
+reports/**/*.csv
+
+# Model Monitoring
+reports/model_monitoring/history/
+
+# Artifacts
+artifacts/
+
+# Cache
+.cache/
+
+# Environment
+.env
+
+# Streamlit
+.streamlit/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/

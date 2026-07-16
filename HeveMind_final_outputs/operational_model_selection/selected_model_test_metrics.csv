@@ -1,0 +1,2 @@
+threshold,recall_fail,precision_fail,f1_fail,balanced_accuracy,true_negative,false_positive,false_negative,true_positive,alert_count,alert_rate,false_alarms_per_detected_failure,operational_cost,roc_auc,pr_auc,brier_score
+0.385,0.8095238095238095,0.14285714285714285,0.24285714285714285,0.7307004713148058,191,102,4,17,119,0.37898089171974525,6.0,142.0,0.7778319518933854,0.2337463469207314,0.1497185639055988
