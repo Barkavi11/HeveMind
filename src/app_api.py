@@ -4,7 +4,7 @@ import importlib.util
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent
-SERVICE_PATH = ROOT_DIR / "src" / "19_fastapi_service.py"
+SERVICE_PATH = ROOT_DIR / "19_fastapi_service.py"
 
 spec = importlib.util.spec_from_file_location(
     "hevemind_fastapi_service",
