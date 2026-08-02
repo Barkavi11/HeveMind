@@ -1,0 +1,56 @@
+services:
+  - type: web
+    name: hevemind-api
+    runtime: python
+    plan: free
+    region: singapore
+    branch: main
+    buildCommand: pip install --upgrade pip && pip install -r requirements-deploy.txt
+    startCommand: >
+      uvicorn src.19_fastapi_service:app
+      --host 0.0.0.0
+      --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.9
+      - key: HEVEMIND_LOG_LEVEL
+        value: INFO
+      - key: HEVEMIND_API_KEY
+        generateValue: true
+      - key: HEVEMIND_ALLOWED_ORIGINS
+        sync: false
+
+  - type: web
+    name: hevemind-dashboard
+    runtime: python
+    plan: free
+    region: singapore
+    branch: main
+    buildCommand: pip install --upgrade pip && pip install -r requirements-deploy.txt
+    startCommand: >
+      streamlit run src/23_enterprise_ui_enhancement.py
+      --server.address 0.0.0.0
+      --server.port $PORT
+      --server.headless true
+      --browser.gatherUsageStats false
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.9
+      - key: HEVEMIND_API_URL
+        fromService:
+          type: web
+          name: hevemind-api
+          property: host
+      - key: HEVEMIND_API_KEY
+        fromService:
+          type: web
+          name: hevemind-api
+          envVarKey: HEVEMIND_API_KEY
+      - key: HEVEMIND_ENVIRONMENT
+        value: Portfolio Demonstration
+      - key: HEVEMIND_SITE
+        value: Malaysia Semiconductor AI Demonstration
+      - key: HEVEMIND_APP_VERSION
+        value: 1.0.0

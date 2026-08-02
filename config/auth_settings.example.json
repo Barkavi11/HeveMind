@@ -1,0 +1,10 @@
+{
+  "auth_mode": "development",
+  "development_email_domain": "hevemind.local",
+  "production_email_domain": "example.com",
+  "session_timeout_minutes": 30,
+  "maximum_failed_attempts": 5,
+  "lockout_minutes": 15,
+  "oidc_provider_name": "enterprise-oidc",
+  "allow_development_login": false
+}

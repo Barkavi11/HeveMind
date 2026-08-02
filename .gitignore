@@ -57,3 +57,29 @@ artifacts/
 # Coverage
 .coverage
 htmlcov/
+
+# ============================================================
+# HeveMind secrets and local authentication state
+# ============================================================
+config/users.json
+config/auth_settings.json
+backups/administration/
+
+# ============================================================
+# Runtime state
+# ============================================================
+.runtime/
+*.pid
+
+# ============================================================
+# Logs and audit databases
+# ============================================================
+logs/
+*.log
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+
+# Model-monitoring scheduler state
+reports/model_monitoring/scheduler/
