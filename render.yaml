@@ -5,9 +5,11 @@ services:
     plan: free
     region: singapore
     branch: main
-    buildCommand: pip install --upgrade pip && pip install -r requirements-deploy.txt
+    buildCommand: >
+      python -m pip install --upgrade pip &&
+      pip install -r requirements-deploy.txt
     startCommand: >
-      uvicorn src.19_fastapi_service:app
+      uvicorn src.app_api:app
       --host 0.0.0.0
       --port $PORT
     healthCheckPath: /health
@@ -19,7 +21,7 @@ services:
       - key: HEVEMIND_API_KEY
         generateValue: true
       - key: HEVEMIND_ALLOWED_ORIGINS
-        sync: false
+        value: "*"
 
   - type: web
     name: hevemind-dashboard
@@ -27,7 +29,9 @@ services:
     plan: free
     region: singapore
     branch: main
-    buildCommand: pip install --upgrade pip && pip install -r requirements-deploy.txt
+    buildCommand: >
+      python -m pip install --upgrade pip &&
+      pip install -r requirements-deploy.txt
     startCommand: >
       streamlit run src/23_enterprise_ui_enhancement.py
       --server.address 0.0.0.0
@@ -39,10 +43,7 @@ services:
       - key: PYTHON_VERSION
         value: 3.12.9
       - key: HEVEMIND_API_URL
-        fromService:
-          type: web
-          name: hevemind-api
-          property: host
+        value: https://hevemind-api.onrender.com
       - key: HEVEMIND_API_KEY
         fromService:
           type: web
