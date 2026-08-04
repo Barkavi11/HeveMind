@@ -3,7 +3,6 @@ from __future__ import annotations
 import json
 import os
 from datetime import datetime
-from textwrap import dedent
 from typing import Any
 from urllib.parse import quote
 
@@ -281,7 +280,7 @@ CUSTOM_CSS = """
     }
 
     .panel {
-        display: none;
+        display: block;
     }
 
     .panel-title {
@@ -487,6 +486,12 @@ CUSTOM_CSS = """
         grid-template-columns: minmax(0, 1fr) auto;
         gap: 1rem;
         align-items: center;
+    }
+
+
+    .enterprise-header-copy {
+        min-width: 0;
+        width: 100%;
     }
 
     .enterprise-header-title {
@@ -1360,46 +1365,45 @@ refresh_time = datetime.now().strftime(
     "%d %b %Y, %I:%M %p"
 )
 
-st.markdown(
-    dedent(
-        f"""
-        <div class="enterprise-header">
-            <div class="enterprise-header-grid">
-                <div>
-                    <div class="enterprise-header-title">
-                        HeveMind Semiconductor Decision-Support Platform
-                    </div>
-                    <div class="enterprise-header-subtitle">
-                        Calibrated risk, uncertainty, historical evidence,
-                        explainability and sensor investigation priorities
-                    </div>
-                </div>
-                <div class="enterprise-header-meta">
-                    <div class="enterprise-meta-card">
-                        <div class="enterprise-meta-label">Environment</div>
-                        <div class="enterprise-meta-value">{APP_ENVIRONMENT}</div>
-                    </div>
-                    <div class="enterprise-meta-card">
-                        <div class="enterprise-meta-label">Site</div>
-                        <div class="enterprise-meta-value">{APP_SITE}</div>
-                    </div>
-                    <div class="enterprise-meta-card">
-                        <div class="enterprise-meta-label">System status</div>
-                        <div class="enterprise-meta-value">
-                            {"Operational" if api_healthy and api_ready else "Attention Required"}
-                        </div>
-                    </div>
-                    <div class="enterprise-meta-card">
-                        <div class="enterprise-meta-label">Last refresh</div>
-                        <div class="enterprise-meta-value">{refresh_time}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        """
-    ).strip(),
-    unsafe_allow_html=True,
+system_status = (
+    "Operational"
+    if api_healthy and api_ready
+    else "Attention Required"
 )
+
+header_html = f"""
+<div class="enterprise-header">
+  <div class="enterprise-header-grid">
+    <div class="enterprise-header-copy">
+      <div class="enterprise-header-title">HeveMind Semiconductor Decision-Support Platform</div>
+      <div class="enterprise-header-subtitle">
+        Calibrated risk, uncertainty, historical evidence,
+        explainability and sensor investigation priorities
+      </div>
+    </div>
+    <div class="enterprise-header-meta">
+      <div class="enterprise-meta-card">
+        <div class="enterprise-meta-label">Environment</div>
+        <div class="enterprise-meta-value">{APP_ENVIRONMENT}</div>
+      </div>
+      <div class="enterprise-meta-card">
+        <div class="enterprise-meta-label">Site</div>
+        <div class="enterprise-meta-value">{APP_SITE}</div>
+      </div>
+      <div class="enterprise-meta-card">
+        <div class="enterprise-meta-label">System status</div>
+        <div class="enterprise-meta-value">{system_status}</div>
+      </div>
+      <div class="enterprise-meta-card">
+        <div class="enterprise-meta-label">Last refresh</div>
+        <div class="enterprise-meta-value">{refresh_time}</div>
+      </div>
+    </div>
+  </div>
+</div>
+"""
+
+st.html(header_html)
 
 
 # ============================================================
