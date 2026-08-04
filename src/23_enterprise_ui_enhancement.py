@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 from datetime import datetime
+from textwrap import dedent
 from typing import Any
 from urllib.parse import quote
 
@@ -1360,42 +1361,43 @@ refresh_time = datetime.now().strftime(
 )
 
 st.markdown(
-    f"""
-    <div class="enterprise-header">
-        <div class="enterprise-header-grid">
-            <div>
-                <div class="enterprise-header-title">
-                    HeveMind Semiconductor Decision-Support Platform
-                </div>
-                <div class="enterprise-header-subtitle">
-                    Calibrated risk, uncertainty, historical evidence,
-                    explainability and sensor investigation priorities
-                </div>
-            </div>
-
-            <div class="enterprise-header-meta">
-                <div class="enterprise-meta-card">
-                    <div class="enterprise-meta-label">Environment</div>
-                    <div class="enterprise-meta-value">{APP_ENVIRONMENT}</div>
-                </div>
-                <div class="enterprise-meta-card">
-                    <div class="enterprise-meta-label">Site</div>
-                    <div class="enterprise-meta-value">{APP_SITE}</div>
-                </div>
-                <div class="enterprise-meta-card">
-                    <div class="enterprise-meta-label">System status</div>
-                    <div class="enterprise-meta-value">
-                        {"Operational" if api_healthy and api_ready else "Attention Required"}
+    dedent(
+        f"""
+        <div class="enterprise-header">
+            <div class="enterprise-header-grid">
+                <div>
+                    <div class="enterprise-header-title">
+                        HeveMind Semiconductor Decision-Support Platform
+                    </div>
+                    <div class="enterprise-header-subtitle">
+                        Calibrated risk, uncertainty, historical evidence,
+                        explainability and sensor investigation priorities
                     </div>
                 </div>
-                <div class="enterprise-meta-card">
-                    <div class="enterprise-meta-label">Last refresh</div>
-                    <div class="enterprise-meta-value">{refresh_time}</div>
+                <div class="enterprise-header-meta">
+                    <div class="enterprise-meta-card">
+                        <div class="enterprise-meta-label">Environment</div>
+                        <div class="enterprise-meta-value">{APP_ENVIRONMENT}</div>
+                    </div>
+                    <div class="enterprise-meta-card">
+                        <div class="enterprise-meta-label">Site</div>
+                        <div class="enterprise-meta-value">{APP_SITE}</div>
+                    </div>
+                    <div class="enterprise-meta-card">
+                        <div class="enterprise-meta-label">System status</div>
+                        <div class="enterprise-meta-value">
+                            {"Operational" if api_healthy and api_ready else "Attention Required"}
+                        </div>
+                    </div>
+                    <div class="enterprise-meta-card">
+                        <div class="enterprise-meta-label">Last refresh</div>
+                        <div class="enterprise-meta-value">{refresh_time}</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    """,
+        """
+    ).strip(),
     unsafe_allow_html=True,
 )
 
