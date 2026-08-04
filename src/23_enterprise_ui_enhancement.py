@@ -679,6 +679,12 @@ CUSTOM_CSS = """
     footer {
         visibility: hidden;
     }
+
+    /* Responsive fix */
+    .enterprise-header-grid{grid-template-columns:minmax(0,1fr)!important;width:100%;}
+    .enterprise-header-grid>div{min-width:0;}
+    .enterprise-header-title{display:block;width:100%;white-space:normal;overflow-wrap:break-word;word-break:normal;}
+    .enterprise-header-meta{width:100%;min-width:0;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));}
 </style>
 """
 
